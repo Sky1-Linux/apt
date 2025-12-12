@@ -1,0 +1,6 @@
+Archive: sid
+Component: non-free-firmware
+Origin: Sky1 Linux
+Label: Sky1 Linux
+Architecture: arm64
+Description: Sky1 Linux packages for CIX Sky1 SoC

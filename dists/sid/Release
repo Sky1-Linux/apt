@@ -1,0 +1,29 @@
+Origin: Sky1 Linux
+Label: Sky1 Linux
+Suite: sid
+Codename: sid
+Date: Fri, 12 Dec 2025 12:42:17 UTC
+Architectures: arm64
+Components: main non-free-firmware
+Description: Sky1 Linux packages for CIX Sky1 SoC
+MD5Sum:
+ ece62fd854ff67c207513dc192383213 2238 main/binary-arm64/Packages
+ 814ee453b161f9d7af17080a4ba2e4e0 953 main/binary-arm64/Packages.gz
+ 812a9d3bd241329a424aa42e5396ed82 136 main/binary-arm64/Release
+ cbb3013f8322c2f835f9349b16f1acfa 930 non-free-firmware/binary-arm64/Packages
+ 12570919592c547fe8204a8018ebf2b2 586 non-free-firmware/binary-arm64/Packages.gz
+ 14843bdeb115f2c6eb19df435bf3134d 149 non-free-firmware/binary-arm64/Release
+SHA1:
+ ed302b8fc0b58bdd599efb8fdaf91019cc114aa3 2238 main/binary-arm64/Packages
+ 2e09b87ddb68cd9e8284bd2c9fbbe01dcab69251 953 main/binary-arm64/Packages.gz
+ 00cc245af92085be57770766514a091b1dcddeb2 136 main/binary-arm64/Release
+ 1fb5dd13ef9e77a68e4dbd3943dce78f6237ad04 930 non-free-firmware/binary-arm64/Packages
+ 5c91808e71d806901f25cdb2716354306638b0d0 586 non-free-firmware/binary-arm64/Packages.gz
+ 9bd516d920858729794a0664b66c076afd70e613 149 non-free-firmware/binary-arm64/Release
+SHA256:
+ 30f1a365aae27ca2669ca4fa115919d9bd516fe5fbee71e5415413456fee9357 2238 main/binary-arm64/Packages
+ 917a04afd71088a09dbc23d068d4afbab0e8dc62be2df2801c5d8e4c3a4722e5 953 main/binary-arm64/Packages.gz
+ 576acb7b210b684311b2b102c6228335f36abcde578c1c7de81a679f623a467e 136 main/binary-arm64/Release
+ 2036b28535761f23af5113137a14dd8dd4b7adf5802f3e5694bc806877f1f72f 930 non-free-firmware/binary-arm64/Packages
+ 681c34dd168a550d8e936a5c9b56a0a1e1000321fe215527914e3b548366f992 586 non-free-firmware/binary-arm64/Packages.gz
+ ec7f09d574bd2344d3abc567f946679d358475e328dac29b32f8d18e73114c4a 149 non-free-firmware/binary-arm64/Release

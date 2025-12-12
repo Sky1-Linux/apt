@@ -1,0 +1,62 @@
+Package: linux-dtbs-6.18-sky1
+Source: linux-sky1
+Version: 6.18-sky1.1
+Architecture: arm64
+Maintainer: Entrpi <entrpi@proton.me>
+Installed-Size: 107
+Homepage: https://github.com/sky1-linux/linux-sky1
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-sky1/linux-dtbs-6.18-sky1_6.18-sky1.1_arm64.deb
+Size: 14196
+SHA256: 8da78a884e02fe765fb1be0c62a0f142d1de20b736f72cd236cf7455318b7609
+SHA1: 04609c93d0d44bf0bac27dc02c83e0f64ab2fb65
+MD5sum: 4a747017f412222e247546afed8dd5cc
+Description: Device tree blobs for CIX Sky1 boards
+ This package contains the compiled device tree blobs (DTBs) for:
+  - CIX Sky1 SoC (sky1.dtsi)
+  - Radxa Orion O6 board (sky1-orion-o6.dtb)
+
+Package: linux-headers-6.18-sky1
+Source: linux-sky1
+Version: 6.18-sky1.1
+Architecture: arm64
+Maintainer: Entrpi <entrpi@proton.me>
+Installed-Size: 7419
+Homepage: https://github.com/sky1-linux/linux-sky1
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-sky1/linux-headers-6.18-sky1_6.18-sky1.1_arm64.deb
+Size: 1439712
+SHA256: 9572fd7722e22c4da5eed882bdfd857053b1877dc8599039c178c179bc3e6a22
+SHA1: 64814899eaa25fe4f8f46b1a178e3b2565b4d719
+MD5sum: 8c198d3ac9ab3bc4d070b9c076e9b414
+Description: Linux kernel headers for CIX Sky1 SoC
+ This package provides the kernel headers for linux-image-6.18-sky1.
+ Required for building out-of-tree kernel modules (DKMS).
+
+Package: linux-image-6.18-sky1
+Source: linux-sky1
+Version: 6.18-sky1.1
+Architecture: arm64
+Maintainer: Entrpi <entrpi@proton.me>
+Installed-Size: 429824
+Depends: kmod, linux-base
+Recommends: linux-headers-6.18-sky1, sky1-firmware
+Homepage: https://github.com/sky1-linux/linux-sky1
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-sky1/linux-image-6.18-sky1_6.18-sky1.1_arm64.deb
+Size: 74849516
+SHA256: e1f68e5f66abe33fc8a29345bef79d67519da83e7d3697ded62a69c353dece99
+SHA1: 4c517f285dd9b6b939bab7ac7990ed34e524a314
+MD5sum: 258787c626782ef77bb3ee5e1d49153a
+Description: Linux kernel image for CIX Sky1 SoC
+ Linux kernel 6.18 LTS with patches for CIX Sky1 SoC support including:
+  - Panthor GPU driver (Mali-G720)
+  - Display drivers (linlon-dp, trilin-dpsub)
+  - PCIe, USB, audio subsystems
+  - Power management and thermal
+ .
+ This package contains the kernel image and modules.
+
