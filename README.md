@@ -24,6 +24,14 @@ sudo apt install linux-image-6.18-sky1 sky1-firmware
 
 ## Available Packages
 
+### Metapackages
+
+| Package | Description |
+|---------|-------------|
+| sky1-desktop | Full desktop: kernel, firmware, drivers, hardware video |
+| sky1-minimal | Essential: kernel, firmware, 5GbE driver |
+| sky1-ai | Adds NPU driver to sky1-minimal |
+
 ### Kernel
 
 | Package | Version | Description |

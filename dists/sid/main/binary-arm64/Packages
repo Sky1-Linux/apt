@@ -971,6 +971,68 @@ Description: Realtek RTL8126 5GbE ethernet driver (DKMS)
  .
  The RTL8126 is found on boards like the Radxa Orion O6.
 
+Package: sky1-ai
+Source: sky1-meta
+Version: 1.0.0
+Architecture: all
+Maintainer: Entrpi <entrpi@proton.me>
+Installed-Size: 8
+Depends: sky1-minimal, sky1-npu-dkms
+Priority: optional
+Section: metapackages
+Filename: pool/main/s/sky1-meta/sky1-ai_1.0.0_all.deb
+Size: 1408
+SHA256: 78337b024e81f64e2e275f11218627c899b5edae199b2be76dc73c7093f29fd2
+SHA1: 1a32d7137617b1e1ade07595fca963f4f39bf914
+MD5sum: 7ca548434d5cc7b6043f55f85df54d48
+Description: Sky1 Linux AI/NPU metapackage for Radxa Orion O6
+ Extends sky1-minimal with NPU support:
+ .
+  - ARM Zhouyi V3 NPU driver (30 TOPS)
+
+Package: sky1-desktop
+Source: sky1-meta
+Version: 1.0.0
+Architecture: all
+Maintainer: Entrpi <entrpi@proton.me>
+Installed-Size: 8
+Depends: linux-image-6.18-sky1, linux-headers-6.18-sky1, sky1-firmware, r8126-dkms, sky1-vpu-dkms, ffmpeg (>= 7:8.0), gstreamer1.0-plugins-good (>= 1.26), libva-v4l2-stateful
+Priority: optional
+Section: metapackages
+Filename: pool/main/s/sky1-meta/sky1-desktop_1.0.0_all.deb
+Size: 1588
+SHA256: 6c718cf5add527840f2ff9b38db747e88ec1df709fec0c87ba4b2e01bb502cef
+SHA1: 93b908be468ab364dd947a49174ac696808b75a7
+MD5sum: a961e3571fd3c99af1bd306e0a21c3af
+Description: Sky1 Linux desktop metapackage for Radxa Orion O6
+ Installs all packages needed for a complete Sky1 Linux desktop:
+ .
+  - Linux 6.18 kernel with Panthor GPU support
+  - GPU, VPU, and WiFi firmware
+  - RTL8126 5GbE and VPU drivers
+  - Hardware-accelerated video (FFmpeg, GStreamer, VA-API)
+
+Package: sky1-minimal
+Source: sky1-meta
+Version: 1.0.0
+Architecture: all
+Maintainer: Entrpi <entrpi@proton.me>
+Installed-Size: 8
+Depends: linux-image-6.18-sky1, linux-headers-6.18-sky1, sky1-firmware, r8126-dkms
+Priority: optional
+Section: metapackages
+Filename: pool/main/s/sky1-meta/sky1-minimal_1.0.0_all.deb
+Size: 1472
+SHA256: bb0386ac51069575b095ef6ffb939205e21a40a307a7bd883480286584c59f0e
+SHA1: 20b604529de101e86e2e486ddcf0f54cedad9988
+MD5sum: 146acafc5ea2e7f1163f359e5d97621a
+Description: Sky1 Linux minimal metapackage for Radxa Orion O6
+ Installs essential packages for Sky1 Linux:
+ .
+  - Linux 6.18 kernel with Panthor GPU support
+  - GPU and WiFi firmware
+  - RTL8126 5GbE driver
+
 Package: sky1-npu-dkms
 Version: 1.0.0-2
 Architecture: all
