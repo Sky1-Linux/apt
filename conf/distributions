@@ -5,3 +5,4 @@ Codename: sid
 Architectures: arm64
 Components: main non-free-firmware
 Description: Sky1 Linux packages for CIX Sky1 SoC
+SignWith: 48A0ABF100336ADB
