@@ -1,0 +1,8 @@
+Origin: Sky1 Linux
+Label: Sky1 Linux
+Suite: sid
+Codename: sid
+Architectures: arm64
+Components: main non-free-firmware
+Description: Sky1 Linux packages for CIX Sky1 SoC
+SignWith: default
