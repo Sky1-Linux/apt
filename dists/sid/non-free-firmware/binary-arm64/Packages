@@ -1,25 +1,26 @@
 Package: sky1-firmware
-Version: 1.0.0
+Version: 1.1.0
 Architecture: all
 Maintainer: Entrpi <entrpi@proton.me>
-Installed-Size: 6358
+Installed-Size: 11659
 Multi-Arch: foreign
 Homepage: https://github.com/sky1-linux/sky1-firmware
 Priority: optional
 Section: non-free-firmware/kernel
-Filename: pool/non-free-firmware/s/sky1-firmware/sky1-firmware_1.0.0_all.deb
-Size: 914680
-SHA256: f585dbd13df7b8f32e8531ba277f668b9f3fd8d79b88c2565b432a3ba4206ff9
-SHA1: 0b168cb3456cf197bfa493fcc00a89ce1939d389
-MD5sum: a56d9e9c9b1433a64bd1e3ad0a465908
+Filename: pool/non-free-firmware/s/sky1-firmware/sky1-firmware_1.1.0_all.deb
+Size: 1518552
+SHA256: 63cfe34e0472e00ca6a867ef151207c2a430a431037404ec5359fc4fd86fbb70
+SHA1: c04becce4d975d9699232d52ec792bdc4b8085b4
+MD5sum: a2def7d182cb2b590b5b8ee0c71b0e2c
 Description: Firmware files for CIX Sky1 SoC
  This package contains proprietary firmware required for CIX Sky1 hardware:
  .
   - GPU: Mali-G720 CSF firmware (mali_csffw.bin)
-  - DSP: Audio DSP firmware (dsp_fw.bin)
+  - DSP: Tensilica HiFi5 audio DSP firmware (dsp_fw.bin)
   - VPU: Video codec firmware (AV1, HEVC, H.264, VP9, etc.)
+  - WiFi: Realtek RTL8852BE (rtw89)
  .
  These firmware files are required for GPU acceleration, audio DSP,
- and hardware video encoding/decoding on Radxa Orion O6 and
+ hardware video encoding/decoding, and WiFi on Radxa Orion O6 and
  compatible Sky1-based boards.
 
