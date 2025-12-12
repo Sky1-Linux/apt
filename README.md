@@ -5,7 +5,7 @@ Debian packages for CIX Sky1 SoC (Radxa Orion O6).
 ## Usage
 
 ```bash
-# Add repository key (fingerprint: 7D7EE7FC36759E50D5C23CB348A0ABF100336ADB)
+# Add repository key
 wget -qO- https://sky1-linux.github.io/apt/key.gpg | sudo tee /usr/share/keyrings/sky1-linux.asc > /dev/null
 
 # Add repository
@@ -24,15 +24,43 @@ sudo apt install linux-image-6.18-sky1 sky1-firmware
 
 ## Available Packages
 
-### main
-- `linux-image-6.18-sky1` - Linux kernel for Sky1
-- `linux-headers-6.18-sky1` - Kernel headers
-- `linux-dtbs-6.18-sky1` - Device tree blobs
+### Kernel
 
-### non-free-firmware
-- `sky1-firmware` - GPU, DSP, and VPU firmware
+| Package | Version | Description |
+|---------|---------|-------------|
+| linux-image-6.18-sky1 | 6.18-sky1.1 | Linux kernel for Sky1 |
+| linux-headers-6.18-sky1 | 6.18-sky1.1 | Kernel headers for DKMS |
+| linux-dtbs-6.18-sky1 | 6.18-sky1.1 | Device tree blobs |
 
-## Links
+### Firmware (non-free-firmware)
 
-- [linux-sky1](https://github.com/sky1-linux/linux-sky1) - Kernel source
-- [sky1-firmware](https://github.com/sky1-linux/sky1-firmware) - Firmware source
+| Package | Version | Description |
+|---------|---------|-------------|
+| sky1-firmware | 1.1.0 | GPU, DSP, VPU, WiFi firmware |
+
+### Multimedia
+
+| Package | Version | Description |
+|---------|---------|-------------|
+| ffmpeg | 8.0.1-1+av1v4l2.6 | FFmpeg with AV1/VP9 V4L2M2M support |
+| gstreamer1.0-plugins-good | 1.26.9-1+av1v4l2 | GStreamer with v4l2av1dec element |
+| libva-v4l2-stateful | 0.1.0-1 | VA-API driver for V4L2 decoders |
+
+### DKMS Drivers
+
+| Package | Version | Description |
+|---------|---------|-------------|
+| r8126-dkms | 10.016.00-1 | Realtek RTL8126 5GbE driver |
+| sky1-vpu-dkms | 1.0.0-1 | ARM Linlon MVE v8 VPU driver |
+| sky1-npu-dkms | 1.0.0-2 | ARM Zhouyi V3 NPU driver (30 TOPS) |
+
+## Source Repositories
+
+| Repository | Description |
+|------------|-------------|
+| [linux-sky1](https://github.com/Sky1-Linux/linux-sky1) | Kernel source with 56 patches |
+| [sky1-firmware](https://github.com/Sky1-Linux/sky1-firmware) | Firmware packaging |
+| [sky1-drivers-dkms](https://github.com/Sky1-Linux/sky1-drivers-dkms) | DKMS drivers (r8126, VPU, NPU) |
+| [ffmpeg-sky1](https://github.com/Sky1-Linux/ffmpeg-sky1) | FFmpeg with V4L2 patches |
+| [gstreamer-sky1](https://github.com/Sky1-Linux/gstreamer-sky1) | GStreamer with v4l2av1dec |
+| [libva-v4l2-stateful](https://github.com/Sky1-Linux/libva-v4l2-stateful) | VA-API wrapper |
