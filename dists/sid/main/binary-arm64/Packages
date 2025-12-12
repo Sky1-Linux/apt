@@ -80,3 +80,48 @@ Description: Realtek RTL8126 5GbE ethernet driver (DKMS)
  .
  The RTL8126 is found on boards like the Radxa Orion O6.
 
+Package: sky1-npu-dkms
+Version: 1.0.0-2
+Architecture: all
+Maintainer: Entrpi <entrpi@proton.me>
+Installed-Size: 414
+Depends: dkms (>= 2.1.0.0)
+Homepage: https://github.com/sky1-linux/sky1-drivers-dkms
+Priority: optional
+Section: kernel
+Filename: pool/main/s/sky1-npu-dkms/sky1-npu-dkms_1.0.0-2_all.deb
+Size: 69180
+SHA256: 694a8e69ac84f5b16832ff741b21b5f69977e4f1987c64c5283f503c2560a3d2
+SHA1: 90d4725b04c449f0eb935876837940f3222ed5cc
+MD5sum: 526aec579ba56aedafb35c641e67c1ef
+Description: CIX Sky1 Neural Processing Unit driver (DKMS)
+ This package provides the AIPU (ARM China Zhouyi NPU) driver
+ for the CIX Sky1 NPU using DKMS.
+ .
+ Hardware: ARM China Zhouyi V3 AIPU with 3 NPU cores
+ delivering 30 TOPS (INT8) neural network inference.
+ .
+ Features: DVFS, per-core power management, DMA buffer support.
+
+Package: sky1-vpu-dkms
+Version: 1.0.0-1
+Architecture: all
+Maintainer: Entrpi <entrpi@proton.me>
+Installed-Size: 1346
+Depends: dkms (>= 2.1.0.0)
+Homepage: https://github.com/sky1-linux/sky1-drivers-dkms
+Priority: optional
+Section: kernel
+Filename: pool/main/s/sky1-vpu-dkms/sky1-vpu-dkms_1.0.0-1_all.deb
+Size: 155520
+SHA256: 7b22fda204c1b2b49368ffd46541fae3ab202b1afeeeb0895d0c1b27d5b86a62
+SHA1: 2f7be20e8bc37573d170ef2d9b30e16d7163922f
+MD5sum: 46fb996310b9390b64cd70ad6dca89cf
+Description: CIX Sky1 Video Processing Unit driver (DKMS)
+ This package provides the AMVX driver for the CIX Sky1 VPU using DKMS.
+ .
+ Hardware: ARM Technology China Linlon MVE (Mali Video Engine) v8
+ with 5 AEU cores providing V4L2 stateful video encoding/decoding.
+ .
+ Supported codecs: H.264, HEVC, VP8, VP9, AV1, MPEG-2/4, VC-1, AVS/AVS2, JPEG
+
