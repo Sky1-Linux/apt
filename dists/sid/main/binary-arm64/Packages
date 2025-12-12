@@ -60,3 +60,23 @@ Description: Linux kernel image for CIX Sky1 SoC
  .
  This package contains the kernel image and modules.
 
+Package: r8126-dkms
+Version: 10.016.00-1
+Architecture: all
+Maintainer: Entrpi <entrpi@proton.me>
+Installed-Size: 911
+Depends: dkms (>= 2.1.0.0)
+Homepage: https://github.com/sky1-linux/r8126-dkms
+Priority: optional
+Section: kernel
+Filename: pool/main/r/r8126-dkms/r8126-dkms_10.016.00-1_all.deb
+Size: 105360
+SHA256: 8fa0ee0355ef466d69ac1af6e0b49d1aff01851e81aea289baa449496f4a2c82
+SHA1: d12fca70f1f28262611e24493bfa0d85b2e9606f
+MD5sum: 757bc0b60564d794049b8935038a980f
+Description: Realtek RTL8126 5GbE ethernet driver (DKMS)
+ This package provides the Realtek r8126 driver for RTL8126 5 Gigabit
+ Ethernet controllers using DKMS to build for any installed kernel.
+ .
+ The RTL8126 is found on boards like the Radxa Orion O6.
+
