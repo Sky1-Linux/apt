@@ -36,9 +36,9 @@ sudo apt install linux-image-6.18-sky1 sky1-firmware
 
 | Package | Version | Description |
 |---------|---------|-------------|
-| linux-image-6.18-sky1 | 6.18.1-sky1.1 | Linux 6.18.1 LTS for Sky1 |
-| linux-headers-6.18-sky1 | 6.18.1-sky1.1 | Kernel headers for DKMS |
-| linux-dtbs-6.18-sky1 | 6.18.1-sky1.1 | Device tree blobs |
+| linux-image-6.18-sky1 | 6.18.1-sky1.2 | Linux 6.18.1 LTS for Sky1 |
+| linux-headers-6.18-sky1 | 6.18.1-sky1.2 | Kernel headers for DKMS |
+| linux-dtbs-6.18-sky1 | 6.18.1-sky1.2 | Device tree blobs |
 
 ### Firmware (non-free-firmware)
 
@@ -66,7 +66,7 @@ sudo apt install linux-image-6.18-sky1 sky1-firmware
 
 | Repository | Description |
 |------------|-------------|
-| [linux-sky1](https://github.com/Sky1-Linux/linux-sky1) | Kernel source with 55 patches |
+| [linux-sky1](https://github.com/Sky1-Linux/linux-sky1) | Kernel source with 56 patches |
 | [sky1-firmware](https://github.com/Sky1-Linux/sky1-firmware) | Firmware packaging |
 | [sky1-drivers-dkms](https://github.com/Sky1-Linux/sky1-drivers-dkms) | DKMS drivers (r8126, VPU, NPU) |
 | [ffmpeg-sky1](https://github.com/Sky1-Linux/ffmpeg-sky1) | FFmpeg with V4L2 patches |
