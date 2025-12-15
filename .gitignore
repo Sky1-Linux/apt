@@ -1,0 +1,13 @@
+# Reprepro local database (regenerated, not needed for serving)
+db/
+
+# Editor/IDE
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
