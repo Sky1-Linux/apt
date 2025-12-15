@@ -66,7 +66,7 @@ sudo apt install linux-image-6.18-sky1 sky1-firmware
 
 | Repository | Description |
 |------------|-------------|
-| [linux-sky1](https://github.com/Sky1-Linux/linux-sky1) | Kernel source with 56 patches |
+| [linux-sky1](https://github.com/Sky1-Linux/linux-sky1) | Kernel source with 57 patches |
 | [sky1-firmware](https://github.com/Sky1-Linux/sky1-firmware) | Firmware packaging |
 | [sky1-drivers-dkms](https://github.com/Sky1-Linux/sky1-drivers-dkms) | DKMS drivers (r8126, VPU, NPU) |
 | [ffmpeg-sky1](https://github.com/Sky1-Linux/ffmpeg-sky1) | FFmpeg with V4L2 patches |
