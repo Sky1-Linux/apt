@@ -1,3 +1,23 @@
+Package: chromium-sky1-config
+Version: 1.0.0-1
+Architecture: all
+Maintainer: Entrpi <entrpi@proton.me>
+Installed-Size: 13
+Depends: chromium
+Homepage: https://github.com/Sky1-Linux/chromium-sky1-config
+Priority: optional
+Section: web
+Filename: pool/main/c/chromium-sky1-config/chromium-sky1-config_1.0.0-1_all.deb
+Size: 2428
+SHA256: e64f54972953e13c67d070b02bf74f4d96e243949891d78b57e6c1b66e761ec8
+SHA1: fff828b0233f8de9e18a5ed6fd5979b55864eb70
+MD5sum: 7ee70bf7f8b3e1772bd882d0b75e49eb
+Description: Sky1 Linux Chromium hardware video decoding configuration
+ Configures Chromium to use V4L2-M2M (stateful) hardware video decoding
+ on Sky1 Linux systems with CIX Sky1 SoC VPU.
+ .
+ Enables hardware acceleration for VP9, AV1, H264, and HEVC codecs.
+
 Package: ffmpeg
 Version: 7:8.0.1-1+av1v4l2.6
 Architecture: arm64
