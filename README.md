@@ -51,7 +51,7 @@ sudo apt install linux-image-6.18-sky1 sky1-firmware
 | Package | Version | Description |
 |---------|---------|-------------|
 | chromium-sky1-config | 1.0.0-1 | Chromium V4L2-M2M hardware video decode config |
-| firefox | 146.0-1+v4l2m2m.1 | Firefox with V4L2-M2M hardware video decode |
+| firefox | 146.0-1+v4l2m2m.2 | Firefox with V4L2-M2M hardware video decode |
 | ffmpeg | 8.0.1-1+av1v4l2.6 | FFmpeg with AV1/VP9 V4L2M2M support |
 | gstreamer1.0-plugins-good | 1.26.9-1+av1v4l2 | GStreamer with v4l2av1dec element |
 | libva-v4l2-stateful | 0.1.0-1 | VA-API driver for V4L2 decoders (deprecated) |
