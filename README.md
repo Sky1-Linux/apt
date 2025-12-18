@@ -50,9 +50,12 @@ sudo apt install linux-image-6.18-sky1 sky1-firmware
 
 | Package | Version | Description |
 |---------|---------|-------------|
+| firefox | 146.0-1+v4l2m2m.1 | Firefox with V4L2-M2M hardware video decode |
 | ffmpeg | 8.0.1-1+av1v4l2.6 | FFmpeg with AV1/VP9 V4L2M2M support |
 | gstreamer1.0-plugins-good | 1.26.9-1+av1v4l2 | GStreamer with v4l2av1dec element |
-| libva-v4l2-stateful | 0.1.0-1 | VA-API driver for V4L2 decoders |
+| libva-v4l2-stateful | 0.1.0-1 | VA-API driver for V4L2 decoders (deprecated) |
+
+> **Note:** The libva/VA-API path is deprecated in favor of direct V4L2-M2M, which is more efficient and maintainable. Firefox and FFmpeg now use V4L2-M2M directly. Chromium supports V4L2-M2M via configuration flags (no fork required). We plan to patch other popular applications that default to VA-API, such as video players and screen recorders.
 
 ### DKMS Drivers
 
@@ -69,6 +72,7 @@ sudo apt install linux-image-6.18-sky1 sky1-firmware
 | [linux-sky1](https://github.com/Sky1-Linux/linux-sky1) | Kernel source with 57 patches |
 | [sky1-firmware](https://github.com/Sky1-Linux/sky1-firmware) | Firmware packaging |
 | [sky1-drivers-dkms](https://github.com/Sky1-Linux/sky1-drivers-dkms) | DKMS drivers (r8126, VPU, NPU) |
+| [firefox-sky1](https://github.com/Sky1-Linux/firefox-sky1) | Firefox V4L2-M2M patches |
 | [ffmpeg-sky1](https://github.com/Sky1-Linux/ffmpeg-sky1) | FFmpeg with V4L2 patches |
 | [gstreamer-sky1](https://github.com/Sky1-Linux/gstreamer-sky1) | GStreamer with v4l2av1dec |
 | [libva-v4l2-stateful](https://github.com/Sky1-Linux/libva-v4l2-stateful) | VA-API wrapper |
