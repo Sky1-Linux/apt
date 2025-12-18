@@ -64,10 +64,10 @@ Provides: gnome-www-browser, www-browser
 Priority: optional
 Section: web
 Filename: pool/main/f/firefox/firefox_146.0-1+v4l2m2m.1_arm64.deb
-Size: 71478092
-SHA256: 8e6b27b76de6cbf97e9cb11ec062d9706c60324f765c1eeb0a22afefa72f57ae
-SHA1: 967b70bd8d8750a047348d5a6553e6075af48ccd
-MD5sum: 6f5427c407b1c895e5e6e20bd36298d1
+Size: 71477844
+SHA256: 61d6553c4a97d7ea886eb37482b8e373739c71b3e343ad1e2b3557a130d8be96
+SHA1: 1c40fea431ed411a44f977209073b5ffe3d54b7c
+MD5sum: 9e6f0010e1d8860ffc3c6d8ef9784a03
 Description: Mozilla Firefox web browser
  Firefox is a powerful, extensible web browser with support for modern
  web application technologies.
