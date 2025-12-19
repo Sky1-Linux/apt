@@ -66,6 +66,12 @@ sudo apt install linux-image-6.18-sky1 sky1-firmware
 | sky1-vpu-dkms | 1.0.0-1 | ARM Linlon MVE v8 VPU driver |
 | sky1-npu-dkms | 1.0.0-2 | ARM Zhouyi V3 NPU driver (30 TOPS) |
 
+### Installer
+
+| Package | Version | Description |
+|---------|---------|-------------|
+| calamares-settings-sky1 | 1.0.0-1 | Calamares installer branding and config |
+
 ## Source Repositories
 
 | Repository | Description |

@@ -1,3 +1,32 @@
+Package: calamares-settings-sky1
+Version: 1.0.0-1
+Architecture: all
+Maintainer: Entrpi <entrpi@proton.me>
+Installed-Size: 162
+Depends: calamares, rsync, cryptsetup, libglib2.0-bin, keyutils, pkexec
+Recommends: grub-efi-arm64, os-prober
+Conflicts: calamares-settings-debian, calamares-settings-mobian
+Provides: calamares-settings
+Homepage: https://github.com/Sky1-Linux
+Priority: optional
+Section: utils
+Filename: pool/main/c/calamares-settings-sky1/calamares-settings-sky1_1.0.0-1_all.deb
+Size: 112316
+SHA256: 3ab40ccddd72ac7a12d043b5fa795bdde14b8088913b8589712152b1cad2a9d8
+SHA1: 065ebc35e98267bf8ed32a3d7da17fe58a2999c3
+MD5sum: 40bd99943d634bd90873534a42d0f368
+Description: Sky1 Linux theme and settings for the Calamares Installer
+ Calamares is a generic installer framework for Linux distributions.
+ This package provides Sky1 Linux branding, artwork, and configuration
+ for the Calamares installer on Radxa Orion O6 (CIX Sky1 SoC).
+ .
+ Features:
+  - ARM64 UEFI boot configuration with GRUB
+  - GPT partitioning with ext4 filesystem
+  - Integration with Sky1 Linux apt repository
+  - Post-install DKMS module building
+  - Hardware-accelerated video codec setup
+
 Package: chromium-sky1-config
 Version: 1.0.0-1
 Architecture: all
