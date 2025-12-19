@@ -36,9 +36,9 @@ sudo apt install linux-image-6.18-sky1 sky1-firmware
 
 | Package | Version | Description |
 |---------|---------|-------------|
-| linux-image-6.18-sky1 | 6.18.1-sky1.4 | Linux 6.18.1 LTS for Sky1 |
-| linux-headers-6.18-sky1 | 6.18.1-sky1.4 | Kernel headers for DKMS |
-| linux-dtbs-6.18-sky1 | 6.18.1-sky1.4 | Device tree blobs |
+| linux-image-6.18-sky1 | 6.18.1-sky1.5 | Linux 6.18.1 LTS for Sky1 |
+| linux-headers-6.18-sky1 | 6.18.1-sky1.5 | Kernel headers for DKMS |
+| linux-dtbs-6.18-sky1 | 6.18.1-sky1.5 | Device tree blobs |
 
 ### Firmware (non-free-firmware)
 
