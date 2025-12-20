@@ -959,18 +959,18 @@ Description: VA-API driver for V4L2 stateful video decoders
 
 Package: linux-dtbs-6.18-sky1
 Source: linux-sky1
-Version: 6.18.1-sky1.6
+Version: 6.18.1-sky1.7
 Architecture: arm64
 Maintainer: Entrpi <entrpi@proton.me>
 Installed-Size: 108
 Homepage: https://github.com/Sky1-Linux/linux-sky1
 Priority: optional
 Section: kernel
-Filename: pool/main/l/linux-sky1/linux-dtbs-6.18-sky1_6.18.1-sky1.6_arm64.deb
-Size: 14996
-SHA256: 822ce0110470a461bc6bdca6f2b8178d0b45cacdbe0bbcd43448c2fd2ae6a072
-SHA1: 8f2aa3892a45e8569a63fb9df74da5f0efa567cf
-MD5sum: 1c46440061f27d16bc07171befd0e145
+Filename: pool/main/l/linux-sky1/linux-dtbs-6.18-sky1_6.18.1-sky1.7_arm64.deb
+Size: 14964
+SHA256: e991b67fc64ced2c9e74d472514871ec5129d863f23423b2092c000a6d899296
+SHA1: 24939a267cd585128d879d50e5ea840b3638153d
+MD5sum: 01ade09d19dbfdabd5583b5c27012f5f
 Description: Device tree blobs for CIX Sky1 boards
  This package contains the compiled device tree blobs (DTBs) for:
   - CIX Sky1 SoC (sky1.dtsi)
@@ -978,25 +978,25 @@ Description: Device tree blobs for CIX Sky1 boards
 
 Package: linux-headers-6.18-sky1
 Source: linux-sky1
-Version: 6.18.1-sky1.6
+Version: 6.18.1-sky1.7
 Architecture: arm64
 Maintainer: Entrpi <entrpi@proton.me>
 Installed-Size: 57928
 Homepage: https://github.com/Sky1-Linux/linux-sky1
 Priority: optional
 Section: kernel
-Filename: pool/main/l/linux-sky1/linux-headers-6.18-sky1_6.18.1-sky1.6_arm64.deb
-Size: 9543400
-SHA256: 2b88387a83f3440c50c01bf5f357e3c53fbb7a16ff53d454dda2f817b0628e5b
-SHA1: d352a87e828eaf778de6eb0d544e20c6fa7054e2
-MD5sum: 5bef008d803e3e0d6ce0789e875546ed
+Filename: pool/main/l/linux-sky1/linux-headers-6.18-sky1_6.18.1-sky1.7_arm64.deb
+Size: 9544200
+SHA256: 6cdefbbd207d1571408d6dd6fa9caad204dfb9450a3d560d734b4e5b2ed0a9cd
+SHA1: e73c3b7ee308a9ac117ef89e62c8f989b1dbafcb
+MD5sum: cc4995292e68f4776e8b324f870a35fd
 Description: Linux kernel headers for CIX Sky1 SoC
  This package provides the kernel headers for linux-image-6.18-sky1.
  Required for building out-of-tree kernel modules (DKMS).
 
 Package: linux-image-6.18-sky1
 Source: linux-sky1
-Version: 6.18.1-sky1.6
+Version: 6.18.1-sky1.7
 Architecture: arm64
 Maintainer: Entrpi <entrpi@proton.me>
 Installed-Size: 429861
@@ -1005,11 +1005,11 @@ Recommends: linux-headers-6.18-sky1, sky1-firmware
 Homepage: https://github.com/Sky1-Linux/linux-sky1
 Priority: optional
 Section: kernel
-Filename: pool/main/l/linux-sky1/linux-image-6.18-sky1_6.18.1-sky1.6_arm64.deb
-Size: 74842624
-SHA256: 5067e484cfb753cb7293ac56d448aacfe0b0c5c7d84e5152c712f832eb7f4150
-SHA1: 0f588fef319ca02bf839deb2b12a4be8e9c8532b
-MD5sum: fd3bdfc98cc77ce60ac3c85f5613999b
+Filename: pool/main/l/linux-sky1/linux-image-6.18-sky1_6.18.1-sky1.7_arm64.deb
+Size: 74840512
+SHA256: 980c9769836b033ab27c8d7b3a79e382c9c0d680b2e195b0ee86b54e4392a1b8
+SHA1: 8a6c746256713ec15ef0758846210b7363a07a31
+MD5sum: ac7affd5dd0a500366afbf3f6df05148
 Description: Linux kernel image for CIX Sky1 SoC
  Linux kernel 6.18 LTS with patches for CIX Sky1 SoC support including:
   - Panthor GPU driver (Mali-G720)

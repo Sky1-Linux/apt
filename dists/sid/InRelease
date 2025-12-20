@@ -5,44 +5,44 @@ Origin: Sky1 Linux
 Label: Sky1 Linux
 Suite: sid
 Codename: sid
-Date: Sat, 20 Dec 2025 12:53:44 UTC
+Date: Sat, 20 Dec 2025 15:18:23 UTC
 Architectures: arm64
 Components: main non-free-firmware
 Description: Sky1 Linux packages for CIX Sky1 SoC
 MD5Sum:
- 70f90371a029457394f9826d56594994 64513 main/binary-arm64/Packages
- d956ee78184b60acc1bc99e2483dc3fe 14996 main/binary-arm64/Packages.gz
+ a204fc07b8428b8d8fa2a3b2ed4b90e1 64513 main/binary-arm64/Packages
+ c1b1ea5ed360512d7eb3043e398f369a 14991 main/binary-arm64/Packages.gz
  812a9d3bd241329a424aa42e5396ed82 136 main/binary-arm64/Release
  0d97bcba304104d50fbe99706a92a2e6 990 non-free-firmware/binary-arm64/Packages
  02d14c12197b80cdf6b123958c306bc3 624 non-free-firmware/binary-arm64/Packages.gz
  14843bdeb115f2c6eb19df435bf3134d 149 non-free-firmware/binary-arm64/Release
 SHA1:
- c9534d26a13812248ddb627434aac2c173b9fdfe 64513 main/binary-arm64/Packages
- b501ab830c96982bc8cf4210f40a61b76fb58f1e 14996 main/binary-arm64/Packages.gz
+ 57da7791995148ed9a6159e641812d86cad073ad 64513 main/binary-arm64/Packages
+ d60aca3a6d800fc38f6fcaf5bf326dc9c82cf847 14991 main/binary-arm64/Packages.gz
  00cc245af92085be57770766514a091b1dcddeb2 136 main/binary-arm64/Release
  d11ed5667c6f57520e5fe88ea8eca59b01dcbcbe 990 non-free-firmware/binary-arm64/Packages
  6fe3359a4d331e893e04733f29ef2ce8d342a60b 624 non-free-firmware/binary-arm64/Packages.gz
  9bd516d920858729794a0664b66c076afd70e613 149 non-free-firmware/binary-arm64/Release
 SHA256:
- 7c5d16f32f7a557e8d9615d040febfd9d0428e903e667e6242ccfb1831245c94 64513 main/binary-arm64/Packages
- e280994906420e3f2fb5f22df4b468af2a8fbc144681fe34789ae95da28b546c 14996 main/binary-arm64/Packages.gz
+ cc36cf2c6d7943e6185e84c986e3e518556ac8503f55cf0c6e8959bba5d18dab 64513 main/binary-arm64/Packages
+ 7e40afe0537e25349923b5b46976621a252b71a146eb65e73c263db2de11b130 14991 main/binary-arm64/Packages.gz
  576acb7b210b684311b2b102c6228335f36abcde578c1c7de81a679f623a467e 136 main/binary-arm64/Release
  85ac1f22ac399886fcd3628118c5cde3500497b2b2f2e909b67e9f5a4f5f6b7f 990 non-free-firmware/binary-arm64/Packages
  0baf34c010906dc29bea5b2c92260339f902a5dd40037faa7624661c0ef3ed38 624 non-free-firmware/binary-arm64/Packages.gz
  ec7f09d574bd2344d3abc567f946679d358475e328dac29b32f8d18e73114c4a 149 non-free-firmware/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEEZVOTJhIEg0mbnOBW9OKGmCMMGXcFAmlGnFgACgkQ9OKGmCMM
-GXcEKg//ZjFihqI8MA0XWLDs9jeodlDVV8CTdrU+8r1ULkCBYZmerp2EF0tBQ2VR
-TazqEgNA2L0EX43/tSjDgSOnNyIm2ymsu2Rz7/AbZaOuqMA5KRXCQaWf26qE8r8a
-MNmZqUaGlYlrNfNI89ym0O4XrZ+AYZaJ14dcJfssAav3lWCheCUMa/dcrDohYr5w
-6q9+uYWuFFtC3WrXgTctnL2iNJzoeCxjCQ2hyQNJlcOpAkQ60bwWIj9SwxEiA1Om
-TQjNbClUB+MRjFp9PYpjoBnqc03JlT0G+gRrvCwnINmLfe1mIkmkAoN9c8wYzuF8
-3245w1XzDuhYyxNNLh30CNqFyjGDJkHKnWMQyvEiwHzhhTGeEMaeRdjy/MZ/6Rci
-w1k7kudRsF4VR0h1gFtkzRlhnpYIMwn/HalalUQ/yfXYTOBda9aARTuNCimXSA0X
-FIIv5bM2CXf7SjkZkU6q5hUlIT1XXRvbvMPEVep/U1AIlgzX8eLevyZuF0DLPWvw
-lAxS/yhdsXUtrxF41YJqpQ/PBuAWi2IlZQ8x1ixeJFtkxrMKjCoXHF+nq1dNFeDp
-ZPC1NawCPJG3lCX0oiMHPUlpbBmR22wSY0/gBcm5NqRkD9F8tY2amenw1zLSJ3Ei
-BiYkGMzONxfqBd8ATKlIEnMNT5q9yBTXBvDM2kWfatWp/Kpe4Cw=
-=scJj
+iQIzBAEBCgAdFiEEZVOTJhIEg0mbnOBW9OKGmCMMGXcFAmlGvj8ACgkQ9OKGmCMM
+GXdmHA//XrUu3vPVwQPsEVdU9n+LDk+VsngJnT7yJv/TwnNKzNBZPukJgXgb7MSg
+0IOmYJpLwC8FHe/LQmfrd2pMqbosmagTuELyLkqWNcrD31M23dc9YBOGFucLtcGb
+6vfD0HFjKSujAdJDPuiSQx2oktsBmlf+3NS4z5zWa/vk9c5An9seFNzLPBBmqE0M
+fRleSIkz9fYPMvLeYXR7c00+WU+Kemvy3hzS9t9r1KWS2SuB9qPI+9swwm/n0P0j
+cUybcY42D4A7i8qcql7b6JApKyAxAYsl2NPRjWaYFhwzcz5czNV52iRs03eCpWrs
+YDkbuJjqZ3x0UguNvN1//pJXgkzuLWgX/XRcrI/9SQf4RxkDH6yyBD6eRbsJN8pz
+vpyhnFmqVdh899b9ZB/XVdvEBZcyLNgLc88dfZ8ALaOWLOY+NZJqZvDFwdexaFW1
+NI+8bphXsRlrpkHbc5cK6S7DLG1ZYBeIpo67t3po4OaJwBlcqeR3EilESo+j87F/
+562vERKDoTwOCIFjQENGk1tSksAPlQOaBMPEmqOpUWkj/UHZ0I22Bb7Z7+XKTr98
+nl4SIDPs0OpaT9xs1Q0xNfyv5lzvz5EHr+j2VHReK/YsgW4+gzuqaBQWMkeivHiG
+somIUrupI2Ydy/zpPjaQCTGs7maLFw7ZUpGxZvn+kl5US0lyyjo=
+=tYws
 -----END PGP SIGNATURE-----
