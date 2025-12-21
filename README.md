@@ -36,9 +36,9 @@ sudo apt install linux-image-6.18-sky1 sky1-firmware
 
 | Package | Version | Description |
 |---------|---------|-------------|
-| linux-image-6.18-sky1 | 6.18.1-sky1.5 | Linux 6.18.1 LTS for Sky1 |
-| linux-headers-6.18-sky1 | 6.18.1-sky1.5 | Kernel headers for DKMS |
-| linux-dtbs-6.18-sky1 | 6.18.1-sky1.5 | Device tree blobs |
+| linux-image-6.18-sky1 | 6.18.2-sky1.1 | Linux 6.18.2 for Sky1 |
+| linux-headers-6.18-sky1 | 6.18.2-sky1.1 | Kernel headers for DKMS |
+| linux-dtbs-6.18-sky1 | 6.18.2-sky1.1 | Device tree blobs |
 
 ### Firmware (non-free-firmware)
 
@@ -76,7 +76,7 @@ sudo apt install linux-image-6.18-sky1 sky1-firmware
 
 | Repository | Description |
 |------------|-------------|
-| [linux-sky1](https://github.com/Sky1-Linux/linux-sky1) | Kernel source with 57 patches |
+| [linux-sky1](https://github.com/Sky1-Linux/linux-sky1) | Kernel source with 58 patches |
 | [sky1-firmware](https://github.com/Sky1-Linux/sky1-firmware) | Firmware packaging |
 | [sky1-drivers-dkms](https://github.com/Sky1-Linux/sky1-drivers-dkms) | DKMS drivers (r8126, VPU, NPU) |
 | [chromium-sky1-config](https://github.com/Sky1-Linux/chromium-sky1-config) | Chromium V4L2-M2M config |
