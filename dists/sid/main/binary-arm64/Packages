@@ -962,15 +962,15 @@ Source: linux-sky1
 Version: 3
 Architecture: arm64
 Maintainer: Entrpi <entrpi@proton.me>
-Installed-Size: 54558
+Installed-Size: 54549
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: kernel
 Filename: pool/main/l/linux-sky1/linux-headers-6.18.2-sky1_3_arm64.deb
-Size: 8970648
-SHA256: 1c038fcac769fbda40ff26daa44c129846c7cabaa1c38e110caa3a5fbbb955bb
-SHA1: 23c7002a98c9de19ff0ca252a573178b965db98e
-MD5sum: 02252a6f7a5c6bff0b17b3695d7e4b29
+Size: 8969372
+SHA256: 97572610cee6ea9377bf52373f5e729df9c008686175c99d46424c745759c738
+SHA1: f45a20643f6d34e8cab17c4d5b6495197b864e55
+MD5sum: b55d5aa9d5923c1dc2f2eb7a38686332
 Description: Linux kernel headers for 6.18.2-sky1 on arm64
  This package provides kernel header files for 6.18.2-sky1 on arm64
  .
@@ -982,15 +982,15 @@ Source: linux-sky1
 Version: 3
 Architecture: arm64
 Maintainer: Entrpi <entrpi@proton.me>
-Installed-Size: 213056
+Installed-Size: 212306
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: kernel
 Filename: pool/main/l/linux-sky1/linux-image-6.18.2-sky1_3_arm64.deb
-Size: 36334924
-SHA256: 19dc391e16568b9e7792cf8297438b6ec111c85699963dc2b4413e12480a5a3a
-SHA1: d9a4ed75990d761648b086eb7ade6fc7b30108ed
-MD5sum: abfdb29fb57b21fade4a31f28ffe1471
+Size: 36197468
+SHA256: 4298287aedc1df008f6d2b2a6690c72d1804b31b9c098f77ff2b2ecca1d4845f
+SHA1: bd3401ddf770f5cef4954a189ecae6332dc56409
+MD5sum: 97d39743beb2c25be32c3c9d126ad8b6
 Description: Linux kernel, version 6.18.2-sky1
  This package contains the Linux kernel, modules and corresponding other
  files, version: 6.18.2-sky1.
@@ -1000,15 +1000,15 @@ Source: linux-sky1
 Version: 3
 Architecture: arm64
 Maintainer: Entrpi <entrpi@proton.me>
-Installed-Size: 507706
+Installed-Size: 504753
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: debug
 Filename: pool/main/l/linux-sky1/linux-image-6.18.2-sky1-dbg_3_arm64.deb
-Size: 100117404
-SHA256: 870e6c1f47bb4da1983b3998a2552149511c9a08fe395136b1764c55a9ca2575
-SHA1: 9028a696b7dfbeac8c3fbca4b3f366cc058691b1
-MD5sum: 2828471006cddbc01f9a9b0665276f89
+Size: 99552116
+SHA256: 5184cf28a7ad10d36fc2b2fef892e9c9486e982b60bed17355e706ba91e0ca5a
+SHA1: 65026ccee9664620c8d05e75b9f7e1e7b64cf1cd
+MD5sum: fd7bc88d6da08ac03856a26734022d74
 Description: Linux kernel debugging symbols for 6.18.2-sky1
  This package will come in handy if you need to debug the kernel. It provides
  all the necessary debug symbols for the kernel and its modules.
