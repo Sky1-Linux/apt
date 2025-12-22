@@ -1004,14 +1004,15 @@ Homepage: https://www.kernel.org/
 Priority: optional
 Section: kernel
 Filename: pool/main/l/linux-sky1/linux-headers-6.18.2-sky1_6.18.2-sky1.2_arm64.deb
-Size: 8970436
-SHA256: 569a50f736d87f536506a24ed752df4bac3be3a45b89a829e1ef954d73534f0f
-SHA1: 25fd5a5b7f80c2ceb78d7a09ff83a741f88ecec9
-MD5sum: 4262e76497a0349906de497957a7246e
+Size: 8970164
+SHA256: df39a156dad5f63771c158df8ab7bf71df360872ba50517635516c5cd9bafe8d
+SHA1: bbf87166c9c72f1d9f25f8d86a9303f705aa6e6e
+MD5sum: fbdd582527286ad32808292205deeceb
 Description: Linux kernel headers for 6.18.2-sky1 on arm64
  This package provides kernel header files for 6.18.2-sky1 on arm64
  .
  This is useful for people who need to build external modules
+Depends: linux-image-6.18.2-sky1 (= 6.18.2-sky1.2)
 
 Package: linux-image-6.18-sky1
 Source: linux-sky1
