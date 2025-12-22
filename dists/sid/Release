@@ -2,27 +2,27 @@ Origin: Sky1 Linux
 Label: Sky1 Linux
 Suite: sid
 Codename: sid
-Date: Sun, 21 Dec 2025 12:01:51 UTC
+Date: Mon, 22 Dec 2025 09:11:36 UTC
 Architectures: arm64
 Components: main non-free-firmware
 Description: Sky1 Linux packages for CIX Sky1 SoC
 MD5Sum:
- b33c6ca95f9b120b66d6a7c9b91f4843 64513 main/binary-arm64/Packages
- 49bbbe3481f9ae2d9e49da72912be6c6 14990 main/binary-arm64/Packages.gz
+ 2e26682b222ee51bc5af0c292ec28051 67243 main/binary-arm64/Packages
+ d17de2984c939b2f269a8ba9736fba03 15746 main/binary-arm64/Packages.gz
  812a9d3bd241329a424aa42e5396ed82 136 main/binary-arm64/Release
  0d97bcba304104d50fbe99706a92a2e6 990 non-free-firmware/binary-arm64/Packages
  02d14c12197b80cdf6b123958c306bc3 624 non-free-firmware/binary-arm64/Packages.gz
  14843bdeb115f2c6eb19df435bf3134d 149 non-free-firmware/binary-arm64/Release
 SHA1:
- baa2d7174f8f7333a642338c88b4c16814e954c0 64513 main/binary-arm64/Packages
- 6ed0f64e9325efa489d23e4f4bbe23d75be432a3 14990 main/binary-arm64/Packages.gz
+ b4fa40cc6cbd3939f34ba396b8f82c653c90b5ab 67243 main/binary-arm64/Packages
+ 7546cf42c1b325156610fc762dc6cf80e7d70b7d 15746 main/binary-arm64/Packages.gz
  00cc245af92085be57770766514a091b1dcddeb2 136 main/binary-arm64/Release
  d11ed5667c6f57520e5fe88ea8eca59b01dcbcbe 990 non-free-firmware/binary-arm64/Packages
  6fe3359a4d331e893e04733f29ef2ce8d342a60b 624 non-free-firmware/binary-arm64/Packages.gz
  9bd516d920858729794a0664b66c076afd70e613 149 non-free-firmware/binary-arm64/Release
 SHA256:
- 7756b3aa21a964e355de717b5c44e9b520bb2ec1f1095a89ae5f747cde112ed8 64513 main/binary-arm64/Packages
- 326c421b9885c9247f827d0aa8ed88b41befbf659961aa8c64041b94dbf8ddfa 14990 main/binary-arm64/Packages.gz
+ bf7f4b119408940ca46f775329d9c3351bbe62ef3ad21d026916bed6426051f0 67243 main/binary-arm64/Packages
+ deaca5a8ecb2b219399583b5ccf88abdd8283e2e91a33a7f5d2bba86dbf7d80d 15746 main/binary-arm64/Packages.gz
  576acb7b210b684311b2b102c6228335f36abcde578c1c7de81a679f623a467e 136 main/binary-arm64/Release
  85ac1f22ac399886fcd3628118c5cde3500497b2b2f2e909b67e9f5a4f5f6b7f 990 non-free-firmware/binary-arm64/Packages
  0baf34c010906dc29bea5b2c92260339f902a5dd40037faa7624661c0ef3ed38 624 non-free-firmware/binary-arm64/Packages.gz
