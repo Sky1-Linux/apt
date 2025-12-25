@@ -1,8 +1,8 @@
 Package: calamares-settings-sky1
-Version: 1.0.0-1
+Version: 1.0.1-1
 Architecture: all
 Maintainer: Entrpi <entrpi@proton.me>
-Installed-Size: 162
+Installed-Size: 163
 Depends: calamares, rsync, cryptsetup, libglib2.0-bin, keyutils, pkexec
 Recommends: grub-efi-arm64, os-prober
 Conflicts: calamares-settings-debian, calamares-settings-mobian
@@ -10,11 +10,11 @@ Provides: calamares-settings
 Homepage: https://github.com/Sky1-Linux
 Priority: optional
 Section: utils
-Filename: pool/main/c/calamares-settings-sky1/calamares-settings-sky1_1.0.0-1_all.deb
-Size: 112316
-SHA256: 3ab40ccddd72ac7a12d043b5fa795bdde14b8088913b8589712152b1cad2a9d8
-SHA1: 065ebc35e98267bf8ed32a3d7da17fe58a2999c3
-MD5sum: 40bd99943d634bd90873534a42d0f368
+Filename: pool/main/c/calamares-settings-sky1/calamares-settings-sky1_1.0.1-1_all.deb
+Size: 112604
+SHA256: ced6923b49f6e5a9e6fcbdb5697ec609949183b746ea3b51e850e2aa15df9607
+SHA1: 8fecf29311393678b9a3b6ad1745117d7cdf8244
+MD5sum: cc06dd6d59648c66cc1718b532261ce3
 Description: Sky1 Linux theme and settings for the Calamares Installer
  Calamares is a generic installer framework for Linux distributions.
  This package provides Sky1 Linux branding, artwork, and configuration
@@ -959,56 +959,58 @@ Description: VA-API driver for V4L2 stateful video decoders
 
 Package: linux-headers-6.18.2-sky1
 Source: linux-sky1
-Version: 5
+Version: 6
 Architecture: arm64
+Provides: linux-headers-6.18-sky1
 Maintainer: Entrpi <entrpi@proton.me>
 Installed-Size: 54560
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: kernel
-Filename: pool/main/l/linux-sky1/linux-headers-6.18.2-sky1_5_arm64.deb
-Size: 8971204
-SHA256: 1fe7812245a200f519ce2c810622aaa6dde3916b86798ccef2d6fce739b462ff
-SHA1: d0d446915128ff8b524fc8b526b9850f73ae6a70
-MD5sum: f4e86fc70fcf7f6b4d991a9b0be11735
+Filename: pool/main/l/linux-sky1/linux-headers-6.18.2-sky1_6_arm64.deb
+Size: 8970916
+SHA256: 339e21f7c4bd40500fa8eb9ee3f43669df2cb4be7deff163ff964a1db1a49397
+SHA1: ec7b2002d7bae95270152c3b2cc773e0287078d0
+MD5sum: 3afb2a85eeeabc63f9cbffc95ed21766
 Description: Linux kernel headers for 6.18.2-sky1 on arm64
  This package provides kernel header files for 6.18.2-sky1 on arm64
  .
  This is useful for people who need to build external modules
-Depends: linux-image-6.18.2-sky1 (= 5)
+Depends: linux-image-6.18.2-sky1 (= 6)
 
 Package: linux-image-6.18.2-sky1
 Source: linux-sky1
-Version: 5
+Version: 6
 Architecture: arm64
+Provides: linux-image-6.18-sky1
 Maintainer: Entrpi <entrpi@proton.me>
-Installed-Size: 213606
+Installed-Size: 213605
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: kernel
-Filename: pool/main/l/linux-sky1/linux-image-6.18.2-sky1_5_arm64.deb
-Size: 36490708
-SHA256: f74559c23917df41ef5048fda563eb887f94b4cb597bba896105d88222341662
-SHA1: 61ceff5bf076ed1b1320d3966fdd08c2ddad09a0
-MD5sum: 544ad27009ed11df156c94c48f1e1aae
+Filename: pool/main/l/linux-sky1/linux-image-6.18.2-sky1_6_arm64.deb
+Size: 36480188
+SHA256: 0d0f782d04d2755e7e26c3f64e5c71d05d4db661984459afc8670cd19f981e14
+SHA1: 1e8d4886e7e5a50be5673c56a3d20209f4526e3e
+MD5sum: 365c5cb3551aa2be52a240cd7b189538
 Description: Linux kernel, version 6.18.2-sky1
  This package contains the Linux kernel, modules and corresponding other
  files, version: 6.18.2-sky1.
 
 Package: linux-image-6.18.2-sky1-dbg
 Source: linux-sky1
-Version: 5
+Version: 6
 Architecture: arm64
 Maintainer: Entrpi <entrpi@proton.me>
 Installed-Size: 509948
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: debug
-Filename: pool/main/l/linux-sky1/linux-image-6.18.2-sky1-dbg_5_arm64.deb
-Size: 100596064
-SHA256: df2f5dfbbc41fd8173e4b6e001482aba930f0baf2c067ad6a67885bc504ca717
-SHA1: 4f1559b8e82682f7b35a9eab8b2cda869bfed867
-MD5sum: 98cdf6b0bfaddc8a4e3b7adb70800d27
+Filename: pool/main/l/linux-sky1/linux-image-6.18.2-sky1-dbg_6_arm64.deb
+Size: 100589036
+SHA256: 712798a9a006fa2c118ef926c0fd4217884db9b1ddfdcc56dbf94b1a4cc8de0e
+SHA1: bab1206f25d82b00605de217cb040cb3278a615e
+MD5sum: 71d210ef6f54d26e7fbff555bbe7ed00
 Description: Linux kernel debugging symbols for 6.18.2-sky1
  This package will come in handy if you need to debug the kernel. It provides
  all the necessary debug symbols for the kernel and its modules.
