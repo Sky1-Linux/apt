@@ -1,5 +1,5 @@
 Package: calamares-settings-sky1
-Version: 1.0.2-1
+Version: 1.0.3-1
 Architecture: all
 Maintainer: Entrpi <entrpi@proton.me>
 Installed-Size: 163
@@ -10,11 +10,11 @@ Provides: calamares-settings
 Homepage: https://github.com/Sky1-Linux
 Priority: optional
 Section: utils
-Filename: pool/main/c/calamares-settings-sky1/calamares-settings-sky1_1.0.2-1_all.deb
-Size: 112760
-SHA256: ce92b59563a89160b0d01713143d7a9115f48e99d700692142600b66b3c28d23
-SHA1: ec09a8629fc77e347cf9b651d2a45a3007f02376
-MD5sum: d7a99326d65d8840fdf550493cc76ed2
+Filename: pool/main/c/calamares-settings-sky1/calamares-settings-sky1_1.0.3-1_all.deb
+Size: 112860
+SHA256: 265641ec25cc1b7857bcd1d4af3266cb507957127d2ffab66181d34c07c63f63
+SHA1: fc4ce375ba590e26e0d1bdbb0ec604c5a55d69b3
+MD5sum: c4df0aaf237fb6b0e446ae59751e83e5
 Description: Sky1 Linux theme and settings for the Calamares Installer
  Calamares is a generic installer framework for Linux distributions.
  This package provides Sky1 Linux branding, artwork, and configuration
@@ -959,7 +959,7 @@ Description: VA-API driver for V4L2 stateful video decoders
 
 Package: linux-headers-6.18.2-sky1
 Source: linux-sky1
-Version: 3
+Version: 7
 Architecture: arm64
 Provides: linux-headers-6.18-sky1
 Maintainer: Entrpi <entrpi@proton.me>
@@ -967,53 +967,73 @@ Installed-Size: 54560
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: kernel
-Filename: pool/main/l/linux-sky1/linux-headers-6.18.2-sky1_3_arm64.deb
-Size: 8970940
-SHA256: 04ed78c16ab5a5b08255129a4e3be7939000a6b2f4137b8aa1406a6dc75649be
-SHA1: a35dc26b2c0fc3dc5a8bd39f120c81d18dc0ea5b
-MD5sum: 20116c0a2726b3f066ae186cc26485ef
+Filename: pool/main/l/linux-sky1/linux-headers-6.18.2-sky1_7_arm64.deb
+Size: 8970880
+SHA256: 98f1ab41d1a0a0ee5ae32f68afbed43ef52ce01ac7f24794ad2e8a5b5edbe1d3
+SHA1: e4d766b1f1779a127258e67081b6f7f1c93cad66
+MD5sum: a508b1d835421072c23d97dd949a1b3f
 Description: Linux kernel headers for 6.18.2-sky1 on arm64
  This package provides kernel header files for 6.18.2-sky1 on arm64
  .
  This is useful for people who need to build external modules
-Depends: linux-image-6.18.2-sky1 (= 3)
+Depends: linux-image-6.18.2-sky1 (= 7)
 
 Package: linux-image-6.18.2-sky1
 Source: linux-sky1
-Version: 3
+Version: 7
 Architecture: arm64
 Provides: linux-image-6.18-sky1
 Maintainer: Entrpi <entrpi@proton.me>
-Installed-Size: 213605
+Installed-Size: 213610
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: kernel
-Filename: pool/main/l/linux-sky1/linux-image-6.18.2-sky1_3_arm64.deb
-Size: 36483416
-SHA256: a990cd3127f3f349c0b3aca5bd9ff829babd035150df23c71de842addb930170
-SHA1: 1d67824642c2877c7823a565c8e3ef13ffab9459
-MD5sum: 41740b7f8944f5c335cc4710fbd87b68
+Filename: pool/main/l/linux-sky1/linux-image-6.18.2-sky1_7_arm64.deb
+Size: 36489672
+SHA256: 48fbdf1640cb689c86bdc95c15f284ea54a580820bf112472e4c7769401a2195
+SHA1: 3680817550e6f738232f0db861e02d8bb0b4a3dc
+MD5sum: ccad41b07bf14262221322a55b72808b
 Description: Linux kernel, version 6.18.2-sky1
  This package contains the Linux kernel, modules and corresponding other
  files, version: 6.18.2-sky1.
 
 Package: linux-image-6.18.2-sky1-dbg
 Source: linux-sky1
-Version: 3
+Version: 7
 Architecture: arm64
 Maintainer: Entrpi <entrpi@proton.me>
-Installed-Size: 509948
+Installed-Size: 509963
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: debug
-Filename: pool/main/l/linux-sky1/linux-image-6.18.2-sky1-dbg_3_arm64.deb
-Size: 100583340
-SHA256: b5cd3d28ecc66bcdb7037b1e61fc5689f086d389b716e47ed2306f7989b18dff
-SHA1: 4381ff030370a4f93e0433719d8914f8910e549a
-MD5sum: 2beaf4ecb4d7eaffc5bd19c032155f18
+Filename: pool/main/l/linux-sky1/linux-image-6.18.2-sky1-dbg_7_arm64.deb
+Size: 100580160
+SHA256: 42e4bca65a4d04ab2426fadfc9983cc7f94ef462c021c0b21b291c5e48d8445b
+SHA1: 8eeed6203cfd817516f69cfa7dfa5c280f0102e7
+MD5sum: 5971eebb34bfff19ef53d783b324e84a
 Description: Linux kernel debugging symbols for 6.18.2-sky1
  This package will come in handy if you need to debug the kernel. It provides
  all the necessary debug symbols for the kernel and its modules.
+
+Package: linux-libc-dev
+Source: linux-sky1
+Version: 7
+Architecture: arm64
+Maintainer: Entrpi <entrpi@proton.me>
+Installed-Size: 7421
+Provides: linux-kernel-headers
+Multi-Arch: same
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: devel
+Filename: pool/main/l/linux-sky1/linux-libc-dev_7_arm64.deb
+Size: 1439888
+SHA256: beb868039b523fe8bef3ab58cf1cfdf382be1157e99903a190a58f88450c9d9c
+SHA1: d0315a88e5342b11dedcbcb7e849e9c85b4a47e3
+MD5sum: 8a9cc9bfe5a1e3f52cb9988576c2a4dd
+Description: Linux support headers for userspace development
+ This package provides userspaces headers from the Linux kernel.  These headers
+ are used by the installed headers for GNU glibc and other system libraries.
 
 Package: r8126-dkms
 Version: 10.016.00-1
