@@ -11,10 +11,10 @@ Homepage: https://github.com/Sky1-Linux
 Priority: optional
 Section: utils
 Filename: pool/main/c/calamares-settings-sky1/calamares-settings-sky1_1.0.3-1_all.deb
-Size: 113036
-SHA256: 9989ff2df1460f50dbce4447e505724e8b9c24c9d0c99e8b2c4c79b93dff6082
-SHA1: c194dd61364cebac2c2230965ea3f103201f976c
-MD5sum: e96f4099b4bed41e1368ce024e0ee65d
+Size: 112944
+SHA256: 754073f9809ac6ab1de9526332eb4ccdae9648d4e763ee2349c6b02b33d69e40
+SHA1: 26011f1aae1b4e080cdc7d275427837cc03ddf2d
+MD5sum: fdc550dd75dda3289bfedf2106f0bb97
 Description: Sky1 Linux theme and settings for the Calamares Installer
  Calamares is a generic installer framework for Linux distributions.
  This package provides Sky1 Linux branding, artwork, and configuration
