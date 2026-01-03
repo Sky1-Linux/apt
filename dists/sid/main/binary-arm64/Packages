@@ -959,59 +959,117 @@ Description: VA-API driver for V4L2 stateful video decoders
 
 Package: linux-headers-6.18.2-sky1
 Source: linux-sky1
-Version: 8
+Version: 9
 Architecture: arm64
 Provides: linux-headers-6.18-sky1
 Maintainer: Entrpi <entrpi@proton.me>
-Installed-Size: 54556
+Installed-Size: 54560
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: kernel
-Filename: pool/main/l/linux-sky1/linux-headers-6.18.2-sky1_8_arm64.deb
-Size: 8971168
-SHA256: 7068b3aae8b20f62339baa65394a5e2b073533cafa26a7589eee8084440a2a25
-SHA1: 8d6a94c682fdc2bbe991d999e1830929176027f6
-MD5sum: ec77bd413558af8e60af0f5c9d162f76
+Filename: pool/main/l/linux-sky1/linux-headers-6.18.2-sky1_9_arm64.deb
+Size: 8971084
+SHA256: 6db774604d8c27ff58bb34a040dafb2d0f6b880170028fac73f7a864917181b1
+SHA1: 77ce1a1fb9056657c68764e22631e7235a67f11f
+MD5sum: c57fa97ff5643a8459bb78c5856b3a2d
 Description: Linux kernel headers for 6.18.2-sky1 on arm64
  This package provides kernel header files for 6.18.2-sky1 on arm64
  .
  This is useful for people who need to build external modules
-Depends: linux-image-6.18.2-sky1 (= 8)
+Depends: linux-image-6.18.2-sky1 (= 9)
 
-Package: linux-image-6.18.2-sky1
+Package: linux-headers-6.18.3-sky1
 Source: linux-sky1
-Version: 8
+Version: 1
 Architecture: arm64
-Provides: linux-image-6.18-sky1
+Provides: linux-headers-6.18-sky1
 Maintainer: Entrpi <entrpi@proton.me>
-Installed-Size: 213245
+Installed-Size: 54559
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: kernel
-Filename: pool/main/l/linux-sky1/linux-image-6.18.2-sky1_8_arm64.deb
-Size: 36507404
-SHA256: 835c1c76b23ad51471b774a2768701c57e3bb32a984c7ebc2b09f75b6e9120f8
-SHA1: 77807a489b11fac45549b781830e01234d1418a9
-MD5sum: fa35edd9e9e15586f2a55a288e0e652b
+Filename: pool/main/l/linux-sky1/linux-headers-6.18.3-sky1_1_arm64.deb
+Size: 8971276
+SHA256: edbb45dd0b817e05f692b1b7ed3f5183de31f221e068db2976de81b0efc3bbf9
+SHA1: bae9a238c7176a4deffea0537663d6024ebd760c
+MD5sum: 6a1fbc467a2cec3d74abc36a513efac3
+Description: Linux kernel headers for 6.18.3-sky1 on arm64
+ This package provides kernel header files for 6.18.3-sky1 on arm64
+ .
+ This is useful for people who need to build external modules
+Depends: linux-image-6.18.3-sky1 (= 1)
+
+Package: linux-image-6.18.2-sky1
+Source: linux-sky1
+Version: 9
+Architecture: arm64
+Provides: linux-image-6.18-sky1
+Maintainer: Entrpi <entrpi@proton.me>
+Installed-Size: 213510
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-sky1/linux-image-6.18.2-sky1_9_arm64.deb
+Size: 36508252
+SHA256: 7e9371bef4cb3e463682b69ffa338319fd3636ba16c1c2f56ff92e1d1f1ae92e
+SHA1: 249275954877de5398ba94090e93e7f8bdcbec7a
+MD5sum: c27c7956a8cbe7bfd9f65ee53faba49f
 Description: Linux kernel, version 6.18.2-sky1
  This package contains the Linux kernel, modules and corresponding other
  files, version: 6.18.2-sky1.
 
 Package: linux-image-6.18.2-sky1-dbg
 Source: linux-sky1
-Version: 8
+Version: 9
 Architecture: arm64
 Maintainer: Entrpi <entrpi@proton.me>
-Installed-Size: 508804
+Installed-Size: 509459
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: debug
-Filename: pool/main/l/linux-sky1/linux-image-6.18.2-sky1-dbg_8_arm64.deb
-Size: 100525560
-SHA256: aca4a30be34a02023783fc256c2b08bce8902606fd17d2897ae8e1fe1b15344e
-SHA1: 3963603bfbf13d9a98c7a5eac5ee1c239046aee5
-MD5sum: 396e9b811633ac38cc81f9f88211d688
+Filename: pool/main/l/linux-sky1/linux-image-6.18.2-sky1-dbg_9_arm64.deb
+Size: 100566700
+SHA256: e060b66952a058680a5cb20c1efa05523a0b0e32e54325e6473d19be30dda931
+SHA1: 923c8a61692803c23fb366823fee8d61787e7e7c
+MD5sum: bfcb7310587e27d8c24201d21ed205f5
 Description: Linux kernel debugging symbols for 6.18.2-sky1
+ This package will come in handy if you need to debug the kernel. It provides
+ all the necessary debug symbols for the kernel and its modules.
+
+Package: linux-image-6.18.3-sky1
+Source: linux-sky1
+Version: 1
+Architecture: arm64
+Provides: linux-image-6.18-sky1
+Maintainer: Entrpi <entrpi@proton.me>
+Installed-Size: 213638
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-sky1/linux-image-6.18.3-sky1_1_arm64.deb
+Size: 36513340
+SHA256: 7d102e9a43d8df47592811f000c7499a328011f798090167acd19986dc9076af
+SHA1: 4df37c83180a87980074fa4a8ded00bfdc98143d
+MD5sum: 58be563f1907381789f861409cfe5bc7
+Description: Linux kernel, version 6.18.3-sky1
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.18.3-sky1.
+
+Package: linux-image-6.18.3-sky1-dbg
+Source: linux-sky1
+Version: 1
+Architecture: arm64
+Maintainer: Entrpi <entrpi@proton.me>
+Installed-Size: 509484
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: debug
+Filename: pool/main/l/linux-sky1/linux-image-6.18.3-sky1-dbg_1_arm64.deb
+Size: 100585736
+SHA256: eb0f9460bcf31009100972ca99019d7cf35873fb5d096c5a2bdec4bd8fe5764f
+SHA1: ea25ede2375b7382399b5aa25ffb7defb52ec13e
+MD5sum: 7e7d2fc408311fc6e1cd2ab58131c9ad
+Description: Linux kernel debugging symbols for 6.18.3-sky1
  This package will come in handy if you need to debug the kernel. It provides
  all the necessary debug symbols for the kernel and its modules.
 
