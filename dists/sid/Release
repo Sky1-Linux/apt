@@ -1,29 +1,33 @@
-Origin: Sky1 Linux
-Label: Sky1 Linux
-Suite: sid
-Codename: sid
-Date: Sat, 10 Jan 2026 00:01:14 UTC
-Architectures: arm64
-Components: main non-free-firmware
-Description: Sky1 Linux packages for CIX Sky1 SoC
+Date: Tue, 13 Jan 2026 05:58:14 +0000
 MD5Sum:
- cc94f52bad56cbba1e0a69217a72306b 69076 main/binary-arm64/Packages
- 7448705492fe40dd5ea418d19ee0b4e9 15930 main/binary-arm64/Packages.gz
- 812a9d3bd241329a424aa42e5396ed82 136 main/binary-arm64/Release
- 0d97bcba304104d50fbe99706a92a2e6 990 non-free-firmware/binary-arm64/Packages
- 02d14c12197b80cdf6b123958c306bc3 624 non-free-firmware/binary-arm64/Packages.gz
- 14843bdeb115f2c6eb19df435bf3134d 149 non-free-firmware/binary-arm64/Release
+ 8d71bc696c9b2c76055c2984462532e7             1777 Release
+ c360cadecb9da2a644f5acd1e11b376e            70435 main/binary-arm64/Packages
+ 2e297948570b57cf0224a82f74adc6a7            16461 main/binary-arm64/Packages.gz
+ 812a9d3bd241329a424aa42e5396ed82              136 main/binary-arm64/Release
+ 0d97bcba304104d50fbe99706a92a2e6              990 non-free-firmware/binary-arm64/Packages
+ 02d14c12197b80cdf6b123958c306bc3              624 non-free-firmware/binary-arm64/Packages.gz
+ 14843bdeb115f2c6eb19df435bf3134d              149 non-free-firmware/binary-arm64/Release
 SHA1:
- 5e802d94f0d7fbe7f2774323dbd1f9c4d5a5825d 69076 main/binary-arm64/Packages
- 83e0b9d903f6e255770a4ea0c2b72c8cf39635bd 15930 main/binary-arm64/Packages.gz
- 00cc245af92085be57770766514a091b1dcddeb2 136 main/binary-arm64/Release
- d11ed5667c6f57520e5fe88ea8eca59b01dcbcbe 990 non-free-firmware/binary-arm64/Packages
- 6fe3359a4d331e893e04733f29ef2ce8d342a60b 624 non-free-firmware/binary-arm64/Packages.gz
- 9bd516d920858729794a0664b66c076afd70e613 149 non-free-firmware/binary-arm64/Release
+ 53cc8267d9b4a864323f16062f064166801d5e6b             1777 Release
+ b9542303ac45ec686c4662d75533057bb4f3d50e            70435 main/binary-arm64/Packages
+ dcb31e997551664d833d7b0a5c6bd67494a92f81            16461 main/binary-arm64/Packages.gz
+ 00cc245af92085be57770766514a091b1dcddeb2              136 main/binary-arm64/Release
+ d11ed5667c6f57520e5fe88ea8eca59b01dcbcbe              990 non-free-firmware/binary-arm64/Packages
+ 6fe3359a4d331e893e04733f29ef2ce8d342a60b              624 non-free-firmware/binary-arm64/Packages.gz
+ 9bd516d920858729794a0664b66c076afd70e613              149 non-free-firmware/binary-arm64/Release
 SHA256:
- 0c743e5114b9d3c6ab4bdf89bd8c394f21ada54f0949856f3a54a878a341de26 69076 main/binary-arm64/Packages
- ae0f2585777a0fc01eb9c53b4da84df603d448ada7dd188cd39d589a4db2a078 15930 main/binary-arm64/Packages.gz
- 576acb7b210b684311b2b102c6228335f36abcde578c1c7de81a679f623a467e 136 main/binary-arm64/Release
- 85ac1f22ac399886fcd3628118c5cde3500497b2b2f2e909b67e9f5a4f5f6b7f 990 non-free-firmware/binary-arm64/Packages
- 0baf34c010906dc29bea5b2c92260339f902a5dd40037faa7624661c0ef3ed38 624 non-free-firmware/binary-arm64/Packages.gz
- ec7f09d574bd2344d3abc567f946679d358475e328dac29b32f8d18e73114c4a 149 non-free-firmware/binary-arm64/Release
+ 49c8ac6576b238cf8f924f71b37eed16193d33a7ad203dc31bc73a783c05efba             1777 Release
+ 338118381d33980fc589cc831ace3372c205c16c449bea850bb050498fef358c            70435 main/binary-arm64/Packages
+ 3f9f3b7836f76506cac297ad0e22415ec4345644d62f739cd724e419d0562ffc            16461 main/binary-arm64/Packages.gz
+ 576acb7b210b684311b2b102c6228335f36abcde578c1c7de81a679f623a467e              136 main/binary-arm64/Release
+ 85ac1f22ac399886fcd3628118c5cde3500497b2b2f2e909b67e9f5a4f5f6b7f              990 non-free-firmware/binary-arm64/Packages
+ 0baf34c010906dc29bea5b2c92260339f902a5dd40037faa7624661c0ef3ed38              624 non-free-firmware/binary-arm64/Packages.gz
+ ec7f09d574bd2344d3abc567f946679d358475e328dac29b32f8d18e73114c4a              149 non-free-firmware/binary-arm64/Release
+SHA512:
+ 94bc3d60ae2a56707e67e2588a207e0abfc56bbac85c8d1b03a64a09ec3658866ddecb937023efcd8aeed9f4a2e5ee3093adb4a89eb07bfce58a13deb56ab99e             1777 Release
+ ec1bdc7b1c93ed5a8540619e8091af3f2d6af612d2c70e7f2c22c258fb5b62e26c486631490e3d4b7d48eb78b85a51a4709fb1dc07f6cd500d014625b8916c64            70435 main/binary-arm64/Packages
+ fab2bae5b7d1f33ed339ca139c42b9b0acfc485a2921d6cfd4a1bb1af5ebf2f3535c503bfe45a8e719a3eb8f3ffbebf6bb3a2bad03e248dbcb5a869154323b79            16461 main/binary-arm64/Packages.gz
+ 94db1ede73e47727b2f4e1450b6518319c42661505a368fb28d8f31d7dc772a006aa16286743df52e3f28c0974b852cb5e8b8728523d73a40fa17742834bb532              136 main/binary-arm64/Release
+ a1ae9194797feb6e8e976cf2d5a04756cfb8847a7a5559aaa1e27a7b78c7aea0a9feaf776c5ea7cba889f1aa2abe1b20ef6c4b03450b3e9d2eac027f0d777c85              990 non-free-firmware/binary-arm64/Packages
+ ba3b09cac4f81006962e7cb560748c7f777f9b361d141a1e5cc0dde2e4ff266b66aad654bdc5ffd05f154621867ccece6d8ff174b878493b07bbdfcb6f28836d              624 non-free-firmware/binary-arm64/Packages.gz
+ 5b1cdca3a6ec41087667294b7b163d707a3406bba305a1e7e3f016b624787febf4fe7c4b7506833902d63104cf18a5a9e91f362b21c97e15ac4caa1c04dd32c5              149 non-free-firmware/binary-arm64/Release

@@ -2,19 +2,19 @@ Package: calamares-settings-sky1
 Version: 1.0.3-1
 Architecture: all
 Maintainer: Entrpi <entrpi@proton.me>
-Installed-Size: 165
+Installed-Size: 164
 Depends: calamares, rsync, cryptsetup, libglib2.0-bin, keyutils, pkexec
 Recommends: grub-efi-arm64, os-prober
 Conflicts: calamares-settings-debian, calamares-settings-mobian
 Provides: calamares-settings
-Homepage: https://github.com/Sky1-Linux
-Priority: optional
+Filename: pool/main/calamares-settings-sky1_1.0.3-1_all.deb
+Size: 113036
+MD5sum: e96f4099b4bed41e1368ce024e0ee65d
+SHA1: c194dd61364cebac2c2230965ea3f103201f976c
+SHA256: 9989ff2df1460f50dbce4447e505724e8b9c24c9d0c99e8b2c4c79b93dff6082
 Section: utils
-Filename: pool/main/c/calamares-settings-sky1/calamares-settings-sky1_1.0.3-1_all.deb
-Size: 113040
-SHA256: c8c7f6fd207574da7cd7b41cc9509bb310ce933bb66423f0284118cfce5d20aa
-SHA1: 028b0ee6c7a572e74bb497b78c032a5c71b466c0
-MD5sum: e1a02e5e3c1fd268ffe0a95bb27ff1ec
+Priority: optional
+Homepage: https://github.com/Sky1-Linux
 Description: Sky1 Linux theme and settings for the Calamares Installer
  Calamares is a generic installer framework for Linux distributions.
  This package provides Sky1 Linux branding, artwork, and configuration
@@ -33,14 +33,14 @@ Architecture: all
 Maintainer: Entrpi <entrpi@proton.me>
 Installed-Size: 13
 Depends: chromium
-Homepage: https://github.com/Sky1-Linux/chromium-sky1-config
-Priority: optional
-Section: web
 Filename: pool/main/c/chromium-sky1-config/chromium-sky1-config_1.0.0-1_all.deb
 Size: 2428
-SHA256: e64f54972953e13c67d070b02bf74f4d96e243949891d78b57e6c1b66e761ec8
-SHA1: fff828b0233f8de9e18a5ed6fd5979b55864eb70
 MD5sum: 7ee70bf7f8b3e1772bd882d0b75e49eb
+SHA1: fff828b0233f8de9e18a5ed6fd5979b55864eb70
+SHA256: e64f54972953e13c67d070b02bf74f4d96e243949891d78b57e6c1b66e761ec8
+Section: web
+Priority: optional
+Homepage: https://github.com/Sky1-Linux/chromium-sky1-config
 Description: Sky1 Linux Chromium hardware video decoding configuration
  Configures Chromium to use V4L2-M2M (stateful) hardware video decoding
  on Sky1 Linux systems with CIX Sky1 SoC VPU.
@@ -54,15 +54,15 @@ Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 2941
 Depends: libavcodec62 (>= 7:8.0), libavdevice62 (>= 7:8.0), libavfilter11 (>= 7:8.0), libavformat62 (>= 7:8.0), libavutil60 (>= 7:8.0), libc6 (>= 2.35), libplacebo351 (>= 7.351.0), libsdl2-2.0-0 (>= 2.0.12), libswresample6 (>= 7:8.0), libswscale9 (>= 7:8.0), zlib1g (>= 1:1.1.4)
 Suggests: ffmpeg-doc
-Multi-Arch: foreign
-Homepage: https://ffmpeg.org/
-Priority: optional
-Section: video
 Filename: pool/main/f/ffmpeg/ffmpeg_8.0.1-2+av1v4l2.1_arm64.deb
 Size: 2031112
-SHA256: ac2fba0d774ded88236c59e99b0043df881ba8ced394b07f7621f892a6a96582
-SHA1: a8d9f7f7ceea5fde9363ea91737e13b09baa08c8
 MD5sum: e6a337b9c9210f0381e5bd93fa0e3cbc
+SHA1: a8d9f7f7ceea5fde9363ea91737e13b09baa08c8
+SHA256: ac2fba0d774ded88236c59e99b0043df881ba8ced394b07f7621f892a6a96582
+Section: video
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://ffmpeg.org/
 Description: Tools for transcoding, streaming and playing of multimedia files
  FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
  mux, demux, stream, filter and play pretty much anything that humans and
@@ -82,15 +82,15 @@ Architecture: all
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 38494
 Depends: libjs-jquery, libjs-bootstrap5
-Multi-Arch: foreign
-Homepage: https://ffmpeg.org/
-Priority: optional
-Section: doc
 Filename: pool/main/f/ffmpeg/ffmpeg-doc_8.0.1-2+av1v4l2.1_all.deb
 Size: 2369560
-SHA256: b3e1bfbc2744e5221fe5da9fb4bbbd6ae7345fb80aeda2b9fe3379131c868378
-SHA1: 3a914a6fe01e7232d8a558248949f3d8547b7842
 MD5sum: 5aeb5dd8aa0abf99cadad59a0c23be06
+SHA1: 3a914a6fe01e7232d8a558248949f3d8547b7842
+SHA256: b3e1bfbc2744e5221fe5da9fb4bbbd6ae7345fb80aeda2b9fe3379131c868378
+Section: doc
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://ffmpeg.org/
 Description: Documentation of the FFmpeg multimedia framework
  FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
  mux, demux, stream, filter and play pretty much anything that humans and
@@ -109,13 +109,13 @@ Installed-Size: 255032
 Depends: libasound2t64 (>= 1.0.16), libatk1.0-0t64 (>= 1.12.4), libc6 (>= 2.42), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.10.0), libdbus-1-3 (>= 1.10), libevent-2.1-7t64 (>= 2.1.8-stable), libffi8 (>= 3.4), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.3.5), libgcc-s1 (>= 4.5), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.38.0), libgtk-3-0t64 (>= 3.13.7), libnspr4 (>= 2:4.32~), libnss3 (>= 2:3.118~), libpango-1.0-0 (>= 1.14.0), libstdc++6 (>= 12), libvpx11 (>= 1.12.0), libx11-6, libx11-xcb1, libxcb-shm0, libxcb1, libxcomposite1 (>= 1:0.4.6), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxrandr2 (>= 2:1.4.0), zlib1g (>= 1:1.2.3.4), fontconfig, procps, debianutils (>= 1.16), libavcodec62 | libavcodec-extra62 | libavcodec61 | libavcodec-extra61 | libavcodec60 | libavcodec-extra60 | libavcodec59 | libavcodec-extra59 | libavcodec58 | libavcodec-extra58 | libavcodec57 | libavcodec-extra57 | libavcodec56 | libavcodec-extra56 | libavcodec55 | libavcodec-extra55 | libavcodec54 | libavcodec-extra54 | libavcodec53 | libavcodec-extra53
 Suggests: fonts-stix | otf-stix, fonts-lmodern, libgssapi-krb5-2 | libkrb53, libcanberra0, pulseaudio
 Provides: gnome-www-browser, www-browser
-Priority: optional
-Section: web
 Filename: pool/main/f/firefox/firefox_146.0-1+v4l2m2m.2_arm64.deb
 Size: 71481228
-SHA256: 822741bcd9b4a34c445a3a40fd768be72962fa4a0ef36b351448dd4ed800d04e
-SHA1: ba6b27f98ea2496080b7c957a1dbe6ecc149b0ff
 MD5sum: aa80c83394f58706c137f27cd5ccd6cf
+SHA1: ba6b27f98ea2496080b7c957a1dbe6ecc149b0ff
+SHA256: 822741bcd9b4a34c445a3a40fd768be72962fa4a0ef36b351448dd4ed800d04e
+Section: web
+Priority: optional
 Description: Mozilla Firefox web browser
  Firefox is a powerful, extensible web browser with support for modern
  web application technologies.
@@ -130,15 +130,15 @@ Depends: libc6 (>= 2.17), libcairo2 (>= 1.10.0), libglib2.0-0t64 (>= 2.80.0), li
 Breaks: gstreamer1.0-plugins-bad (<< 1.13.1)
 Replaces: gstreamer1.0-plugins-bad (<< 1.13.1)
 Provides: gstreamer1.0-videosink
-Multi-Arch: same
-Homepage: https://gstreamer.freedesktop.org
-Priority: optional
-Section: graphics
 Filename: pool/main/g/gst-plugins-good1.0/gstreamer1.0-gtk3_1.26.9-1+av1v4l2_arm64.deb
 Size: 101548
-SHA256: e61096ca03ad1f542201200030c750477e388a0adf26a5f462acd3dcc16aa653
-SHA1: 50d39be616b188b5cdcdd6ae2ac7c07b8a3c9f08
 MD5sum: f77e0c049b3c5984ddc9dba5b3d7666e
+SHA1: 50d39be616b188b5cdcdd6ae2ac7c07b8a3c9f08
+SHA256: e61096ca03ad1f542201200030c750477e388a0adf26a5f462acd3dcc16aa653
+Section: graphics
+Priority: optional
+Multi-Arch: same
+Homepage: https://gstreamer.freedesktop.org
 Description: GStreamer plugin for GTK+3
  GStreamer is a streaming media framework, based on graphs of filters
  which operate on media data.  Applications using this library can do
@@ -162,15 +162,15 @@ Recommends: gstreamer1.0-x
 Breaks: gstreamer1.0-plugins-bad (<< 1.15.1), gstreamer1.0-plugins-ugly (<< 1.24), gstreamer1.0-pulseaudio (<< 1.18.0), libv4l-0 (<< 1.26.1-4~), libv4lconvert0 (<< 1.26.1-4~)
 Replaces: gstreamer1.0-plugins-bad (<< 1.15.1), gstreamer1.0-plugins-ugly (<< 1.24), gstreamer1.0-pulseaudio (<< 1.18.0)
 Provides: gstreamer1.0-audiosink, gstreamer1.0-audiosource, gstreamer1.0-videosink, gstreamer1.0-videosource, gstreamer1.0-visualization
-Multi-Arch: same
-Homepage: https://gstreamer.freedesktop.org
-Priority: optional
-Section: libs
 Filename: pool/main/g/gst-plugins-good1.0/gstreamer1.0-plugins-good_1.26.9-1+av1v4l2_arm64.deb
 Size: 2044852
-SHA256: 57f35c6cf2a4a0ffbe9437ad4f89ec2270e15b50a19f410bb69c3350294a6fa8
-SHA1: 121f1f89291d3fa8f594ece81a924bce0711bb2e
 MD5sum: ab656457b9dc9e3e5736c784a1585223
+SHA1: 121f1f89291d3fa8f594ece81a924bce0711bb2e
+SHA256: 57f35c6cf2a4a0ffbe9437ad4f89ec2270e15b50a19f410bb69c3350294a6fa8
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://gstreamer.freedesktop.org
 Description: GStreamer plugins from the "good" set
  GStreamer is a streaming media framework, based on graphs of filters
  which operate on media data.  Applications using this library can do
@@ -195,15 +195,15 @@ Architecture: arm64
 Maintainer: Maintainers of GStreamer packages <gst-plugins-good1.0@packages.debian.org>
 Installed-Size: 132
 Depends: gstreamer1.0-plugins-good (>= 1.26.0)
-Multi-Arch: same
-Homepage: https://gstreamer.freedesktop.org
-Priority: optional
-Section: oldlibs
 Filename: pool/main/g/gst-plugins-good1.0/gstreamer1.0-pulseaudio_1.26.9-1+av1v4l2_arm64.deb
 Size: 83684
-SHA256: db6b710b9b781ff06f54ac3ed9b65821a78ddb2b8151524c9cf3b3e7a4ad431c
-SHA1: e0a067f26fc464602e6f0f4b0bc0dc369e4940eb
 MD5sum: 3ef9b45fb87d105e8fda1e1e69ded300
+SHA1: e0a067f26fc464602e6f0f4b0bc0dc369e4940eb
+SHA256: db6b710b9b781ff06f54ac3ed9b65821a78ddb2b8151524c9cf3b3e7a4ad431c
+Section: oldlibs
+Priority: optional
+Multi-Arch: same
+Homepage: https://gstreamer.freedesktop.org
 Description: GStreamer plugin for PulseAudio (transitional package)
  GStreamer is a streaming media framework, based on graphs of filters
  which operate on media data.  Applications using this library can do
@@ -227,15 +227,15 @@ Depends: libc6 (>= 2.17), libgcc-s1 (>= 3.0), libglib2.0-0t64 (>= 2.80.0), libgs
 Breaks: gstreamer1.0-plugins-bad (<< 1.13.1)
 Replaces: gstreamer1.0-plugins-bad (<< 1.13.1)
 Provides: gstreamer1.0-videosink, gstreamer1.0-videosource
-Multi-Arch: same
-Homepage: https://gstreamer.freedesktop.org
-Priority: optional
-Section: graphics
 Filename: pool/main/g/gst-plugins-good1.0/gstreamer1.0-qt5_1.26.9-1+av1v4l2_arm64.deb
 Size: 135588
-SHA256: 6bbe18ad90aa93948e3082fe27b266f0d3d47b90683fa37c61023b04f0c8a9b6
-SHA1: 08fc27ed6f7662739fef6d3c913e1d95e6b66409
 MD5sum: 385e877a846e740779c5d2a6ed190c90
+SHA1: 08fc27ed6f7662739fef6d3c913e1d95e6b66409
+SHA256: 6bbe18ad90aa93948e3082fe27b266f0d3d47b90683fa37c61023b04f0c8a9b6
+Section: graphics
+Priority: optional
+Multi-Arch: same
+Homepage: https://gstreamer.freedesktop.org
 Description: GStreamer plugin for Qt5
  GStreamer is a streaming media framework, based on graphs of filters
  which operate on media data.  Applications using this library can do
@@ -256,15 +256,15 @@ Maintainer: Maintainers of GStreamer packages <gst-plugins-good1.0@packages.debi
 Installed-Size: 395
 Depends: libc6 (>= 2.17), libgcc-s1 (>= 3.0), libgles2, libglib2.0-0t64 (>= 2.80.0), libgstreamer-gl1.0-0 (>= 1.26.0), libgstreamer-plugins-base1.0-0 (>= 1.26.0), libgstreamer1.0-0 (>= 1.26.0), libqt6core6t64 (>= 6.9.1), libqt6gui6 (>= 6.6.0), libqt6qml6 (>= 6.6.0), libqt6quick6 (>= 6.6.0), libstdc++6 (>= 5), qt6-base-private-abi (= 6.9.2)
 Provides: gstreamer1.0-videosink, gstreamer1.0-videosource
-Multi-Arch: same
-Homepage: https://gstreamer.freedesktop.org
-Priority: optional
-Section: graphics
 Filename: pool/main/g/gst-plugins-good1.0/gstreamer1.0-qt6_1.26.9-1+av1v4l2_arm64.deb
 Size: 146804
-SHA256: 6a775410c2a2eca2c568f585ab03a11af1501426fb8b49926fc3f983165a085d
-SHA1: b73423261467bed8420fecf01fb6df63ad79ca67
 MD5sum: 8f5ba5785ea809d3fc71c02bbddfd2c9
+SHA1: b73423261467bed8420fecf01fb6df63ad79ca67
+SHA256: 6a775410c2a2eca2c568f585ab03a11af1501426fb8b49926fc3f983165a085d
+Section: graphics
+Priority: optional
+Multi-Arch: same
+Homepage: https://gstreamer.freedesktop.org
 Description: GStreamer plugin for Qt6
  GStreamer is a streaming media framework, based on graphs of filters
  which operate on media data.  Applications using this library can do
@@ -284,15 +284,15 @@ Architecture: arm64
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 23106
 Depends: libavcodec62 (= 7:8.0.1-2+av1v4l2.1), libavutil-dev (= 7:8.0.1-2+av1v4l2.1), libswresample-dev (= 7:8.0.1-2+av1v4l2.1)
-Multi-Arch: same
-Homepage: https://ffmpeg.org/
-Priority: optional
-Section: libdevel
 Filename: pool/main/f/ffmpeg/libavcodec-dev_8.0.1-2+av1v4l2.1_arm64.deb
 Size: 6793860
-SHA256: 0cbeacdbf3ea600ecd0c9db859dc3831ff3bb6abc7fabfa20e3f2a9b144a30c2
-SHA1: 87caeea80f797c20001993c21f3e7abc66dd19d8
 MD5sum: 084e791c0d803ab1915b728b295faf71
+SHA1: 87caeea80f797c20001993c21f3e7abc66dd19d8
+SHA256: 0cbeacdbf3ea600ecd0c9db859dc3831ff3bb6abc7fabfa20e3f2a9b144a30c2
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Homepage: https://ffmpeg.org/
 Description: FFmpeg library with de/encoders for audio/video codecs - development files
  FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
  mux, demux, stream, filter and play pretty much anything that humans and
@@ -316,15 +316,15 @@ Architecture: arm64
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 91
 Depends: libavcodec-extra62 (= 7:8.0.1-2+av1v4l2.1)
-Multi-Arch: same
-Homepage: https://ffmpeg.org/
-Priority: optional
-Section: metapackages
 Filename: pool/main/f/ffmpeg/libavcodec-extra_8.0.1-2+av1v4l2.1_arm64.deb
 Size: 53268
-SHA256: 6d33d858c160365f912c7f6bbc7e6ae41746263b4a66b109553e8a4d5ab41186
-SHA1: 9a448d8500b6f4edbbc6bc71d0ed4e78b77b247e
 MD5sum: aee6cf0710580b5b45889e8788b02271
+SHA1: 9a448d8500b6f4edbbc6bc71d0ed4e78b77b247e
+SHA256: 6d33d858c160365f912c7f6bbc7e6ae41746263b4a66b109553e8a4d5ab41186
+Section: metapackages
+Priority: optional
+Multi-Arch: same
+Homepage: https://ffmpeg.org/
 Description: FFmpeg library with extra codecs (metapackage)
  FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
  mux, demux, stream, filter and play pretty much anything that humans and
@@ -345,15 +345,15 @@ Depends: libaom3 (>= 3.2.0), libaribb24-0t64 (>= 1.0.3), libavutil60 (= 7:8.0.1-
 Suggests: libcuda1, libnvcuvid1, libnvidia-encode1
 Conflicts: libavcodec62
 Provides: libavcodec62 (= 7:8.0.1-2+av1v4l2.1)
-Multi-Arch: same
-Homepage: https://ffmpeg.org/
-Priority: optional
-Section: libs
 Filename: pool/main/f/ffmpeg/libavcodec-extra62_8.0.1-2+av1v4l2.1_arm64.deb
 Size: 8130560
-SHA256: 94b412b705eace9a8f93ba0e0d688ea1c77e5f727f43212b3258dd5dfaaca267
-SHA1: 7fefd7aa35ef2668eb5c848eb579264d4b006488
 MD5sum: 1cc696c6127e2c3e7ef3d6e8d73d9998
+SHA1: 7fefd7aa35ef2668eb5c848eb579264d4b006488
+SHA256: 94b412b705eace9a8f93ba0e0d688ea1c77e5f727f43212b3258dd5dfaaca267
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://ffmpeg.org/
 Description: FFmpeg library with additional de/encoders for audio/video codecs
  FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
  mux, demux, stream, filter and play pretty much anything that humans and
@@ -388,15 +388,15 @@ Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 23225
 Depends: libaom3 (>= 3.2.0), libavutil60 (= 7:8.0.1-2+av1v4l2.1), libc6 (>= 2.38), libcairo2 (>= 1.2.4), libcodec2-1.2 (>= 1.2.0), libdav1d7 (>= 1.1.0), libglib2.0-0t64 (>= 2.12.0), libgsm1 (>= 1.0.18), libjxl0.11 (>= 0.8.0), liblzma5 (>= 5.1.1alpha+20120614), libmp3lame0 (>= 3.100), libopenjp2-7 (>= 2.0.0), libopus0 (>= 1.1), librav1e0.8 (>= 0.5.1), librsvg2-2 (>= 2.52.5), libshine3 (>= 3.1.0), libsnappy1v5 (>= 1.2.2), libspeex1 (>= 1.2~), libstdc++6 (>= 13.1), libsvtav1enc2 (>= 2.2.1), libswresample6 (>= 7:8.0), libtheoradec2 (>= 1.2), libtheoraenc2 (>= 1.2), libtwolame0 (>= 0.3.10), libva2 (>= 2.9.0), libvorbis0a (>= 1.1.2), libvorbisenc2 (>= 1.1.2), libvpx11 (>= 1.12.0), libwebp7 (>= 1.5.0), libwebpmux3 (>= 1.5.0), libx264-165 (>= 2:0.165.3222+gitb35605ac), libx265-215 (>= 4.1), libxvidcore4 (>= 1.2.2), libzvbi0t64 (>= 0.2.35), zlib1g (>= 1:1.2.0)
 Suggests: libcuda1, libnvcuvid1, libnvidia-encode1
-Multi-Arch: same
-Homepage: https://ffmpeg.org/
-Priority: optional
-Section: libs
 Filename: pool/main/f/ffmpeg/libavcodec62_8.0.1-2+av1v4l2.1_arm64.deb
 Size: 8123852
-SHA256: acc55e46bb47b3166a190ea69491a1a27f15d919367c567d8e14735e8e73bfe5
-SHA1: 857f7d1c95ee90ee2007ee78643ef949cab65fc1
 MD5sum: 66f2936da95a1d7d2d663b45f3283a0a
+SHA1: 857f7d1c95ee90ee2007ee78643ef949cab65fc1
+SHA256: acc55e46bb47b3166a190ea69491a1a27f15d919367c567d8e14735e8e73bfe5
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://ffmpeg.org/
 Description: FFmpeg library with de/encoders for audio/video codecs - runtime files
  FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
  mux, demux, stream, filter and play pretty much anything that humans and
@@ -420,15 +420,15 @@ Architecture: arm64
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 414
 Depends: libavcodec-dev (= 7:8.0.1-2+av1v4l2.1), libavdevice62 (= 7:8.0.1-2+av1v4l2.1), libavfilter-dev (= 7:8.0.1-2+av1v4l2.1), libavformat-dev (= 7:8.0.1-2+av1v4l2.1), libavutil-dev (= 7:8.0.1-2+av1v4l2.1), libswscale-dev (= 7:8.0.1-2+av1v4l2.1), libswresample-dev (= 7:8.0.1-2+av1v4l2.1)
-Multi-Arch: same
-Homepage: https://ffmpeg.org/
-Priority: optional
-Section: libdevel
 Filename: pool/main/f/ffmpeg/libavdevice-dev_8.0.1-2+av1v4l2.1_arm64.deb
 Size: 117212
-SHA256: 61b497617eea78f6e28fc884d9f5eeb3a955d00f35adc884898c62bb9ea65a83
-SHA1: ed279dc6e23805e223bda1299dafab3c5c1d944f
 MD5sum: 914fe00a2e90c02bac7f31dcc6ef0d33
+SHA1: ed279dc6e23805e223bda1299dafab3c5c1d944f
+SHA256: 61b497617eea78f6e28fc884d9f5eeb3a955d00f35adc884898c62bb9ea65a83
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Homepage: https://ffmpeg.org/
 Description: FFmpeg library for handling input and output devices - development files
  FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
  mux, demux, stream, filter and play pretty much anything that humans and
@@ -448,15 +448,15 @@ Architecture: arm64
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 292
 Depends: libasound2t64 (>= 1.0.16), libavc1394-0 (>= 0.5.3), libavcodec62 (>= 7:8.0), libavfilter11 (>= 7:8.0), libavformat62 (= 7:8.0.1-2+av1v4l2.1), libavutil60 (= 7:8.0.1-2+av1v4l2.1), libc6 (>= 2.34), libcaca0 (>= 0.99.beta20), libcdio-cdda2t64 (>= 10.2+2.0.0), libcdio-paranoia2t64 (>= 10.2+2.0.0), libdc1394-25 (>= 2.2.6), libdrm2 (>= 2.4.101), libiec61883-0 (>= 1.2.0), libjack-jackd2-0 (>= 1.9.10+20150825) | libjack-0.125, libopenal1 (>= 1.14), libpulse0 (>= 0.99.1), libraw1394-11 (>= 2.1.2), libx11-6, libxcb-shape0, libxcb-shm0, libxcb-xfixes0, libxcb1, libxext6, libxv1 (>= 2:1.0.13)
-Multi-Arch: same
-Homepage: https://ffmpeg.org/
-Priority: optional
-Section: libs
 Filename: pool/main/f/ffmpeg/libavdevice62_8.0.1-2+av1v4l2.1_arm64.deb
 Size: 104436
-SHA256: 6fd68c2552d7d0bb9c9bc28ee5d510ad19f0d0228eaa2ebaa97096ef769ef7b9
-SHA1: 69c4cc701e16484d52aef2b924be61e82b197a1f
 MD5sum: ef4de1ba7bdcba7580744f8b07f2871f
+SHA1: 69c4cc701e16484d52aef2b924be61e82b197a1f
+SHA256: 6fd68c2552d7d0bb9c9bc28ee5d510ad19f0d0228eaa2ebaa97096ef769ef7b9
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://ffmpeg.org/
 Description: FFmpeg library for handling input and output devices - runtime files
  FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
  mux, demux, stream, filter and play pretty much anything that humans and
@@ -476,15 +476,15 @@ Architecture: arm64
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 9521
 Depends: libavcodec-dev (= 7:8.0.1-2+av1v4l2.1), libavfilter11 (= 7:8.0.1-2+av1v4l2.1), libavformat-dev (= 7:8.0.1-2+av1v4l2.1), libavutil-dev (= 7:8.0.1-2+av1v4l2.1), libswresample-dev (= 7:8.0.1-2+av1v4l2.1), libswscale-dev (= 7:8.0.1-2+av1v4l2.1)
-Multi-Arch: same
-Homepage: https://ffmpeg.org/
-Priority: optional
-Section: libdevel
 Filename: pool/main/f/ffmpeg/libavfilter-dev_8.0.1-2+av1v4l2.1_arm64.deb
 Size: 2231496
-SHA256: 9bb065ece81ac3ec655685d2c066276a8a4672c9f599a4ab7824389be6b51448
-SHA1: 490d84e61bef8accfe3247783f2f192b7e6d4602
 MD5sum: 22ac1bdd04a79307312cf1b822a6a5ae
+SHA1: 490d84e61bef8accfe3247783f2f192b7e6d4602
+SHA256: 9bb065ece81ac3ec655685d2c066276a8a4672c9f599a4ab7824389be6b51448
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Homepage: https://ffmpeg.org/
 Description: FFmpeg library containing media filters - development files
  FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
  mux, demux, stream, filter and play pretty much anything that humans and
@@ -503,15 +503,15 @@ Architecture: arm64
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 91
 Depends: libavfilter-extra11 (= 7:8.0.1-2+av1v4l2.1)
-Multi-Arch: same
-Homepage: https://ffmpeg.org/
-Priority: optional
-Section: metapackages
 Filename: pool/main/f/ffmpeg/libavfilter-extra_8.0.1-2+av1v4l2.1_arm64.deb
 Size: 53260
-SHA256: 069face6f56310605a9af569926db554bf20fe7ee5abb3177c1c2564cf3c6f33
-SHA1: ce40b13c7514d127f92aad6b06aeb7a58daea054
 MD5sum: d181b011c3ca52bdf97164caf04cfdb1
+SHA1: ce40b13c7514d127f92aad6b06aeb7a58daea054
+SHA256: 069face6f56310605a9af569926db554bf20fe7ee5abb3177c1c2564cf3c6f33
+Section: metapackages
+Priority: optional
+Multi-Arch: same
+Homepage: https://ffmpeg.org/
 Description: FFmpeg library with extra filters (metapackage)
  FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
  mux, demux, stream, filter and play pretty much anything that humans and
@@ -531,15 +531,15 @@ Installed-Size: 13681
 Depends: libass9 (>= 1:0.15.0), libavcodec62 (= 7:8.0.1-2+av1v4l2.1), libavformat62 (>= 7:8.0), libavutil60 (= 7:8.0.1-2+av1v4l2.1), libbs2b0 (>= 3.1.0+dfsg), libc6 (>= 2.38), libflite1 (>= 1.4-release-9~), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.2.1), libfribidi0 (>= 0.19.2), libharfbuzz0b (>= 1.6.0), liblilv-0-0 (>= 0.14.2~dfsg0), libmysofa1 (>= 0.7~), libplacebo351 (>= 7.351.0), librubberband2 (>= 3.3.0+dfsg), libstdc++6 (>= 13.1), libswresample6 (>= 7:8.0), libswscale9 (>= 7:8.0), libtesseract5 (>= 5.5.0), libva2 (>= 1.7.3), libvidstab1.1, libzimg2 (>= 0.3.1), libzmq5 (>= 3.2.3+dfsg), ocl-icd-libopencl1 | libopencl1, ocl-icd-libopencl1 (>= 1.0) | libopencl-1.2-1, zlib1g (>= 1:1.1.4)
 Conflicts: libavfilter11
 Provides: libavfilter11 (= 7:8.0.1-2+av1v4l2.1)
-Multi-Arch: same
-Homepage: https://ffmpeg.org/
-Priority: optional
-Section: libs
 Filename: pool/main/f/ffmpeg/libavfilter-extra11_8.0.1-2+av1v4l2.1_arm64.deb
 Size: 4013964
-SHA256: caaded64f9dcf6fdcddfa7d1284a7e3f37cf31d11044f0ec4735fa3e7dd84a4f
-SHA1: 539c3e64ada1c9ded994af82e741a0f63206003d
 MD5sum: c79466491a9b4c0363cdf31df029e062
+SHA1: 539c3e64ada1c9ded994af82e741a0f63206003d
+SHA256: caaded64f9dcf6fdcddfa7d1284a7e3f37cf31d11044f0ec4735fa3e7dd84a4f
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://ffmpeg.org/
 Description: FFmpeg library with extra media filters - runtime files
  FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
  mux, demux, stream, filter and play pretty much anything that humans and
@@ -565,15 +565,15 @@ Architecture: arm64
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 13745
 Depends: libass9 (>= 1:0.15.0), libavcodec62 (= 7:8.0.1-2+av1v4l2.1), libavformat62 (>= 7:8.0), libavutil60 (= 7:8.0.1-2+av1v4l2.1), libbs2b0 (>= 3.1.0+dfsg), libc6 (>= 2.38), libflite1 (>= 1.4-release-9~), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.2.1), libfribidi0 (>= 0.19.2), libharfbuzz0b (>= 1.6.0), liblilv-0-0 (>= 0.14.2~dfsg0), libmysofa1 (>= 0.7~), libplacebo351 (>= 7.351.0), librubberband2 (>= 3.3.0+dfsg), libstdc++6 (>= 13.1), libswresample6 (>= 7:8.0), libswscale9 (>= 7:8.0), libva2 (>= 1.7.3), libvidstab1.1, libzimg2 (>= 0.3.1), libzmq5 (>= 3.2.3+dfsg), ocl-icd-libopencl1 | libopencl1, ocl-icd-libopencl1 (>= 1.0) | libopencl-1.2-1, zlib1g (>= 1:1.1.4)
-Multi-Arch: same
-Homepage: https://ffmpeg.org/
-Priority: optional
-Section: libs
 Filename: pool/main/f/ffmpeg/libavfilter11_8.0.1-2+av1v4l2.1_arm64.deb
 Size: 4013840
-SHA256: 319982c48be8a2fe0f1f8f0070cfb7d8442a3ada858189991c8e764baecd8761
-SHA1: 14310399e15f709e9386383c635adfe50e944ffb
 MD5sum: 7d65fec97c6aa5c65a8f3dd95ee7fa3a
+SHA1: 14310399e15f709e9386383c635adfe50e944ffb
+SHA256: 319982c48be8a2fe0f1f8f0070cfb7d8442a3ada858189991c8e764baecd8761
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://ffmpeg.org/
 Description: FFmpeg library containing media filters - runtime files
  FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
  mux, demux, stream, filter and play pretty much anything that humans and
@@ -592,15 +592,15 @@ Architecture: arm64
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 6642
 Depends: libavcodec-dev (= 7:8.0.1-2+av1v4l2.1), libavformat62 (= 7:8.0.1-2+av1v4l2.1), libavutil-dev (= 7:8.0.1-2+av1v4l2.1), libswresample-dev (= 7:8.0.1-2+av1v4l2.1)
-Multi-Arch: same
-Homepage: https://ffmpeg.org/
-Priority: optional
-Section: libdevel
 Filename: pool/main/f/ffmpeg/libavformat-dev_8.0.1-2+av1v4l2.1_arm64.deb
 Size: 1473716
-SHA256: 91d5eb8e0f4b5f428f9830b1547352c921e09b6620d1fc8d39767068bac9ccef
-SHA1: 8aa86c958c7521ff0a92efa07554092e53d21fca
 MD5sum: 3a7b5a9d7891ddba243eef2b6649a08e
+SHA1: 8aa86c958c7521ff0a92efa07554092e53d21fca
+SHA256: 91d5eb8e0f4b5f428f9830b1547352c921e09b6620d1fc8d39767068bac9ccef
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Homepage: https://ffmpeg.org/
 Description: FFmpeg library with (de)muxers for multimedia containers - development files
  FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
  mux, demux, stream, filter and play pretty much anything that humans and
@@ -621,15 +621,15 @@ Architecture: arm64
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 91
 Depends: libavformat-extra62 (= 7:8.0.1-2+av1v4l2.1)
-Multi-Arch: same
-Homepage: https://ffmpeg.org/
-Priority: optional
-Section: metapackages
 Filename: pool/main/f/ffmpeg/libavformat-extra_8.0.1-2+av1v4l2.1_arm64.deb
 Size: 53272
-SHA256: 49d6f01fdd9387f4a105112a73e7fc45484a351e48c62f654d5de7dfc8603be1
-SHA1: ba742d6be38cc9ee7dd239fa076e5a3dec6561c1
 MD5sum: a601e855361dbede799e27ec274aa721
+SHA1: ba742d6be38cc9ee7dd239fa076e5a3dec6561c1
+SHA256: 49d6f01fdd9387f4a105112a73e7fc45484a351e48c62f654d5de7dfc8603be1
+Section: metapackages
+Priority: optional
+Multi-Arch: same
+Homepage: https://ffmpeg.org/
 Description: FFmpeg library with extra (de)muxers (metapackage)
  FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
  mux, demux, stream, filter and play pretty much anything that humans and
@@ -649,15 +649,15 @@ Installed-Size: 3309
 Depends: libavcodec62 (= 7:8.0.1-2+av1v4l2.1), libavutil60 (= 7:8.0.1-2+av1v4l2.1), libbluray3 (>= 1:0.2.2), libbz2-1.0, libc6 (>= 2.38), libchromaprint1 (>= 1.3.2), libdvdnav4 (>= 6.1.0), libdvdread8t64 (>= 6.1.0), libgme0 (>= 0.5.5), libgnutls30t64 (>= 3.8.1), libopenmpt0t64 (>= 0.3.0), librabbitmq4 (>= 0.6.0), librist4 (>= 0.2.6+dfsg), libsmbclient0 (>= 2:4.0.3+dfsg1), libsrt1.5-gnutls (>= 1.5.4), libssh-4 (>= 0.8.0), libxml2-16 (>= 2.14.1), libzmq5 (>= 4.0.1+dfsg), zlib1g (>= 1:1.2.0.2)
 Conflicts: libavformat62
 Provides: libavformat62 (= 7:8.0.1-2+av1v4l2.1)
-Multi-Arch: same
-Homepage: https://ffmpeg.org/
-Priority: optional
-Section: libs
 Filename: pool/main/f/ffmpeg/libavformat-extra62_8.0.1-2+av1v4l2.1_arm64.deb
 Size: 1204656
-SHA256: 49da8fa5f264b9e86a37834c2cc5208d187634a7f3405d8cd47dd4d844ed7bf5
-SHA1: 437ed74087f58f2ed8f3d25bf71b0f66305b0895
 MD5sum: ee15bd1ecc61563936a14421cac5b235
+SHA1: 437ed74087f58f2ed8f3d25bf71b0f66305b0895
+SHA256: 49da8fa5f264b9e86a37834c2cc5208d187634a7f3405d8cd47dd4d844ed7bf5
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://ffmpeg.org/
 Description: FFmpeg library with additional (de)muxers for multimedia containers
  FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
  mux, demux, stream, filter and play pretty much anything that humans and
@@ -685,15 +685,15 @@ Architecture: arm64
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 3306
 Depends: libavcodec62 (= 7:8.0.1-2+av1v4l2.1), libavutil60 (= 7:8.0.1-2+av1v4l2.1), libbluray3 (>= 1:0.2.2), libbz2-1.0, libc6 (>= 2.38), libchromaprint1 (>= 1.3.2), libdvdnav4 (>= 6.1.0), libdvdread8t64 (>= 6.1.0), libgme0 (>= 0.5.5), libgnutls30t64 (>= 3.8.1), libopenmpt0t64 (>= 0.3.0), librabbitmq4 (>= 0.6.0), librist4 (>= 0.2.6+dfsg), libsrt1.5-gnutls (>= 1.5.4), libssh-4 (>= 0.8.0), libxml2-16 (>= 2.14.1), libzmq5 (>= 4.0.1+dfsg), zlib1g (>= 1:1.2.0.2)
-Multi-Arch: same
-Homepage: https://ffmpeg.org/
-Priority: optional
-Section: libs
 Filename: pool/main/f/ffmpeg/libavformat62_8.0.1-2+av1v4l2.1_arm64.deb
 Size: 1205328
-SHA256: e720d80a9dc92d5d67c45c56339de2bdcf44b505bbfde3453fb2cf9600f3b8d7
-SHA1: e99c7ca1ffbfa27cd15460907271fe554101860f
 MD5sum: a5b6981fe4c3852d4c942584180e090c
+SHA1: e99c7ca1ffbfa27cd15460907271fe554101860f
+SHA256: e720d80a9dc92d5d67c45c56339de2bdcf44b505bbfde3453fb2cf9600f3b8d7
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://ffmpeg.org/
 Description: FFmpeg library with (de)muxers for multimedia containers - runtime files
  FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
  mux, demux, stream, filter and play pretty much anything that humans and
@@ -714,15 +714,15 @@ Architecture: arm64
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 2606
 Depends: libavutil60 (= 7:8.0.1-2+av1v4l2.1)
-Multi-Arch: same
-Homepage: https://ffmpeg.org/
-Priority: optional
-Section: libdevel
 Filename: pool/main/f/ffmpeg/libavutil-dev_8.0.1-2+av1v4l2.1_arm64.deb
 Size: 588028
-SHA256: 7e8ab9da76f59c62475ce2a7efacdd5f785f5811d3490edef334e6ab594db862
-SHA1: 425e120fff183c95047f2a3e0fb0b27e46ef560c
 MD5sum: 5f816dcc6051083a6e0d2375d1e8d6bd
+SHA1: 425e120fff183c95047f2a3e0fb0b27e46ef560c
+SHA256: 7e8ab9da76f59c62475ce2a7efacdd5f785f5811d3490edef334e6ab594db862
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Homepage: https://ffmpeg.org/
 Description: FFmpeg library with functions for simplifying programming - development files
  FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
  mux, demux, stream, filter and play pretty much anything that humans and
@@ -745,15 +745,15 @@ Architecture: arm64
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 1215
 Depends: libc6 (>= 2.38), libdrm2 (>= 2.4.66), libva-drm2 (>= 1.3), libva-x11-2 (>= 1.3), libva2 (>= 2.21.0), libvdpau1 (>= 0.2), libx11-6, ocl-icd-libopencl1 | libopencl1, ocl-icd-libopencl1 (>= 1.0) | libopencl-1.2-1
-Multi-Arch: same
-Homepage: https://ffmpeg.org/
-Priority: optional
-Section: libs
 Filename: pool/main/f/ffmpeg/libavutil60_8.0.1-2+av1v4l2.1_arm64.deb
 Size: 416100
-SHA256: 2a07531143414c666005d09a1a2b26a423cf52b1987e6faadde432e1a0bc77b9
-SHA1: f73c5942f952845ddfe5f11c4ff986538c68ccd0
 MD5sum: 5b77a5e2e6816897e9da2c0ddc8a6c42
+SHA1: f73c5942f952845ddfe5f11c4ff986538c68ccd0
+SHA256: 2a07531143414c666005d09a1a2b26a423cf52b1987e6faadde432e1a0bc77b9
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://ffmpeg.org/
 Description: FFmpeg library with functions for simplifying programming - runtime files
  FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
  mux, demux, stream, filter and play pretty much anything that humans and
@@ -776,15 +776,15 @@ Architecture: arm64
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 330
 Depends: libavutil-dev (= 7:8.0.1-2+av1v4l2.1), libswresample6 (= 7:8.0.1-2+av1v4l2.1)
-Multi-Arch: same
-Homepage: https://ffmpeg.org/
-Priority: optional
-Section: libdevel
 Filename: pool/main/f/ffmpeg/libswresample-dev_8.0.1-2+av1v4l2.1_arm64.deb
 Size: 111244
-SHA256: b4d12e1885a004ce4a032c7276575d8ece148e55fabc8d4149d054993cc80636
-SHA1: 14f9f1bed2ab5b9057adacfba5176acc3ff8df4a
 MD5sum: bcc12cfda7f4e4b251addce7e5327300
+SHA1: 14f9f1bed2ab5b9057adacfba5176acc3ff8df4a
+SHA256: b4d12e1885a004ce4a032c7276575d8ece148e55fabc8d4149d054993cc80636
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Homepage: https://ffmpeg.org/
 Description: FFmpeg library for audio resampling, rematrixing etc. - development files
  FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
  mux, demux, stream, filter and play pretty much anything that humans and
@@ -819,15 +819,15 @@ Architecture: arm64
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 231
 Depends: libavutil60 (>= 7:8.0), libc6 (>= 2.29), libsoxr0 (>= 0.1.0)
-Multi-Arch: same
-Homepage: https://ffmpeg.org/
-Priority: optional
-Section: libs
 Filename: pool/main/f/ffmpeg/libswresample6_8.0.1-2+av1v4l2.1_arm64.deb
 Size: 99084
-SHA256: 40f0443cb84a7847c2ff55c5bc318ea3b4886d8661106e4e0996c44da0a47261
-SHA1: 8ffa56a64dc53496038f341f1dd2843a947f59a4
 MD5sum: 3cbc2da3ff79e4187a9eb6a4978ab911
+SHA1: 8ffa56a64dc53496038f341f1dd2843a947f59a4
+SHA256: 40f0443cb84a7847c2ff55c5bc318ea3b4886d8661106e4e0996c44da0a47261
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://ffmpeg.org/
 Description: FFmpeg library for audio resampling, rematrixing etc. - runtime files
  FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
  mux, demux, stream, filter and play pretty much anything that humans and
@@ -862,15 +862,15 @@ Architecture: arm64
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 1433
 Depends: libavutil-dev (= 7:8.0.1-2+av1v4l2.1), libswscale9 (= 7:8.0.1-2+av1v4l2.1)
-Multi-Arch: same
-Homepage: https://ffmpeg.org/
-Priority: optional
-Section: libdevel
 Filename: pool/main/f/ffmpeg/libswscale-dev_8.0.1-2+av1v4l2.1_arm64.deb
 Size: 398280
-SHA256: 8c77fce1d3e6b6eaaec426add8c047d29c3376a7edfe369cb9c95626856c690e
-SHA1: bbe29e6a1b44db9e9972688e8ebd4c9d86222978
 MD5sum: 6ed0740bfae0889b994086cc56179580
+SHA1: bbe29e6a1b44db9e9972688e8ebd4c9d86222978
+SHA256: 8c77fce1d3e6b6eaaec426add8c047d29c3376a7edfe369cb9c95626856c690e
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Homepage: https://ffmpeg.org/
 Description: FFmpeg library for image scaling and various conversions - development files
  FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
  mux, demux, stream, filter and play pretty much anything that humans and
@@ -899,15 +899,15 @@ Architecture: arm64
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 1063
 Depends: libavutil60 (= 7:8.0.1-2+av1v4l2.1), libc6 (>= 2.34)
-Multi-Arch: same
-Homepage: https://ffmpeg.org/
-Priority: optional
-Section: libs
 Filename: pool/main/f/ffmpeg/libswscale9_8.0.1-2+av1v4l2.1_arm64.deb
 Size: 366020
-SHA256: e5d02892794a1144e268b2c2b29379447ae3a77d28fbdf5741de482725fe50d8
-SHA1: f351e701be73ba1d88dd91b2abb53c885aefc68c
 MD5sum: fc5c07aa088a9c2f6ef8cc956586459e
+SHA1: f351e701be73ba1d88dd91b2abb53c885aefc68c
+SHA256: e5d02892794a1144e268b2c2b29379447ae3a77d28fbdf5741de482725fe50d8
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://ffmpeg.org/
 Description: FFmpeg library for image scaling and various conversions - runtime files
  FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
  mux, demux, stream, filter and play pretty much anything that humans and
@@ -935,14 +935,14 @@ Architecture: arm64
 Maintainer: Entrpi <entrpi@proton.me>
 Installed-Size: 79
 Depends: libc6 (>= 2.17)
-Homepage: https://github.com/sky1-linux/libva-v4l2-stateful
-Priority: optional
-Section: libs
 Filename: pool/main/libv/libva-v4l2-stateful/libva-v4l2-stateful_0.1.0-1_arm64.deb
 Size: 15112
-SHA256: b8e550290df34580c6edebf84892624e8c891ef46d46fbcc756546671e9d0b38
-SHA1: 8838ab9d4a00cd62490f3ca63deb69eef3ee826f
 MD5sum: 468562d4d715fbaefa75c84043b71658
+SHA1: 8838ab9d4a00cd62490f3ca63deb69eef3ee826f
+SHA256: b8e550290df34580c6edebf84892624e8c891ef46d46fbcc756546671e9d0b38
+Section: libs
+Priority: optional
+Homepage: https://github.com/sky1-linux/libva-v4l2-stateful
 Description: VA-API driver for V4L2 stateful video decoders
  This package provides a VA-API backend driver that wraps V4L2 stateful
  (memory-to-memory) video decoders, enabling VA-API-only applications
@@ -961,80 +961,80 @@ Package: linux-headers-6.18.2-sky1
 Source: linux-sky1
 Version: 9
 Architecture: arm64
-Provides: linux-headers-6.18-sky1
 Maintainer: Entrpi <entrpi@proton.me>
 Installed-Size: 54560
-Homepage: https://www.kernel.org/
-Priority: optional
-Section: kernel
+Depends: linux-image-6.18.2-sky1 (= 9)
+Provides: linux-headers-6.18-sky1
 Filename: pool/main/l/linux-sky1/linux-headers-6.18.2-sky1_9_arm64.deb
 Size: 8971084
-SHA256: 6db774604d8c27ff58bb34a040dafb2d0f6b880170028fac73f7a864917181b1
-SHA1: 77ce1a1fb9056657c68764e22631e7235a67f11f
 MD5sum: c57fa97ff5643a8459bb78c5856b3a2d
+SHA1: 77ce1a1fb9056657c68764e22631e7235a67f11f
+SHA256: 6db774604d8c27ff58bb34a040dafb2d0f6b880170028fac73f7a864917181b1
+Section: kernel
+Priority: optional
+Homepage: https://www.kernel.org/
 Description: Linux kernel headers for 6.18.2-sky1 on arm64
  This package provides kernel header files for 6.18.2-sky1 on arm64
  .
  This is useful for people who need to build external modules
-Depends: linux-image-6.18.2-sky1 (= 9)
 
 Package: linux-headers-6.18.3-sky1
 Source: linux-sky1
 Version: 2
 Architecture: arm64
-Provides: linux-headers-6.18-sky1
 Maintainer: Entrpi <entrpi@proton.me>
 Installed-Size: 54559
-Homepage: https://www.kernel.org/
-Priority: optional
-Section: kernel
+Depends: linux-image-6.18.3-sky1 (= 2)
+Provides: linux-headers-6.18-sky1
 Filename: pool/main/l/linux-sky1/linux-headers-6.18.3-sky1_2_arm64.deb
 Size: 8971904
-SHA256: be409552777ec7ee7c0c9c841c7a8221f5f6cb43793d6b8132dfd3fafd2594e6
-SHA1: 68db3503745338a71869c6c23f6777713763b137
 MD5sum: de0ffcab96d72896c00eea8478c78cb7
+SHA1: 68db3503745338a71869c6c23f6777713763b137
+SHA256: be409552777ec7ee7c0c9c841c7a8221f5f6cb43793d6b8132dfd3fafd2594e6
+Section: kernel
+Priority: optional
+Homepage: https://www.kernel.org/
 Description: Linux kernel headers for 6.18.3-sky1 on arm64
  This package provides kernel header files for 6.18.3-sky1 on arm64
  .
  This is useful for people who need to build external modules
-Depends: linux-image-6.18.3-sky1 (= 2)
 
 Package: linux-headers-6.18.4-sky1
 Source: linux-sky1
 Version: 1
 Architecture: arm64
-Provides: linux-headers-6.18-sky1
 Maintainer: Entrpi <entrpi@proton.me>
 Installed-Size: 54563
-Homepage: https://www.kernel.org/
-Priority: optional
-Section: kernel
+Depends: linux-image-6.18.4-sky1 (= 1)
+Provides: linux-headers-6.18-sky1
 Filename: pool/main/l/linux-sky1/linux-headers-6.18.4-sky1_1_arm64.deb
 Size: 8972192
-SHA256: 12898296aa09a6934710efb960f1964838efaad13ddd6852fa2ee5db962bc67d
-SHA1: 8d0c15c514bcfb0a7d092885cf96ebd8b9235e39
 MD5sum: 17660b48e9a7211d174de4600f6d4a6f
+SHA1: 8d0c15c514bcfb0a7d092885cf96ebd8b9235e39
+SHA256: 12898296aa09a6934710efb960f1964838efaad13ddd6852fa2ee5db962bc67d
+Section: kernel
+Priority: optional
+Homepage: https://www.kernel.org/
 Description: Linux kernel headers for 6.18.4-sky1 on arm64
  This package provides kernel header files for 6.18.4-sky1 on arm64
  .
  This is useful for people who need to build external modules
-Depends: linux-image-6.18.4-sky1 (= 1)
 
 Package: linux-image-6.18.2-sky1
 Source: linux-sky1
 Version: 9
 Architecture: arm64
-Provides: linux-image-6.18-sky1
 Maintainer: Entrpi <entrpi@proton.me>
 Installed-Size: 213510
-Homepage: https://www.kernel.org/
-Priority: optional
-Section: kernel
+Provides: linux-image-6.18-sky1
 Filename: pool/main/l/linux-sky1/linux-image-6.18.2-sky1_9_arm64.deb
 Size: 36508252
-SHA256: 7e9371bef4cb3e463682b69ffa338319fd3636ba16c1c2f56ff92e1d1f1ae92e
-SHA1: 249275954877de5398ba94090e93e7f8bdcbec7a
 MD5sum: c27c7956a8cbe7bfd9f65ee53faba49f
+SHA1: 249275954877de5398ba94090e93e7f8bdcbec7a
+SHA256: 7e9371bef4cb3e463682b69ffa338319fd3636ba16c1c2f56ff92e1d1f1ae92e
+Section: kernel
+Priority: optional
+Homepage: https://www.kernel.org/
 Description: Linux kernel, version 6.18.2-sky1
  This package contains the Linux kernel, modules and corresponding other
  files, version: 6.18.2-sky1.
@@ -1045,14 +1045,14 @@ Version: 9
 Architecture: arm64
 Maintainer: Entrpi <entrpi@proton.me>
 Installed-Size: 509459
-Homepage: https://www.kernel.org/
-Priority: optional
-Section: debug
 Filename: pool/main/l/linux-sky1/linux-image-6.18.2-sky1-dbg_9_arm64.deb
 Size: 100566700
-SHA256: e060b66952a058680a5cb20c1efa05523a0b0e32e54325e6473d19be30dda931
-SHA1: 923c8a61692803c23fb366823fee8d61787e7e7c
 MD5sum: bfcb7310587e27d8c24201d21ed205f5
+SHA1: 923c8a61692803c23fb366823fee8d61787e7e7c
+SHA256: e060b66952a058680a5cb20c1efa05523a0b0e32e54325e6473d19be30dda931
+Section: debug
+Priority: optional
+Homepage: https://www.kernel.org/
 Description: Linux kernel debugging symbols for 6.18.2-sky1
  This package will come in handy if you need to debug the kernel. It provides
  all the necessary debug symbols for the kernel and its modules.
@@ -1061,17 +1061,17 @@ Package: linux-image-6.18.3-sky1
 Source: linux-sky1
 Version: 2
 Architecture: arm64
-Provides: linux-image-6.18-sky1
 Maintainer: Entrpi <entrpi@proton.me>
 Installed-Size: 213638
-Homepage: https://www.kernel.org/
-Priority: optional
-Section: kernel
+Provides: linux-image-6.18-sky1
 Filename: pool/main/l/linux-sky1/linux-image-6.18.3-sky1_2_arm64.deb
 Size: 36507320
-SHA256: 319a4f066265334b548ec2086ee3d630857c56cb0bd61a7ecf142355fec32428
-SHA1: ad94237b3a1e2f2e06fad0949c1a0cd4b2747aee
 MD5sum: 4da772a56df58392284c60362e95801b
+SHA1: ad94237b3a1e2f2e06fad0949c1a0cd4b2747aee
+SHA256: 319a4f066265334b548ec2086ee3d630857c56cb0bd61a7ecf142355fec32428
+Section: kernel
+Priority: optional
+Homepage: https://www.kernel.org/
 Description: Linux kernel, version 6.18.3-sky1
  This package contains the Linux kernel, modules and corresponding other
  files, version: 6.18.3-sky1.
@@ -1082,14 +1082,14 @@ Version: 2
 Architecture: arm64
 Maintainer: Entrpi <entrpi@proton.me>
 Installed-Size: 509484
-Homepage: https://www.kernel.org/
-Priority: optional
-Section: debug
 Filename: pool/main/l/linux-sky1/linux-image-6.18.3-sky1-dbg_2_arm64.deb
 Size: 100587780
-SHA256: eaf643ad7262ea7844b7495851fb26fad379d377334beb93175cc85513ef8f85
-SHA1: 7eb77789a7e2af5ebe02771453ddef96bb8449aa
 MD5sum: 3fb9fe165e676524ff40c74d8d730e55
+SHA1: 7eb77789a7e2af5ebe02771453ddef96bb8449aa
+SHA256: eaf643ad7262ea7844b7495851fb26fad379d377334beb93175cc85513ef8f85
+Section: debug
+Priority: optional
+Homepage: https://www.kernel.org/
 Description: Linux kernel debugging symbols for 6.18.3-sky1
  This package will come in handy if you need to debug the kernel. It provides
  all the necessary debug symbols for the kernel and its modules.
@@ -1098,17 +1098,17 @@ Package: linux-image-6.18.4-sky1
 Source: linux-sky1
 Version: 1
 Architecture: arm64
-Provides: linux-image-6.18-sky1
 Maintainer: Entrpi <entrpi@proton.me>
 Installed-Size: 213651
-Homepage: https://www.kernel.org/
-Priority: optional
-Section: kernel
+Provides: linux-image-6.18-sky1
 Filename: pool/main/l/linux-sky1/linux-image-6.18.4-sky1_1_arm64.deb
 Size: 36500324
-SHA256: c6960f6577599e93d10c039157209748359282909112d814b6fc980152fef0b9
-SHA1: 9b40c0d89743e1dde50feca8783dcc760049a21f
 MD5sum: 7aecf7a749ef4173c446c742ebe2cb06
+SHA1: 9b40c0d89743e1dde50feca8783dcc760049a21f
+SHA256: c6960f6577599e93d10c039157209748359282909112d814b6fc980152fef0b9
+Section: kernel
+Priority: optional
+Homepage: https://www.kernel.org/
 Description: Linux kernel, version 6.18.4-sky1
  This package contains the Linux kernel, modules and corresponding other
  files, version: 6.18.4-sky1.
@@ -1119,14 +1119,14 @@ Version: 1
 Architecture: arm64
 Maintainer: Entrpi <entrpi@proton.me>
 Installed-Size: 509519
-Homepage: https://www.kernel.org/
-Priority: optional
-Section: debug
 Filename: pool/main/l/linux-sky1/linux-image-6.18.4-sky1-dbg_1_arm64.deb
 Size: 100601880
-SHA256: b1be51c68cb1394a01410ad0de9520ad03172c95d8393fd531e4959d936dc0a7
-SHA1: e9a9105d4cdece4447f2e507f60c078f93763f75
 MD5sum: a9b96c2d45db327c892ae5b03d55e83d
+SHA1: e9a9105d4cdece4447f2e507f60c078f93763f75
+SHA256: b1be51c68cb1394a01410ad0de9520ad03172c95d8393fd531e4959d936dc0a7
+Section: debug
+Priority: optional
+Homepage: https://www.kernel.org/
 Description: Linux kernel debugging symbols for 6.18.4-sky1
  This package will come in handy if you need to debug the kernel. It provides
  all the necessary debug symbols for the kernel and its modules.
@@ -1138,18 +1138,43 @@ Architecture: arm64
 Maintainer: Entrpi <entrpi@proton.me>
 Installed-Size: 7421
 Provides: linux-kernel-headers
-Multi-Arch: same
-Homepage: https://www.kernel.org/
-Priority: optional
-Section: devel
 Filename: pool/main/l/linux-sky1/linux-libc-dev_7_arm64.deb
 Size: 1439888
-SHA256: beb868039b523fe8bef3ab58cf1cfdf382be1157e99903a190a58f88450c9d9c
-SHA1: d0315a88e5342b11dedcbcb7e849e9c85b4a47e3
 MD5sum: 8a9cc9bfe5a1e3f52cb9988576c2a4dd
+SHA1: d0315a88e5342b11dedcbcb7e849e9c85b4a47e3
+SHA256: beb868039b523fe8bef3ab58cf1cfdf382be1157e99903a190a58f88450c9d9c
+Section: devel
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.kernel.org/
 Description: Linux support headers for userspace development
  This package provides userspaces headers from the Linux kernel.  These headers
  are used by the installed headers for GNU glibc and other system libraries.
+
+Package: plasma-setup
+Version: 6.5.4-1sky1
+Architecture: arm64
+Maintainer: Sky1 Linux <info@sky1-linux.org>
+Installed-Size: 2078
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libkf6authcore6 (>= 6.0.0), libkf6configcore6 (>= 6.0.0), libkf6configgui6 (>= 6.0.0), libkf6coreaddons6 (>= 6.0.0), libkf6i18n6 (>= 6.0.0), libkf6i18nqml6 (>= 6.8.0), libkf6package6 (>= 6.0.0), libkf6screen8 (>= 4:6.1.0), libkscreen-bin, libkworkspace6-6 (>= 4:6.1.0), libqt6core6t64 (>= 6.9.1), libqt6dbus6 (>= 6.4.0), libqt6gui6 (>= 6.4.0), libqt6qml6 (>= 6.9.1), libqt6quick6 (>= 6.6.0), libqt6quickcontrols2-6 (>= 6.6.0), libqt6widgets6 (>= 6.1.2), libstdc++6 (>= 14), sddm, plasma-workspace
+Filename: pool/main/p/plasma-setup/plasma-setup_6.5.4-1sky1_arm64.deb
+Size: 293096
+MD5sum: e03814702ee07af670f4ff73065ee6de
+SHA1: 243a8c3111e412f442605bc24af1b9e325b216bf
+SHA256: 7a0f52b3c7403d82bab6c24dda904bfa6a9cb3af05cb03fd807a554a060cb5ad
+Section: kde
+Priority: optional
+Homepage: https://invent.kde.org/plasma/plasma-setup
+Description: KDE Plasma initial system setup wizard
+ Plasma Setup provides an out-of-the-box experience for new systems,
+ guiding users through initial configuration including:
+  - User account creation
+  - Language selection
+  - Keyboard layout selection
+  - Time zone selection
+  - Network configuration
+ .
+ This is intended for OEM installations where no user account exists yet.
 
 Package: r8126-dkms
 Version: 10.016.00-1
@@ -1157,14 +1182,14 @@ Architecture: all
 Maintainer: Entrpi <entrpi@proton.me>
 Installed-Size: 911
 Depends: dkms (>= 2.1.0.0)
-Homepage: https://github.com/sky1-linux/r8126-dkms
-Priority: optional
-Section: kernel
 Filename: pool/main/r/r8126-dkms/r8126-dkms_10.016.00-1_all.deb
 Size: 105360
-SHA256: 8fa0ee0355ef466d69ac1af6e0b49d1aff01851e81aea289baa449496f4a2c82
-SHA1: d12fca70f1f28262611e24493bfa0d85b2e9606f
 MD5sum: 757bc0b60564d794049b8935038a980f
+SHA1: d12fca70f1f28262611e24493bfa0d85b2e9606f
+SHA256: 8fa0ee0355ef466d69ac1af6e0b49d1aff01851e81aea289baa449496f4a2c82
+Section: kernel
+Priority: optional
+Homepage: https://github.com/sky1-linux/r8126-dkms
 Description: Realtek RTL8126 5GbE ethernet driver (DKMS)
  This package provides the Realtek r8126 driver for RTL8126 5 Gigabit
  Ethernet controllers using DKMS to build for any installed kernel.
@@ -1178,13 +1203,13 @@ Architecture: all
 Maintainer: Entrpi <entrpi@proton.me>
 Installed-Size: 8
 Depends: sky1-minimal, sky1-npu-dkms
-Priority: optional
-Section: metapackages
 Filename: pool/main/s/sky1-meta/sky1-ai_1.0.0_all.deb
 Size: 1408
-SHA256: 78337b024e81f64e2e275f11218627c899b5edae199b2be76dc73c7093f29fd2
-SHA1: 1a32d7137617b1e1ade07595fca963f4f39bf914
 MD5sum: 7ca548434d5cc7b6043f55f85df54d48
+SHA1: 1a32d7137617b1e1ade07595fca963f4f39bf914
+SHA256: 78337b024e81f64e2e275f11218627c899b5edae199b2be76dc73c7093f29fd2
+Section: metapackages
+Priority: optional
 Description: Sky1 Linux AI/NPU metapackage for Radxa Orion O6
  Extends sky1-minimal with NPU support:
  .
@@ -1197,13 +1222,13 @@ Architecture: all
 Maintainer: Entrpi <entrpi@proton.me>
 Installed-Size: 8
 Depends: linux-image-6.18-sky1, linux-headers-6.18-sky1, sky1-firmware, r8126-dkms, sky1-vpu-dkms, ffmpeg (>= 7:8.0), gstreamer1.0-plugins-good (>= 1.26), libva-v4l2-stateful
-Priority: optional
-Section: metapackages
 Filename: pool/main/s/sky1-meta/sky1-desktop_1.0.0_all.deb
 Size: 1588
-SHA256: 6c718cf5add527840f2ff9b38db747e88ec1df709fec0c87ba4b2e01bb502cef
-SHA1: 93b908be468ab364dd947a49174ac696808b75a7
 MD5sum: a961e3571fd3c99af1bd306e0a21c3af
+SHA1: 93b908be468ab364dd947a49174ac696808b75a7
+SHA256: 6c718cf5add527840f2ff9b38db747e88ec1df709fec0c87ba4b2e01bb502cef
+Section: metapackages
+Priority: optional
 Description: Sky1 Linux desktop metapackage for Radxa Orion O6
  Installs all packages needed for a complete Sky1 Linux desktop:
  .
@@ -1219,13 +1244,13 @@ Architecture: all
 Maintainer: Entrpi <entrpi@proton.me>
 Installed-Size: 8
 Depends: linux-image-6.18-sky1, linux-headers-6.18-sky1, sky1-firmware, r8126-dkms
-Priority: optional
-Section: metapackages
 Filename: pool/main/s/sky1-meta/sky1-minimal_1.0.0_all.deb
 Size: 1472
-SHA256: bb0386ac51069575b095ef6ffb939205e21a40a307a7bd883480286584c59f0e
-SHA1: 20b604529de101e86e2e486ddcf0f54cedad9988
 MD5sum: 146acafc5ea2e7f1163f359e5d97621a
+SHA1: 20b604529de101e86e2e486ddcf0f54cedad9988
+SHA256: bb0386ac51069575b095ef6ffb939205e21a40a307a7bd883480286584c59f0e
+Section: metapackages
+Priority: optional
 Description: Sky1 Linux minimal metapackage for Radxa Orion O6
  Installs essential packages for Sky1 Linux:
  .
@@ -1239,14 +1264,14 @@ Architecture: all
 Maintainer: Entrpi <entrpi@proton.me>
 Installed-Size: 414
 Depends: dkms (>= 2.1.0.0)
-Homepage: https://github.com/sky1-linux/sky1-drivers-dkms
-Priority: optional
-Section: kernel
 Filename: pool/main/s/sky1-npu-dkms/sky1-npu-dkms_1.0.0-2_all.deb
 Size: 69180
-SHA256: 694a8e69ac84f5b16832ff741b21b5f69977e4f1987c64c5283f503c2560a3d2
-SHA1: 90d4725b04c449f0eb935876837940f3222ed5cc
 MD5sum: 526aec579ba56aedafb35c641e67c1ef
+SHA1: 90d4725b04c449f0eb935876837940f3222ed5cc
+SHA256: 694a8e69ac84f5b16832ff741b21b5f69977e4f1987c64c5283f503c2560a3d2
+Section: kernel
+Priority: optional
+Homepage: https://github.com/sky1-linux/sky1-drivers-dkms
 Description: CIX Sky1 Neural Processing Unit driver (DKMS)
  This package provides the AIPU (ARM China Zhouyi NPU) driver
  for the CIX Sky1 NPU using DKMS.
@@ -1262,14 +1287,14 @@ Architecture: all
 Maintainer: Entrpi <entrpi@proton.me>
 Installed-Size: 1346
 Depends: dkms (>= 2.1.0.0)
-Homepage: https://github.com/sky1-linux/sky1-drivers-dkms
-Priority: optional
-Section: kernel
 Filename: pool/main/s/sky1-vpu-dkms/sky1-vpu-dkms_1.0.0-1_all.deb
 Size: 155520
-SHA256: 7b22fda204c1b2b49368ffd46541fae3ab202b1afeeeb0895d0c1b27d5b86a62
-SHA1: 2f7be20e8bc37573d170ef2d9b30e16d7163922f
 MD5sum: 46fb996310b9390b64cd70ad6dca89cf
+SHA1: 2f7be20e8bc37573d170ef2d9b30e16d7163922f
+SHA256: 7b22fda204c1b2b49368ffd46541fae3ab202b1afeeeb0895d0c1b27d5b86a62
+Section: kernel
+Priority: optional
+Homepage: https://github.com/sky1-linux/sky1-drivers-dkms
 Description: CIX Sky1 Video Processing Unit driver (DKMS)
  This package provides the AMVX driver for the CIX Sky1 VPU using DKMS.
  .
