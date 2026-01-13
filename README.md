@@ -66,11 +66,12 @@ sudo apt install linux-image-6.18-sky1 sky1-firmware
 | sky1-vpu-dkms | 1.0.0-1 | ARM Linlon MVE v8 VPU driver |
 | sky1-npu-dkms | 1.0.0-2 | ARM Zhouyi V3 NPU driver (30 TOPS) |
 
-### Installer
+### Installer & First-Boot
 
 | Package | Version | Description |
 |---------|---------|-------------|
-| calamares-settings-sky1 | 1.0.0-1 | Calamares installer branding and config |
+| calamares-settings-sky1 | 1.0.3-1 | Calamares installer branding and config |
+| plasma-setup | 6.5.4-1sky1 | KDE Plasma first-boot user creation wizard |
 
 ## Source Repositories
 
@@ -84,3 +85,5 @@ sudo apt install linux-image-6.18-sky1 sky1-firmware
 | [ffmpeg-sky1](https://github.com/Sky1-Linux/ffmpeg-sky1) | FFmpeg with V4L2 patches |
 | [gstreamer-sky1](https://github.com/Sky1-Linux/gstreamer-sky1) | GStreamer with v4l2av1dec |
 | [libva-v4l2-stateful](https://github.com/Sky1-Linux/libva-v4l2-stateful) | VA-API wrapper |
+| [plasma-setup](https://github.com/Sky1-Linux/plasma-setup) | KDE Plasma first-boot wizard |
+| [calamares-settings-sky1](https://github.com/Sky1-Linux/calamares-settings-sky1) | Calamares installer config |
