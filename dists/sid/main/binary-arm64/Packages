@@ -1020,6 +1020,27 @@ Description: Linux kernel headers for 6.18.4-sky1 on arm64
  This is useful for people who need to build external modules
 Depends: linux-image-6.18.4-sky1 (= 2)
 
+Package: linux-headers-6.18.7-sky1
+Source: linux-sky1
+Version: 1
+Architecture: arm64
+Provides: linux-headers-6.18-sky1
+Maintainer: Entrpi <entrpi@proton.me>
+Installed-Size: 54563
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-sky1/linux-headers-6.18.7-sky1_1_arm64.deb
+Size: 8972736
+SHA256: 8a55a4117eb87743b5e5561508cf4b7ebd39879a02c5adfdcbb70ed81ed5d675
+SHA1: 4fda62c7190f91fa5fa5bba24d709bc9d289083c
+MD5sum: e27ba8509851215093a212418ea83ae7
+Description: Linux kernel headers for 6.18.7-sky1 on arm64
+ This package provides kernel header files for 6.18.7-sky1 on arm64
+ .
+ This is useful for people who need to build external modules
+Depends: linux-image-6.18.7-sky1 (= 1)
+
 Package: linux-image-6.18.2-sky1
 Source: linux-sky1
 Version: 9
@@ -1128,6 +1149,43 @@ SHA256: 13169d7c4cd89530b226b39dc7893be67dbbd7711de9ef2162a66a68defeb645
 SHA1: 3ddde7b4ee2e5a90f15b33167626885ea162726d
 MD5sum: b5db014e4b25ba8b6fe7b7261993f8a3
 Description: Linux kernel debugging symbols for 6.18.4-sky1
+ This package will come in handy if you need to debug the kernel. It provides
+ all the necessary debug symbols for the kernel and its modules.
+
+Package: linux-image-6.18.7-sky1
+Source: linux-sky1
+Version: 1
+Architecture: arm64
+Provides: linux-image-6.18-sky1
+Maintainer: Entrpi <entrpi@proton.me>
+Installed-Size: 213660
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-sky1/linux-image-6.18.7-sky1_1_arm64.deb
+Size: 36506556
+SHA256: db162a5c03a0f9ed3e14d678d66d418b05613b42d83c408e43815897797b58ac
+SHA1: f27c131909b5526f29103e320428a468be67cdd2
+MD5sum: 707052784c1db2b3f87527d2ddbd6b9d
+Description: Linux kernel, version 6.18.7-sky1
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.18.7-sky1.
+
+Package: linux-image-6.18.7-sky1-dbg
+Source: linux-sky1
+Version: 1
+Architecture: arm64
+Maintainer: Entrpi <entrpi@proton.me>
+Installed-Size: 509573
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: debug
+Filename: pool/main/l/linux-sky1/linux-image-6.18.7-sky1-dbg_1_arm64.deb
+Size: 100594480
+SHA256: 4eb84154fadeb0baa01ee825e7b8452b060127f18dd82b9f01b9131fd75a7259
+SHA1: 017ba16577c0a207ac0bdcfe56d0e7c63dffa4cc
+MD5sum: f76797ab1bd83cc03f965efeccc36227
+Description: Linux kernel debugging symbols for 6.18.7-sky1
  This package will come in handy if you need to debug the kernel. It provides
  all the necessary debug symbols for the kernel and its modules.
 
