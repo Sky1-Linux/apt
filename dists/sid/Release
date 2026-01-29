@@ -2,13 +2,13 @@ Origin: Sky1 Linux
 Label: Sky1 Linux
 Suite: sid
 Codename: sid
-Date: Wed, 28 Jan 2026 07:18:43 UTC
+Date: Thu, 29 Jan 2026 03:36:43 UTC
 Architectures: arm64
 Components: main rc next non-free-firmware
 Description: Sky1 Linux packages for CIX Sky1 SoC
 MD5Sum:
- 7e27eeac3ca6823591182d90944c5d32 72498 main/binary-arm64/Packages
- d8c3397c77ddcb9f7132c81bd9ce8ece 16821 main/binary-arm64/Packages.gz
+ 1437ef9c731f5484c9cd79cd886a763a 74617 main/binary-arm64/Packages
+ f9c55209d1b5922ebb8859b40cca1405 17353 main/binary-arm64/Packages.gz
  812a9d3bd241329a424aa42e5396ed82 136 main/binary-arm64/Release
  d41d8cd98f00b204e9800998ecf8427e 0 rc/binary-arm64/Packages
  7029066c27ac6f5ef18d660d5741979a 20 rc/binary-arm64/Packages.gz
@@ -20,8 +20,8 @@ MD5Sum:
  02d14c12197b80cdf6b123958c306bc3 624 non-free-firmware/binary-arm64/Packages.gz
  14843bdeb115f2c6eb19df435bf3134d 149 non-free-firmware/binary-arm64/Release
 SHA1:
- a290bf49efcecc7bd00c592d2026b4bf6c9d2a69 72498 main/binary-arm64/Packages
- 725fd9aa9e7dc7004f875d6a0e1f2d83836fe97f 16821 main/binary-arm64/Packages.gz
+ 30b2a515cdfc2b723d0ab2ac8001d09ae3a1db92 74617 main/binary-arm64/Packages
+ c759cfe7cc1a52a933987aac0ca520351e140a35 17353 main/binary-arm64/Packages.gz
  00cc245af92085be57770766514a091b1dcddeb2 136 main/binary-arm64/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 rc/binary-arm64/Packages
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 rc/binary-arm64/Packages.gz
@@ -33,8 +33,8 @@ SHA1:
  6fe3359a4d331e893e04733f29ef2ce8d342a60b 624 non-free-firmware/binary-arm64/Packages.gz
  9bd516d920858729794a0664b66c076afd70e613 149 non-free-firmware/binary-arm64/Release
 SHA256:
- 9ed094fcf393bf22e9b39f52b49f19b8bdf901a3ce0cb3a241260a5ed4deb65a 72498 main/binary-arm64/Packages
- 72fec59d203e44ca3f6cc1319921f70dcd9a91d5e12bfb8fc80bbc12325ba19b 16821 main/binary-arm64/Packages.gz
+ c2572c822ac3587b0aec967dc504d217a7ce1eff51b6459fbc283f7dbb0ac19c 74617 main/binary-arm64/Packages
+ 8574262a1fd4247fff0ca358eb3b443a3f59b8c380df2cda92d1e6e9fb5106ba 17353 main/binary-arm64/Packages.gz
  576acb7b210b684311b2b102c6228335f36abcde578c1c7de81a679f623a467e 136 main/binary-arm64/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 rc/binary-arm64/Packages
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 rc/binary-arm64/Packages.gz
