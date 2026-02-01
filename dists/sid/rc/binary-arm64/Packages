@@ -1,6 +1,6 @@
 Package: linux-headers-6.19.0-rc7-sky1-rc
 Source: linux-sky1-rc
-Version: 1
+Version: 2
 Architecture: arm64
 Provides: linux-headers-6.19-sky1-rc
 Maintainer: Entrpi <entrpi@proton.me>
@@ -8,16 +8,16 @@ Installed-Size: 55007
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: kernel
-Filename: pool/rc/l/linux-sky1-rc/linux-headers-6.19.0-rc7-sky1-rc_1_arm64.deb
-Size: 9029520
-SHA256: 33eba34b7fb03f7fb3d7c018e2a16a8d944cc3d00ef3af4fc5fc51b4a52a3aa7
-SHA1: 93e02a0084a030b06273c63229a92069fa3ecb06
-MD5sum: e5ca99d9862960942fe3c7ebf890d5f6
+Filename: pool/rc/l/linux-sky1-rc/linux-headers-6.19.0-rc7-sky1-rc_2_arm64.deb
+Size: 9029460
+SHA256: 322d7d6c357c9f45921a2041b7e33761138d5db1977cab802e49fd582aee1d13
+SHA1: b7533017ceff0a699a9799574e37bf84ac6504c4
+MD5sum: 7c812f40733b8f8e79eebbdf8b0fe19a
 Description: Linux kernel headers for 6.19.0-rc7-sky1-rc on arm64
  This package provides kernel header files for 6.19.0-rc7-sky1-rc on arm64
  .
  This is useful for people who need to build external modules
-Depends: linux-image-6.19.0-rc7-sky1-rc (= 1)
+Depends: linux-image-6.19.0-rc7-sky1-rc (= 2)
 
 Package: linux-headers-sky1-rc
 Source: linux-sky1-rc-meta
@@ -41,7 +41,7 @@ Description: Sky1 Linux kernel headers (rc)
 
 Package: linux-image-6.19.0-rc7-sky1-rc
 Source: linux-sky1-rc
-Version: 1
+Version: 2
 Architecture: arm64
 Provides: linux-image-6.19-sky1-rc
 Maintainer: Entrpi <entrpi@proton.me>
@@ -49,29 +49,29 @@ Installed-Size: 221541
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: kernel
-Filename: pool/rc/l/linux-sky1-rc/linux-image-6.19.0-rc7-sky1-rc_1_arm64.deb
-Size: 37358880
-SHA256: 417017ecdea62dc75b4660fa0465b57b214d793d849733a0cbd56de222268bd3
-SHA1: b7756313068047c74bacb7dca0afd881fce6e7c3
-MD5sum: 15afc7eeace8a520f8d47fa90be988d6
+Filename: pool/rc/l/linux-sky1-rc/linux-image-6.19.0-rc7-sky1-rc_2_arm64.deb
+Size: 37356132
+SHA256: 3cc60a091131e6565e7dda952281f462253d48b139bcb7e4d4b27f35dae736a0
+SHA1: c96f1613d00e0479916ec568f0eec97452decbf2
+MD5sum: 4d7b2709c4f06963ad6f87cf570ff5ca
 Description: Linux kernel, version 6.19.0-rc7-sky1-rc
  This package contains the Linux kernel, modules and corresponding other
  files, version: 6.19.0-rc7-sky1-rc.
 
 Package: linux-image-6.19.0-rc7-sky1-rc-dbg
 Source: linux-sky1-rc
-Version: 1
+Version: 2
 Architecture: arm64
 Maintainer: Entrpi <entrpi@proton.me>
 Installed-Size: 515947
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: debug
-Filename: pool/rc/l/linux-sky1-rc/linux-image-6.19.0-rc7-sky1-rc-dbg_1_arm64.deb
-Size: 102228548
-SHA256: f560864ed82f7abb957c4e7125349c48cd5489db09b4ef00fafd849a8409166a
-SHA1: 789eb880a3b79e7902ac19c6fd89d6153c48af0e
-MD5sum: 236c8ea3c0fda3987899e6b357e8a805
+Filename: pool/rc/l/linux-sky1-rc/linux-image-6.19.0-rc7-sky1-rc-dbg_2_arm64.deb
+Size: 102220744
+SHA256: 974294a5f70db9011d6f2466d64eb61e029fc2c89d2fce6b445251d8c481d737
+SHA1: 05be7b78be364a56152d0038b64909a93cb75bd6
+MD5sum: 46f691f55d1730c33a2564304cc328b5
 Description: Linux kernel debugging symbols for 6.19.0-rc7-sky1-rc
  This package will come in handy if you need to debug the kernel. It provides
  all the necessary debug symbols for the kernel and its modules.
