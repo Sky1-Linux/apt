@@ -1001,43 +1001,43 @@ Depends: linux-image-6.18.7-sky1 (= 2)
 
 Package: linux-headers-6.18.8-sky1
 Source: linux-sky1
-Version: 1
+Version: 2
 Architecture: arm64
 Provides: linux-headers-6.18-sky1
 Maintainer: Entrpi <entrpi@proton.me>
-Installed-Size: 54608
+Installed-Size: 54610
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: kernel
-Filename: pool/main/l/linux-sky1/linux-headers-6.18.8-sky1_1_arm64.deb
-Size: 8983104
-SHA256: c6e17faad879e8b425f359627706b815e83ea60545c42fff75101db4a42b899e
-SHA1: b0492aa7bc550ac63f79081d62fa3239c45f946c
-MD5sum: f1992c2138575a03e16850b4fe1bc1d1
+Filename: pool/main/l/linux-sky1/linux-headers-6.18.8-sky1_2_arm64.deb
+Size: 8982820
+SHA256: cc3660d9a2b3957ad5399d5e918c554cf96673df1e868f238eec0a7666ee7c02
+SHA1: 87a1ee16f4e44e384287b06a40b422b088615e45
+MD5sum: b20b59065380015e82c719328d1b4739
 Description: Linux kernel headers for 6.18.8-sky1 on arm64
  This package provides kernel header files for 6.18.8-sky1 on arm64
  .
  This is useful for people who need to build external modules
-Depends: linux-image-6.18.8-sky1 (= 1)
+Depends: linux-image-6.18.8-sky1 (= 2)
 
 Package: linux-headers-sky1
 Source: linux-sky1-meta
-Version: 6.18.8
+Version: 6.18.8-2
 Architecture: arm64
 Maintainer: Entrpi <entrpi@proton.me>
 Installed-Size: 7
-Depends: linux-headers-6.18.8-sky1 (= 1)
+Depends: linux-headers-6.18.8-sky1 (= 2)
 Priority: optional
 Section: kernel
-Filename: pool/main/l/linux-sky1-meta/linux-headers-sky1_6.18.8_arm64.deb
-Size: 1164
-SHA256: a6792bff796d86aa656284ecf43dec9575d3aa656deb9a12bfd70a1498e6f4d2
-SHA1: 3847058139538144ae319f6344ab893f17b61a25
-MD5sum: bab55e9036120db0c0ebad7df2cda48a
-Description: Sky1 Linux kernel headers (latest stable)
+Filename: pool/main/l/linux-sky1-meta/linux-headers-sky1_6.18.8-2_arm64.deb
+Size: 1176
+SHA256: 3429bfd6a23c60faaf755e58af56cc907eb1c5aad85099cc3ec1e9edfaa634a8
+SHA1: 47d0e2bb62177e69e15d4672c30225ef6b10d67b
+MD5sum: f5b5af79839a91dde60951612379c32c
+Description: Sky1 Linux kernel headers
  Meta package that depends on the latest Sky1 Linux kernel headers.
  .
- This package always depends on the newest stable kernel headers,
+ This package always depends on the newest kernel headers for this track,
  matching the linux-image-sky1 meta package.
 
 Package: linux-image-6.18.4-sky1
@@ -1116,75 +1116,75 @@ Description: Linux kernel debugging symbols for 6.18.7-sky1
 
 Package: linux-image-6.18.8-sky1
 Source: linux-sky1
-Version: 1
+Version: 2
 Architecture: arm64
 Provides: linux-image-6.18-sky1
 Maintainer: Entrpi <entrpi@proton.me>
-Installed-Size: 214875
+Installed-Size: 214876
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: kernel
-Filename: pool/main/l/linux-sky1/linux-image-6.18.8-sky1_1_arm64.deb
-Size: 36752528
-SHA256: 0cb55e09a26b635fa37c3839dbb8e6a262ca923b5d580e8a0f9d25348fd0ff2e
-SHA1: 6b52789a4a3c03eb61a7e156b114b28f746732e8
-MD5sum: ac5c29435bd01847880a604f93a565be
+Filename: pool/main/l/linux-sky1/linux-image-6.18.8-sky1_2_arm64.deb
+Size: 36769952
+SHA256: feb342b03060350d421ff1dfd2cb1fcbbd6808b90255202662f3b656bda3960b
+SHA1: 3fc5159c794f362a71f1289cad79d20c070249b6
+MD5sum: f240c81fcc9f695f8f6d48de600ae7ed
 Description: Linux kernel, version 6.18.8-sky1
  This package contains the Linux kernel, modules and corresponding other
  files, version: 6.18.8-sky1.
 
 Package: linux-image-6.18.8-sky1-dbg
 Source: linux-sky1
-Version: 1
+Version: 2
 Architecture: arm64
 Maintainer: Entrpi <entrpi@proton.me>
-Installed-Size: 513709
+Installed-Size: 513712
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: debug
-Filename: pool/main/l/linux-sky1/linux-image-6.18.8-sky1-dbg_1_arm64.deb
-Size: 101376936
-SHA256: 901f419ddc2457488239673efae652c821c2a40bec0650c358c6bc0d4a1fb461
-SHA1: ebda3f479b771c9d4f3f7fe5fc8c10ee3caefac8
-MD5sum: b1aae714e2f7078f22dd655f05d3195e
+Filename: pool/main/l/linux-sky1/linux-image-6.18.8-sky1-dbg_2_arm64.deb
+Size: 101386884
+SHA256: a9285779116fb73ec7058cf074ed7e57c2803da90c6c2a1c5a3f79443b7092ba
+SHA1: d709b0172ea707e88a11b3a2c0149a01731847d5
+MD5sum: d9e3272cd3a6f6e91b94bd6a144f1f1c
 Description: Linux kernel debugging symbols for 6.18.8-sky1
  This package will come in handy if you need to debug the kernel. It provides
  all the necessary debug symbols for the kernel and its modules.
 
 Package: linux-image-sky1
 Source: linux-sky1-meta
-Version: 6.18.8
+Version: 6.18.8-2
 Architecture: arm64
 Maintainer: Entrpi <entrpi@proton.me>
 Installed-Size: 7
-Depends: linux-image-6.18.8-sky1 (= 1)
+Depends: linux-image-6.18.8-sky1 (= 2)
 Priority: optional
 Section: kernel
-Filename: pool/main/l/linux-sky1-meta/linux-image-sky1_6.18.8_arm64.deb
-Size: 1176
-SHA256: 717cd883e38b76840ad3eac0ef1f78879466e9080244bd6d46dd85a75137291e
-SHA1: 67bbad1abd23218cd326286e88bab51cd943be28
-MD5sum: 55890f462c37be10a62dd5252fe8e948
-Description: Sky1 Linux kernel (latest stable)
+Filename: pool/main/l/linux-sky1-meta/linux-image-sky1_6.18.8-2_arm64.deb
+Size: 1192
+SHA256: aa817459172c8197250481a5e0ad1ba753b8192003c12744d80b22f34524bb24
+SHA1: 4367ec643d0f3975e21a0b1861d37a6fac083396
+MD5sum: 2a6a3f3eb5d8a3c4bd759446286f7c10
+Description: Sky1 Linux kernel
  Meta package that depends on the latest Sky1 Linux kernel image.
  .
- This package always depends on the newest stable kernel release,
+ This package always depends on the newest kernel release for this track,
  making it easy to stay up-to-date via apt upgrade.
 
 Package: linux-sky1
 Source: linux-sky1-meta
-Version: 6.18.8
+Version: 6.18.8-2
 Architecture: arm64
 Maintainer: Entrpi <entrpi@proton.me>
 Installed-Size: 7
-Depends: linux-image-sky1 (= 6.18.8), linux-headers-sky1 (= 6.18.8)
+Depends: linux-image-sky1 (= 6.18.8-2), linux-headers-sky1 (= 6.18.8-2)
 Priority: optional
 Section: kernel
-Filename: pool/main/l/linux-sky1-meta/linux-sky1_6.18.8_arm64.deb
-Size: 1168
-SHA256: 048c52c59ee0014b8791c2d9374779d385e4d94c6506f86a192c94cbfc4fbfd4
-SHA1: b9b872ef3dd42f48ed4ea814b200d74330312bd9
-MD5sum: 5d391c17f26c8c4c8730fd664f0674a0
+Filename: pool/main/l/linux-sky1-meta/linux-sky1_6.18.8-2_arm64.deb
+Size: 1180
+SHA256: 6e38dc2aef99245b03127616f7bdc3f5b70f48ef65c6c53cc3adfc29033e6db6
+SHA1: ef3850cf1b4c2123482ca607e252b5b201e7a98b
+MD5sum: 92ee4124c139da213154945231bbdd34
 Description: Sky1 Linux kernel (image + headers)
  Meta package that installs both the Sky1 Linux kernel image and headers.
  .
