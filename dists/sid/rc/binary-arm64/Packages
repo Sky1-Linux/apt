@@ -21,18 +21,18 @@ Depends: linux-image-6.19.0-rc7-sky1-rc (= 3)
 
 Package: linux-headers-sky1-rc
 Source: linux-sky1-rc-meta
-Version: 6.19.0-rc7-2
+Version: 6.19.0-rc7-3
 Architecture: arm64
 Maintainer: Entrpi <entrpi@proton.me>
 Installed-Size: 7
-Depends: linux-headers-6.19.0-rc7-sky1-rc (= 2)
+Depends: linux-headers-6.19.0-rc7-sky1-rc (= 3)
 Priority: optional
 Section: kernel
-Filename: pool/rc/l/linux-sky1-rc-meta/linux-headers-sky1-rc_6.19.0-rc7-2_arm64.deb
-Size: 1188
-SHA256: 9a94333a6cdd838d687a5e0f435ced8abaae27040f9123f31bd6361893e15f72
-SHA1: 6311bb29b34714db90d6d5553c3934fdbf96589c
-MD5sum: 04cf6bc254c991034ef9bbb8a95e746f
+Filename: pool/rc/l/linux-sky1-rc-meta/linux-headers-sky1-rc_6.19.0-rc7-3_arm64.deb
+Size: 1192
+SHA256: 2f1fdccd539d6e5e2d9ed1b2930cd0b62f1320e3b189f07c14dfcdb0599af535
+SHA1: 7ea9d6477bee90e9e79cb4fac3cc06661dca5bb9
+MD5sum: 8ccf1abba261983584249d06841f7715
 Description: Sky1 Linux kernel headers (rc)
  Meta package that depends on the latest Sky1 Linux kernel headers.
  .
@@ -78,18 +78,18 @@ Description: Linux kernel debugging symbols for 6.19.0-rc7-sky1-rc
 
 Package: linux-image-sky1-rc
 Source: linux-sky1-rc-meta
-Version: 6.19.0-rc7-2
+Version: 6.19.0-rc7-3
 Architecture: arm64
 Maintainer: Entrpi <entrpi@proton.me>
 Installed-Size: 7
-Depends: linux-image-6.19.0-rc7-sky1-rc (= 2)
+Depends: linux-image-6.19.0-rc7-sky1-rc (= 3)
 Priority: optional
 Section: kernel
-Filename: pool/rc/l/linux-sky1-rc-meta/linux-image-sky1-rc_6.19.0-rc7-2_arm64.deb
+Filename: pool/rc/l/linux-sky1-rc-meta/linux-image-sky1-rc_6.19.0-rc7-3_arm64.deb
 Size: 1208
-SHA256: 2f88080890746ae8189c55cfe02c46275c82730622340e5e7c4d7525b3f5cad4
-SHA1: 9614a86fb83181e6a62ac796cf71714e34ba1eae
-MD5sum: 8e4ac89657b7ebc69bfdd3e3df5708fe
+SHA256: 54949e6e9f126c344a6009223a8f1c6ff69eed1e744682e73786a496c018377f
+SHA1: d4cf683af486063f0356884be59a634f2308317e
+MD5sum: a808cf0ba5f8cacdba559e039f3fb693
 Description: Sky1 Linux kernel (rc)
  Meta package that depends on the latest Sky1 Linux kernel image.
  .
@@ -98,18 +98,18 @@ Description: Sky1 Linux kernel (rc)
 
 Package: linux-sky1-rc
 Source: linux-sky1-rc-meta
-Version: 6.19.0-rc7-2
+Version: 6.19.0-rc7-3
 Architecture: arm64
 Maintainer: Entrpi <entrpi@proton.me>
 Installed-Size: 7
-Depends: linux-image-sky1-rc (= 6.19.0-rc7-2), linux-headers-sky1-rc (= 6.19.0-rc7-2)
+Depends: linux-image-sky1-rc (= 6.19.0-rc7-3), linux-headers-sky1-rc (= 6.19.0-rc7-3)
 Priority: optional
 Section: kernel
-Filename: pool/rc/l/linux-sky1-rc-meta/linux-sky1-rc_6.19.0-rc7-2_arm64.deb
-Size: 1208
-SHA256: 5ea4c0aa540f476dddb3e73ee6e2f89fedf41d3e0d18cbbd688117d1ac3588bf
-SHA1: 89ab48bce3c1dcf0c749d185ce67c3af292d1ada
-MD5sum: 6a839d430c2ee3ad4881854214321043
+Filename: pool/rc/l/linux-sky1-rc-meta/linux-sky1-rc_6.19.0-rc7-3_arm64.deb
+Size: 1212
+SHA256: fb785a34427773e20c454f8c2679e61720e82547293114ded66417236e921a6a
+SHA1: 93e90ae8ceffa79eb2d1b1d32d8659788bb9d133
+MD5sum: 32a3fdac7f70d3c959c4dd8480a384a5
 Description: Sky1 Linux kernel (image + headers) (rc)
  Meta package that installs both the Sky1 Linux kernel image and headers.
  .
