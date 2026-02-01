@@ -5,7 +5,7 @@ Origin: Sky1 Linux
 Label: Sky1 Linux
 Suite: sid
 Codename: sid
-Date: Sun, 01 Feb 2026 10:23:30 UTC
+Date: Sun, 01 Feb 2026 10:33:29 UTC
 Architectures: arm64
 Components: main rc next non-free-firmware
 Description: Sky1 Linux packages for CIX Sky1 SoC
@@ -13,8 +13,8 @@ MD5Sum:
  c812a5cd96c1cb716b5ca6a1aeece92b 71877 main/binary-arm64/Packages
  ce9c6457c13dfbc3dd7c21fcb17a35df 16756 main/binary-arm64/Packages.gz
  812a9d3bd241329a424aa42e5396ed82 136 main/binary-arm64/Release
- bfb5a546896e720b625c2bb5c3fb2f97 4342 rc/binary-arm64/Packages
- 661a784f4fbf6ddb7cfed59d27b379b4 1412 rc/binary-arm64/Packages.gz
+ 1cfcac38ecf770f4a49ac0ecca19e1be 4358 rc/binary-arm64/Packages
+ 90b24b45887ad0a377ff99b2de9fd7f5 1411 rc/binary-arm64/Packages.gz
  2292db7fc561eae4ff57205e5ef86f48 134 rc/binary-arm64/Release
  d41d8cd98f00b204e9800998ecf8427e 0 next/binary-arm64/Packages
  7029066c27ac6f5ef18d660d5741979a 20 next/binary-arm64/Packages.gz
@@ -26,8 +26,8 @@ SHA1:
  200c76e84a1a367d000d6c2e0e9c73463cfa5b99 71877 main/binary-arm64/Packages
  c905e95493b8401585c8a1a01d97b85e863fd7c1 16756 main/binary-arm64/Packages.gz
  00cc245af92085be57770766514a091b1dcddeb2 136 main/binary-arm64/Release
- a2447ba8833095dc48f9fcfb5d3429a92926a334 4342 rc/binary-arm64/Packages
- 220635c52a4faad06a49249871116fcedba019e1 1412 rc/binary-arm64/Packages.gz
+ 51f5b1b1fc327bcef40d3b0d70c6184fc9b83e2d 4358 rc/binary-arm64/Packages
+ af05b3f6242366b4dd827f2bb7759bdde27b4cad 1411 rc/binary-arm64/Packages.gz
  f594753d7a4b85631a032efbd19097e10b803b86 134 rc/binary-arm64/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 next/binary-arm64/Packages
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 next/binary-arm64/Packages.gz
@@ -39,8 +39,8 @@ SHA256:
  d51b0f477c551f05e23340b7ef3380826f6cd01c25fedbcc80505461b9e9d08c 71877 main/binary-arm64/Packages
  93153ac26141bfec30feb7530e3d6a6625161a7e290af846c4d093adbcb94416 16756 main/binary-arm64/Packages.gz
  576acb7b210b684311b2b102c6228335f36abcde578c1c7de81a679f623a467e 136 main/binary-arm64/Release
- b9cadc69f23a0e9ed7608365016f55feb94bc9375cb4a96cc399fcb120dd51cd 4342 rc/binary-arm64/Packages
- c0a6955706b76580744b461c41e0fd41c75dfa37d909b939b37a2ced949bdcc1 1412 rc/binary-arm64/Packages.gz
+ aa3d82e911b0d70f25e3d1dca1c92dac1ab182ffe3a4921e9cf2e2fc473e6074 4358 rc/binary-arm64/Packages
+ 5b13b9d76950f0df6305e16551c598243772b3e13524ff6429de56c91326a2d0 1411 rc/binary-arm64/Packages.gz
  34792d2307fc53d36fe8d2df762d8b86641e7db9d5e5b7da81197eaac3f5f5d0 134 rc/binary-arm64/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 next/binary-arm64/Packages
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 next/binary-arm64/Packages.gz
@@ -50,17 +50,17 @@ SHA256:
  ec7f09d574bd2344d3abc567f946679d358475e328dac29b32f8d18e73114c4a 149 non-free-firmware/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEEZVOTJhIEg0mbnOBW9OKGmCMMGXcFAml/KaIACgkQ9OKGmCMM
-GXe4mA//XG2CBMDQSeaq9VQ8xiX/M7IlyXzuMUa2OMGmsBeswY4S8BvbHF/fnC3W
-OIxOcd7tET7d0pb0ZdueAX+j8JiJTYnIZwSVTmCnJMMcwDBJeEF9V+Rmk/FgX/oV
-FiUi44xGrpAvuLdbZRpgQcZpwhynOxKcrxP+poYhPW6Spzgl/BtKez3oUdGjWRln
-nLwEEXQ2MwT65/ISWHcgULNjAWtONpoX4tQVM6KTjeJbKeSr1ou728C5upwWzaeq
-JJ71JmudtFO4dlEK+tgjMOE+JbJxgDD9lEcRro8B5MBmwSY9jzyH/0i5V8MeM1D/
-mGX3gdN2onlEeHwFMmXgZ/KJf9suVUUaHlrOW2mGugwnnYnYFRVo9xNrymwLL01d
-Zo2ElTGDtBOFD86uppMFxy3amZx+FzQreA3qVN7oPHTZgWR/Y7ILIYLnRWPv1utN
-p0ijlQ/my5zR8FujVqln/mRkObc1NjMbTPOAA2xMBrSzeAJ/TWqKPsk2QRPvJ6tG
-jiOQYbpjPu3vy2EOlcvyRVOvHmdyBSEOuCy/0v7SJd0F1eH6DSQfGs4JsATibOqa
-YmAaot+9MUKe8Wl3KKVLTPDVWOENCZHvNtUbMerteO+6Ch1PC9WEmvKdHUm+wVZa
-er+mmkPW2d/nLekXlGSaSRAnZiN1NpWHeJUMdR7N/f5C5vyJWuo=
-=5rB9
+iQIzBAEBCgAdFiEEZVOTJhIEg0mbnOBW9OKGmCMMGXcFAml/K/kACgkQ9OKGmCMM
+GXdxyRAAhx02u3fl+cOgVo1CpP9/S0xI2+qsJEGFbvbcIfxEvGyUzuWG+TBE+4o1
+8V82+MINE2klh8L+bqlJX5EXLXP1L45skGlVFdRw4+5FKeL7gmCEP/zJ2OlM6JiN
+32Pfc6PMnQvY6z4z9MC/k2gmspJbls1Dp0xlVfXjbnaopR8Lwll8ivmWQYXpexSJ
+fxfy3oJ7U6EAA7HagoZMAb6zx/WpkCUtKBlCK9IPUjzquJrFr97Dqydw1kyY/wG9
+txcct5VISkXOeNot+6uDEmhA9dznDrT5J0Il1ftcWaAO7ayEXNGRXhuIMg7nuWMb
+jKjUyhsnvQNwz/hJFF/swkjbzaVniZ32I/IYChbedoh/WHOyiNzr2no56uPGmp7f
+DOtVCv28mT0tq5FVTRD6KjM0wZSCdancv9c4QGqgL7etkkW0TRjbehe+wX02F4KF
+ZBENmFI/kO3khcXCmpF8mpRrrY4n5cDNXusTCRozJ1Hv6asBcmr7mzrxgXhN7X5N
+1pljujq4BSuZlhgLpn77KK1ObCgDa6ux582VWYrZDH5hN7DZ1Z/ZoFlTe8X9TXdx
+thKs7ctElFRYVe/s+JCQ8wDB/pILonUuu0ZeTG3hBMMa/fMwcrD/EYOxir3sAdDd
+UcfNN3XZfsysSyETvZJ0/EDI9SOMB8TPva6vphHgCjw4buiLMRY=
+=e7ho
 -----END PGP SIGNATURE-----
