@@ -71,17 +71,17 @@ sudo apt autoremove  # removes old track's kernel
 
 | Package | Version | Description |
 |---------|---------|-------------|
-| linux-image-sky1-rc | 6.19.0-rc7 | Meta: latest RC kernel image |
-| linux-headers-sky1-rc | 6.19.0-rc7 | Meta: latest RC kernel headers |
-| linux-sky1-rc | 6.19.0-rc7 | Meta: image + headers |
-| linux-image-6.19.0-rc7-sky1-rc | 1 | Linux 6.19-rc7 for Sky1 |
-| linux-headers-6.19.0-rc7-sky1-rc | 1 | Kernel headers for module building |
+| linux-image-sky1-rc | 6.19.0-rc8 | Meta: latest RC kernel image |
+| linux-headers-sky1-rc | 6.19.0-rc8 | Meta: latest RC kernel headers |
+| linux-sky1-rc | 6.19.0-rc8 | Meta: image + headers |
+| linux-image-6.19.0-rc8-sky1-rc | 1 | Linux 6.19-rc8 for Sky1 |
+| linux-headers-6.19.0-rc8-sky1-rc | 1 | Kernel headers for module building |
 
 ### Firmware (non-free-firmware)
 
 | Package | Version | Description |
 |---------|---------|-------------|
-| sky1-firmware | 1.1.0 | GPU, DSP, VPU, WiFi firmware |
+| sky1-firmware | 1.2.0 | GPU, DSP, VPU, WiFi firmware, HDMI audio UCM2 config |
 
 ### Multimedia
 
