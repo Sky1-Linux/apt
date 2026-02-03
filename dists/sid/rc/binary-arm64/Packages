@@ -21,7 +21,7 @@ Depends: linux-image-6.19.0-rc7-sky1-rc (= 3)
 
 Package: linux-headers-6.19.0-rc8-sky1-rc
 Source: linux-sky1-rc
-Version: 4
+Version: 5
 Architecture: arm64
 Provides: linux-headers-6.19-sky1-rc
 Maintainer: Entrpi <entrpi@proton.me>
@@ -29,31 +29,31 @@ Installed-Size: 55054
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: kernel
-Filename: pool/rc/l/linux-sky1-rc/linux-headers-6.19.0-rc8-sky1-rc_4_arm64.deb
-Size: 9039424
-SHA256: fc5981adc895caa8ec28bfda35d8e700fdda0b19617ee19647afc39225fab150
-SHA1: 8cb54d83c25c71c57c2282883b4b081c79d302b5
-MD5sum: 3729e35672805969f15367c81cb28004
+Filename: pool/rc/l/linux-sky1-rc/linux-headers-6.19.0-rc8-sky1-rc_5_arm64.deb
+Size: 9039696
+SHA256: eb2c1786fe8e3351b2ab1636c404cecaada1397ff8fbd03e581d7c8874c9885e
+SHA1: afea998fe5abfce989cf9d79a80cc06942324168
+MD5sum: f930196d2a40f62feabe801a6faac238
 Description: Linux kernel headers for 6.19.0-rc8-sky1-rc on arm64
  This package provides kernel header files for 6.19.0-rc8-sky1-rc on arm64
  .
  This is useful for people who need to build external modules
-Depends: linux-image-6.19.0-rc8-sky1-rc (= 4)
+Depends: linux-image-6.19.0-rc8-sky1-rc (= 5)
 
 Package: linux-headers-sky1-rc
 Source: linux-sky1-rc-meta
-Version: 6.19.0-rc8-4
+Version: 6.19.0-rc8-5
 Architecture: arm64
 Maintainer: Entrpi <entrpi@proton.me>
 Installed-Size: 7
-Depends: linux-headers-6.19.0-rc8-sky1-rc (= 4)
+Depends: linux-headers-6.19.0-rc8-sky1-rc (= 5)
 Priority: optional
 Section: kernel
-Filename: pool/rc/l/linux-sky1-rc-meta/linux-headers-sky1-rc_6.19.0-rc8-4_arm64.deb
-Size: 1188
-SHA256: 9b011902be963ee133e46415aa348c0a45cf9447b57c37494de2624730ed8e7d
-SHA1: 94a2add6874d4bf7dee647a43982f9e27f6594ec
-MD5sum: ca227c2d11da1cd3c6978c030bb86f7b
+Filename: pool/rc/l/linux-sky1-rc-meta/linux-headers-sky1-rc_6.19.0-rc8-5_arm64.deb
+Size: 1184
+SHA256: c2b899e1c9a5e0435f75d6505347228d7e0cbc155588612b0cf99507c0103f9e
+SHA1: 7654695f94a9d2f2212612d8edddc2df6b432d97
+MD5sum: 84acbf1baa66a1eafe4d396211b0cd73
 Description: Sky1 Linux kernel headers (rc)
  Meta package that depends on the latest Sky1 Linux kernel headers.
  .
@@ -99,55 +99,55 @@ Description: Linux kernel debugging symbols for 6.19.0-rc7-sky1-rc
 
 Package: linux-image-6.19.0-rc8-sky1-rc
 Source: linux-sky1-rc
-Version: 4
+Version: 5
 Architecture: arm64
 Provides: linux-image-6.19-sky1-rc
 Maintainer: Entrpi <entrpi@proton.me>
-Installed-Size: 221804
+Installed-Size: 221806
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: kernel
-Filename: pool/rc/l/linux-sky1-rc/linux-image-6.19.0-rc8-sky1-rc_4_arm64.deb
-Size: 37351968
-SHA256: 10fb0744ac46b6f7792edadd334ba48b0dffe10cddeff38e4a9ac781cd0563f2
-SHA1: 16ed54141a9b101ed53fcd0d3959ec50c712a522
-MD5sum: 24473bea39fd464e1c1748cad243d958
+Filename: pool/rc/l/linux-sky1-rc/linux-image-6.19.0-rc8-sky1-rc_5_arm64.deb
+Size: 37350960
+SHA256: f92b5228d7de0f9eb69d20789fb669eb9a5328a81f3c1c9e5687f53b1900fde1
+SHA1: b822be750bef13e3566279bfc64cff624d49b8c7
+MD5sum: 7d7cd61df5ce2747945d50fff96e632a
 Description: Linux kernel, version 6.19.0-rc8-sky1-rc
  This package contains the Linux kernel, modules and corresponding other
  files, version: 6.19.0-rc8-sky1-rc.
 
 Package: linux-image-6.19.0-rc8-sky1-rc-dbg
 Source: linux-sky1-rc
-Version: 4
+Version: 5
 Architecture: arm64
 Maintainer: Entrpi <entrpi@proton.me>
 Installed-Size: 516137
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: debug
-Filename: pool/rc/l/linux-sky1-rc/linux-image-6.19.0-rc8-sky1-rc-dbg_4_arm64.deb
-Size: 102243480
-SHA256: 90dcc291f0562bdb9006b3ffc0d87be81da8556ba4e5a3922cb85250a4de0633
-SHA1: 218279e725fe1977fc42419822d3105a5f4fde6b
-MD5sum: 0abf8179ad063d75a2cb37f48865b13f
+Filename: pool/rc/l/linux-sky1-rc/linux-image-6.19.0-rc8-sky1-rc-dbg_5_arm64.deb
+Size: 102270272
+SHA256: 109f5a9f8651497b0a26961cac1a4330c8b1b5fe0d1df646574dddef4b21233b
+SHA1: 5b76b4090c127d44816ed422f28fea97b089bcf5
+MD5sum: 0a11bdf3eb549584c7cb86723438f436
 Description: Linux kernel debugging symbols for 6.19.0-rc8-sky1-rc
  This package will come in handy if you need to debug the kernel. It provides
  all the necessary debug symbols for the kernel and its modules.
 
 Package: linux-image-sky1-rc
 Source: linux-sky1-rc-meta
-Version: 6.19.0-rc8-4
+Version: 6.19.0-rc8-5
 Architecture: arm64
 Maintainer: Entrpi <entrpi@proton.me>
 Installed-Size: 7
-Depends: linux-image-6.19.0-rc8-sky1-rc (= 4)
+Depends: linux-image-6.19.0-rc8-sky1-rc (= 5)
 Priority: optional
 Section: kernel
-Filename: pool/rc/l/linux-sky1-rc-meta/linux-image-sky1-rc_6.19.0-rc8-4_arm64.deb
-Size: 1208
-SHA256: ec56cd9c54dfd3828257676892ba2f8f151b54e77e2ae698f41c01e67944f7ce
-SHA1: 7aac64b48d4f8d29dc57955a1ac729a2bf8793f3
-MD5sum: 1af9b372b3126fb00ba290d9adecb4dc
+Filename: pool/rc/l/linux-sky1-rc-meta/linux-image-sky1-rc_6.19.0-rc8-5_arm64.deb
+Size: 1204
+SHA256: 2b5e751b2519f17c6943fea8565de6c287169470a272a161366e4c833bd855ed
+SHA1: 13e9d33b0bb1b8a71b5498e8311960e3dacd541e
+MD5sum: e24449cd0663892157f60e8d884c9f91
 Description: Sky1 Linux kernel (rc)
  Meta package that depends on the latest Sky1 Linux kernel image.
  .
@@ -156,18 +156,18 @@ Description: Sky1 Linux kernel (rc)
 
 Package: linux-sky1-rc
 Source: linux-sky1-rc-meta
-Version: 6.19.0-rc8-4
+Version: 6.19.0-rc8-5
 Architecture: arm64
 Maintainer: Entrpi <entrpi@proton.me>
 Installed-Size: 7
-Depends: linux-image-sky1-rc (= 6.19.0-rc8-4), linux-headers-sky1-rc (= 6.19.0-rc8-4)
+Depends: linux-image-sky1-rc (= 6.19.0-rc8-5), linux-headers-sky1-rc (= 6.19.0-rc8-5)
 Priority: optional
 Section: kernel
-Filename: pool/rc/l/linux-sky1-rc-meta/linux-sky1-rc_6.19.0-rc8-4_arm64.deb
-Size: 1212
-SHA256: 6ef9a291784cc5cbf1eb5b992e608d529196ed8420701c5ff8ccf89e22de74bc
-SHA1: a9dae04a8f83aac7f6084751f00152aa966ebc17
-MD5sum: 5f414eab94f100540ab5704f21570066
+Filename: pool/rc/l/linux-sky1-rc-meta/linux-sky1-rc_6.19.0-rc8-5_arm64.deb
+Size: 1204
+SHA256: ca3461d6a3ac24c52a9ff3c1d53108f0d0471aa89c1a9fd420b986f76e2b3e0b
+SHA1: 97ede35ccf8ad793afb233dd9c021970ee2190b6
+MD5sum: 30e061b186211b807e4eb17bf16b6aa8
 Description: Sky1 Linux kernel (image + headers) (rc)
  Meta package that installs both the Sky1 Linux kernel image and headers.
  .
