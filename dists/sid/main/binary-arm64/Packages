@@ -929,76 +929,6 @@ Description: FFmpeg library for image scaling and various conversions - runtime 
  .
  This package contains the runtime files.
 
-Package: libva-v4l2-stateful
-Version: 0.1.0-1
-Architecture: arm64
-Maintainer: Entrpi <entrpi@proton.me>
-Installed-Size: 79
-Depends: libc6 (>= 2.17)
-Homepage: https://github.com/sky1-linux/libva-v4l2-stateful
-Priority: optional
-Section: libs
-Filename: pool/main/libv/libva-v4l2-stateful/libva-v4l2-stateful_0.1.0-1_arm64.deb
-Size: 15112
-SHA256: b8e550290df34580c6edebf84892624e8c891ef46d46fbcc756546671e9d0b38
-SHA1: 8838ab9d4a00cd62490f3ca63deb69eef3ee826f
-MD5sum: 468562d4d715fbaefa75c84043b71658
-Description: VA-API driver for V4L2 stateful video decoders
- This package provides a VA-API backend driver that wraps V4L2 stateful
- (memory-to-memory) video decoders, enabling VA-API-only applications
- to use hardware video decode on platforms with V4L2-only interfaces.
- .
- Supported codecs: H.264, HEVC, VP8, VP9, AV1
- .
- Target hardware: CIX Sky1 VPU (Linlon Video device)
- .
- Enables hardware decode in:
-  - Firefox (VA-API)
-  - Chromium (VA-API)
-  - mpv (--hwdec=vaapi-copy)
-
-Package: linux-headers-6.18.4-sky1
-Source: linux-sky1
-Version: 2
-Architecture: arm64
-Provides: linux-headers-6.18-sky1
-Maintainer: Entrpi <entrpi@proton.me>
-Installed-Size: 54563
-Homepage: https://www.kernel.org/
-Priority: optional
-Section: kernel
-Filename: pool/main/l/linux-sky1/linux-headers-6.18.4-sky1_2_arm64.deb
-Size: 8971760
-SHA256: 667a7b52964b4bfd925201a4dd34096e1187e253bd0d7d68d8524801751bc710
-SHA1: 534cd407a978c465e90752c9c83f9e033d1cb1c1
-MD5sum: dd9e51f826531e1b6e8a4ed35eb10892
-Description: Linux kernel headers for 6.18.4-sky1 on arm64
- This package provides kernel header files for 6.18.4-sky1 on arm64
- .
- This is useful for people who need to build external modules
-Depends: linux-image-6.18.4-sky1 (= 2)
-
-Package: linux-headers-6.18.7-sky1
-Source: linux-sky1
-Version: 2
-Architecture: arm64
-Provides: linux-headers-6.18-sky1
-Maintainer: Entrpi <entrpi@proton.me>
-Installed-Size: 54564
-Homepage: https://www.kernel.org/
-Priority: optional
-Section: kernel
-Filename: pool/main/l/linux-sky1/linux-headers-6.18.7-sky1_2_arm64.deb
-Size: 8973084
-SHA256: 76080864cd3f05b0b5a8bd6ba1538ff33d1c6a5a8f47d13e56966dc704981d82
-SHA1: 5929022c9a14542883922c33bb062647c87bc76e
-MD5sum: bb5db5e0acf67eea6cd07af35b60d91d
-Description: Linux kernel headers for 6.18.7-sky1 on arm64
- This package provides kernel header files for 6.18.7-sky1 on arm64
- .
- This is useful for people who need to build external modules
-Depends: linux-image-6.18.7-sky1 (= 2)
-
 Package: linux-headers-6.18.8-sky1
 Source: linux-sky1
 Version: 2
@@ -1039,80 +969,6 @@ Description: Sky1 Linux kernel headers
  .
  This package always depends on the newest kernel headers for this track,
  matching the linux-image-sky1 meta package.
-
-Package: linux-image-6.18.4-sky1
-Source: linux-sky1
-Version: 2
-Architecture: arm64
-Provides: linux-image-6.18-sky1
-Maintainer: Entrpi <entrpi@proton.me>
-Installed-Size: 213651
-Homepage: https://www.kernel.org/
-Priority: optional
-Section: kernel
-Filename: pool/main/l/linux-sky1/linux-image-6.18.4-sky1_2_arm64.deb
-Size: 36507388
-SHA256: b35d9f65a1aad268ef84167b9969b5080f95ab512864c2383d36620bca42e3b6
-SHA1: a7614671ee635b8e72f9ade35c3299f88494bbcc
-MD5sum: 1d5b4af676bcbd47579447ab6516cbf7
-Description: Linux kernel, version 6.18.4-sky1
- This package contains the Linux kernel, modules and corresponding other
- files, version: 6.18.4-sky1.
-
-Package: linux-image-6.18.4-sky1-dbg
-Source: linux-sky1
-Version: 2
-Architecture: arm64
-Maintainer: Entrpi <entrpi@proton.me>
-Installed-Size: 509519
-Homepage: https://www.kernel.org/
-Priority: optional
-Section: debug
-Filename: pool/main/l/linux-sky1/linux-image-6.18.4-sky1-dbg_2_arm64.deb
-Size: 100609756
-SHA256: 13169d7c4cd89530b226b39dc7893be67dbbd7711de9ef2162a66a68defeb645
-SHA1: 3ddde7b4ee2e5a90f15b33167626885ea162726d
-MD5sum: b5db014e4b25ba8b6fe7b7261993f8a3
-Description: Linux kernel debugging symbols for 6.18.4-sky1
- This package will come in handy if you need to debug the kernel. It provides
- all the necessary debug symbols for the kernel and its modules.
-
-Package: linux-image-6.18.7-sky1
-Source: linux-sky1
-Version: 2
-Architecture: arm64
-Provides: linux-image-6.18-sky1
-Maintainer: Entrpi <entrpi@proton.me>
-Installed-Size: 214872
-Homepage: https://www.kernel.org/
-Priority: optional
-Section: kernel
-Filename: pool/main/l/linux-sky1/linux-image-6.18.7-sky1_2_arm64.deb
-Size: 36778536
-SHA256: 31de3c7d0c1b81b06d3fcb6c1f3b991c2598c9db703665b94c5ce534dd7c5b8a
-SHA1: 8b735f9bdbc81a1b49c5ed010990671e5919f7f8
-MD5sum: d6f47088474c00ed7593f1365f1fcdd7
-Description: Linux kernel, version 6.18.7-sky1
- This package contains the Linux kernel, modules and corresponding other
- files, version: 6.18.7-sky1.
-
-Package: linux-image-6.18.7-sky1-dbg
-Source: linux-sky1
-Version: 2
-Architecture: arm64
-Maintainer: Entrpi <entrpi@proton.me>
-Installed-Size: 513686
-Homepage: https://www.kernel.org/
-Priority: optional
-Section: debug
-Filename: pool/main/l/linux-sky1/linux-image-6.18.7-sky1-dbg_2_arm64.deb
-Size: 101369424
-SHA256: 5c8f3ac182825a5a6d7a96e559ba5a9e33ef0cdb941f686d31f7cb3c43c7aebd
-SHA1: 4ff1178e7e63eef8d9488bcf7f10dac22857a92f
-MD5sum: 7a87024621b75e74fdf2f3e18872cf75
-Description: Linux kernel debugging symbols for 6.18.7-sky1
- This package will come in handy if you need to debug the kernel. It provides
- all the necessary debug symbols for the kernel and its modules.
 
 Package: linux-image-6.18.8-sky1
 Source: linux-sky1
@@ -1216,130 +1072,63 @@ Description: KDE Plasma initial system setup wizard
  .
  This is intended for OEM installations where no user account exists yet.
 
-Package: r8126-dkms
-Version: 10.016.00-1
-Architecture: all
-Maintainer: Entrpi <entrpi@proton.me>
-Installed-Size: 911
-Depends: dkms (>= 2.1.0.0)
-Homepage: https://github.com/sky1-linux/r8126-dkms
-Priority: optional
-Section: kernel
-Filename: pool/main/r/r8126-dkms/r8126-dkms_10.016.00-1_all.deb
-Size: 105360
-SHA256: 8fa0ee0355ef466d69ac1af6e0b49d1aff01851e81aea289baa449496f4a2c82
-SHA1: d12fca70f1f28262611e24493bfa0d85b2e9606f
-MD5sum: 757bc0b60564d794049b8935038a980f
-Description: Realtek RTL8126 5GbE ethernet driver (DKMS)
- This package provides the Realtek r8126 driver for RTL8126 5 Gigabit
- Ethernet controllers using DKMS to build for any installed kernel.
- .
- The RTL8126 is found on boards like the Radxa Orion O6.
-
-Package: sky1-ai
-Source: sky1-meta
+Package: sky1-apt-config
 Version: 1.0.0
 Architecture: all
 Maintainer: Entrpi <entrpi@proton.me>
-Installed-Size: 8
-Depends: sky1-minimal, sky1-npu-dkms
+Installed-Size: 19
+Multi-Arch: foreign
 Priority: optional
-Section: metapackages
-Filename: pool/main/s/sky1-meta/sky1-ai_1.0.0_all.deb
-Size: 1408
-SHA256: 78337b024e81f64e2e275f11218627c899b5edae199b2be76dc73c7093f29fd2
-SHA1: 1a32d7137617b1e1ade07595fca963f4f39bf914
-MD5sum: 7ca548434d5cc7b6043f55f85df54d48
-Description: Sky1 Linux AI/NPU metapackage for Radxa Orion O6
- Extends sky1-minimal with NPU support:
+Section: admin
+Filename: pool/main/s/sky1-apt-config/sky1-apt-config_1.0.0_all.deb
+Size: 4660
+SHA256: e6a274d3e333a957e8a594c7e402ebb2a3b6c18012531ab91dbb528446ea11c9
+SHA1: 1b2cf110b23817af930916e7ba96385a156594a3
+MD5sum: dfc59dca5f9e6da76175e1c03e290204
+Description: APT repository configuration for Sky1 Linux
+ Configures the Sky1 Linux package repository:
  .
-  - ARM Zhouyi V3 NPU driver (30 TOPS)
+  - APT sources list for sky1-linux.github.io/apt
+  - Signing key for package verification
+  - Pin priority to prefer Sky1 packages over upstream
 
 Package: sky1-desktop
 Source: sky1-meta
-Version: 1.0.0
+Version: 1.1.0
 Architecture: all
 Maintainer: Entrpi <entrpi@proton.me>
 Installed-Size: 8
-Depends: linux-image-6.18-sky1, linux-headers-6.18-sky1, sky1-firmware, r8126-dkms, sky1-vpu-dkms, ffmpeg (>= 7:8.0), gstreamer1.0-plugins-good (>= 1.26), libva-v4l2-stateful
+Depends: sky1-minimal, firefox, ffmpeg (>= 7:8.0), gstreamer1.0-plugins-good (>= 1.26), chromium-sky1-config
 Priority: optional
 Section: metapackages
-Filename: pool/main/s/sky1-meta/sky1-desktop_1.0.0_all.deb
-Size: 1588
-SHA256: 6c718cf5add527840f2ff9b38db747e88ec1df709fec0c87ba4b2e01bb502cef
-SHA1: 93b908be468ab364dd947a49174ac696808b75a7
-MD5sum: a961e3571fd3c99af1bd306e0a21c3af
-Description: Sky1 Linux desktop metapackage for Radxa Orion O6
- Installs all packages needed for a complete Sky1 Linux desktop:
+Filename: pool/main/s/sky1-meta/sky1-desktop_1.1.0_all.deb
+Size: 1728
+SHA256: 51f2e385d2a699df548ab3185f5361fa9a48cb8d987b8c58bde7f667292079a8
+SHA1: a4a978793d42dd1aa3d7e3c1d9506dd59afd20d7
+MD5sum: 8ea47f76a2c72847d833123af8a72d47
+Description: Sky1 Linux desktop metapackage
+ Extends sky1-minimal with hardware-accelerated video:
  .
-  - Linux 6.18 kernel with Panthor GPU support
-  - GPU, VPU, and WiFi firmware
-  - RTL8126 5GbE and VPU drivers
-  - Hardware-accelerated video (FFmpeg, GStreamer, VA-API)
+  - Firefox and Chromium with V4L2 M2M hardware video
+  - FFmpeg and GStreamer with V4L2 M2M support
 
 Package: sky1-minimal
 Source: sky1-meta
-Version: 1.0.0
+Version: 1.1.0
 Architecture: all
 Maintainer: Entrpi <entrpi@proton.me>
 Installed-Size: 8
-Depends: linux-image-6.18-sky1, linux-headers-6.18-sky1, sky1-firmware, r8126-dkms
+Depends: sky1-apt-config, linux-image-sky1, linux-headers-sky1, sky1-firmware
 Priority: optional
 Section: metapackages
-Filename: pool/main/s/sky1-meta/sky1-minimal_1.0.0_all.deb
-Size: 1472
-SHA256: bb0386ac51069575b095ef6ffb939205e21a40a307a7bd883480286584c59f0e
-SHA1: 20b604529de101e86e2e486ddcf0f54cedad9988
-MD5sum: 146acafc5ea2e7f1163f359e5d97621a
-Description: Sky1 Linux minimal metapackage for Radxa Orion O6
- Installs essential packages for Sky1 Linux:
+Filename: pool/main/s/sky1-meta/sky1-minimal_1.1.0_all.deb
+Size: 1720
+SHA256: 0855040acb6a5651ac3f539167f64850ee8e4fd1e14bbd552571f7180f95bcd3
+SHA1: 7986041cea6bbd7ce004d4908c3839f09112667e
+MD5sum: 4066f94816a18fb0eda4693654c3c69d
+Description: Sky1 Linux minimal metapackage
+ Installs essential packages for Sky1 Linux on CIX CD8180/Sky1 boards:
  .
-  - Linux 6.18 kernel with Panthor GPU support
+  - Linux kernel with Panthor GPU, RTL8126 5GbE, and VPU drivers
   - GPU and WiFi firmware
-  - RTL8126 5GbE driver
-
-Package: sky1-npu-dkms
-Version: 1.0.0-2
-Architecture: all
-Maintainer: Entrpi <entrpi@proton.me>
-Installed-Size: 414
-Depends: dkms (>= 2.1.0.0)
-Homepage: https://github.com/sky1-linux/sky1-drivers-dkms
-Priority: optional
-Section: kernel
-Filename: pool/main/s/sky1-npu-dkms/sky1-npu-dkms_1.0.0-2_all.deb
-Size: 69180
-SHA256: 694a8e69ac84f5b16832ff741b21b5f69977e4f1987c64c5283f503c2560a3d2
-SHA1: 90d4725b04c449f0eb935876837940f3222ed5cc
-MD5sum: 526aec579ba56aedafb35c641e67c1ef
-Description: CIX Sky1 Neural Processing Unit driver (DKMS)
- This package provides the AIPU (ARM China Zhouyi NPU) driver
- for the CIX Sky1 NPU using DKMS.
- .
- Hardware: ARM China Zhouyi V3 AIPU with 3 NPU cores
- delivering 30 TOPS (INT8) neural network inference.
- .
- Features: DVFS, per-core power management, DMA buffer support.
-
-Package: sky1-vpu-dkms
-Version: 1.0.0-1
-Architecture: all
-Maintainer: Entrpi <entrpi@proton.me>
-Installed-Size: 1346
-Depends: dkms (>= 2.1.0.0)
-Homepage: https://github.com/sky1-linux/sky1-drivers-dkms
-Priority: optional
-Section: kernel
-Filename: pool/main/s/sky1-vpu-dkms/sky1-vpu-dkms_1.0.0-1_all.deb
-Size: 155520
-SHA256: 7b22fda204c1b2b49368ffd46541fae3ab202b1afeeeb0895d0c1b27d5b86a62
-SHA1: 2f7be20e8bc37573d170ef2d9b30e16d7163922f
-MD5sum: 46fb996310b9390b64cd70ad6dca89cf
-Description: CIX Sky1 Video Processing Unit driver (DKMS)
- This package provides the AMVX driver for the CIX Sky1 VPU using DKMS.
- .
- Hardware: ARM Technology China Linlon MVE (Mali Video Engine) v8
- with 5 AEU cores providing V4L2 stateful video encoding/decoding.
- .
- Supported codecs: H.264, HEVC, VP8, VP9, AV1, MPEG-2/4, VC-1, AVS/AVS2, JPEG
 

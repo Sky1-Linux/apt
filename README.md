@@ -1,6 +1,6 @@
 # Sky1 Linux APT Repository
 
-Debian packages for CIX Sky1 SoC (Radxa Orion O6/O6N).
+Debian packages for CIX Sky1 (CD8180) boards: Radxa Orion O6/O6N, Orange Pi 6 Plus.
 
 ## Usage
 
@@ -13,6 +13,14 @@ echo "deb [signed-by=/usr/share/keyrings/sky1-linux.asc] https://sky1-linux.gith
 
 # Install
 sudo apt update
+
+# Full desktop (kernel, firmware, hardware video in Firefox/Chromium/FFmpeg/GStreamer)
+sudo apt install sky1-desktop
+
+# Or minimal (kernel + firmware only)
+sudo apt install sky1-minimal
+
+# Or individual packages
 sudo apt install linux-image-sky1 sky1-firmware
 ```
 
@@ -57,25 +65,31 @@ sudo apt autoremove  # removes old track's kernel
 
 ## Available Packages
 
+### Meta Packages
+
+| Package | Description |
+|---------|-------------|
+| sky1-desktop | Full desktop: kernel, firmware, Firefox, Chromium, FFmpeg, GStreamer |
+| sky1-minimal | Kernel + firmware |
+| sky1-apt-config | APT source, signing key, and pin priority |
+
 ### Kernel — main (LTS)
 
 | Package | Version | Description |
 |---------|---------|-------------|
-| linux-image-sky1 | 6.18.8 | Meta: latest LTS kernel image |
-| linux-headers-sky1 | 6.18.8 | Meta: latest LTS kernel headers |
-| linux-sky1 | 6.18.8 | Meta: image + headers |
-| linux-image-6.18.8-sky1 | 1 | Linux 6.18.8 for Sky1 |
-| linux-headers-6.18.8-sky1 | 1 | Kernel headers for module building |
+| linux-image-sky1 | 6.18.8-2 | Meta: latest LTS kernel image |
+| linux-headers-sky1 | 6.18.8-2 | Meta: latest LTS kernel headers |
+| linux-image-6.18.8-sky1 | 2 | Linux 6.18.8 for Sky1 |
+| linux-headers-6.18.8-sky1 | 2 | Kernel headers for module building |
 
 ### Kernel — rc
 
 | Package | Version | Description |
 |---------|---------|-------------|
-| linux-image-sky1-rc | 6.19.0-rc8 | Meta: latest RC kernel image |
-| linux-headers-sky1-rc | 6.19.0-rc8 | Meta: latest RC kernel headers |
-| linux-sky1-rc | 6.19.0-rc8 | Meta: image + headers |
-| linux-image-6.19.0-rc8-sky1-rc | 1 | Linux 6.19-rc8 for Sky1 |
-| linux-headers-6.19.0-rc8-sky1-rc | 1 | Kernel headers for module building |
+| linux-image-sky1-rc | 6.19.0-rc8-5 | Meta: latest RC kernel image |
+| linux-headers-sky1-rc | 6.19.0-rc8-5 | Meta: latest RC kernel headers |
+| linux-image-6.19.0-rc8-sky1-rc | 5 | Linux 6.19-rc8 for Sky1 |
+| linux-headers-6.19.0-rc8-sky1-rc | 5 | Kernel headers for module building |
 
 ### Firmware (non-free-firmware)
 
@@ -92,24 +106,13 @@ sudo apt autoremove  # removes old track's kernel
 | chromium-sky1-config | 1.0.0-1 | Chromium V4L2-M2M hardware decode config |
 | gstreamer1.0-plugins-good | 1.26.9-1+av1v4l2 | GStreamer with v4l2av1dec element |
 
-> **Note:** Hardware video decoding uses V4L2-M2M directly. Chromium uses unmodified Debian packages with a config overlay. The libva-v4l2-stateful VA-API wrapper is deprecated.
-
-### DKMS Drivers (deprecated — in-tree since 6.18.7-2)
-
-| Package | Description |
-|---------|-------------|
-| r8126-dkms | Realtek RTL8126 5GbE (now built-in) |
-| sky1-vpu-dkms | ARM Linlon MVE v8 VPU (now built-in) |
-| sky1-npu-dkms | ARM Zhouyi V3 NPU (now built-in) |
-
-These DKMS packages remain in the repo for older kernels but are no longer needed on 6.18.7+.
+> **Note:** Hardware video decoding uses V4L2-M2M directly. Chromium uses unmodified Debian packages with a config overlay.
 
 ### Installer & First-Boot
 
 | Package | Version | Description |
 |---------|---------|-------------|
 | calamares-settings-sky1 | 1.0.3-1 | Calamares installer branding and config |
-| plasma-setup | 6.5.4-1sky1 | KDE Plasma first-boot user creation wizard |
 
 ## Source Repositories
 
