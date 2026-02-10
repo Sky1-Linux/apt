@@ -31,8 +31,8 @@ The repository has multiple components for different kernel tracks. Users opt-in
 | Track | Component | Meta Package | Description |
 |-------|-----------|--------------|-------------|
 | LTS | `main` | `linux-image-sky1` | Production kernel (6.18.x) |
-| RC | `rc` | `linux-image-sky1-rc` | Release candidates (6.19-rcN) |
-| Latest | `latest` | `linux-image-sky1-latest` | Latest stable (when 6.19 releases) |
+| Latest | `latest` | `linux-image-sky1-latest` | Latest stable (6.19.x) |
+| RC | `rc` | `linux-image-sky1-rc` | Release candidates (dormant until 7.0-rc1) |
 | Next | `next` | `linux-image-sky1-next` | Bleeding-edge (Linus master) |
 
 ```bash
@@ -77,19 +77,23 @@ sudo apt autoremove  # removes old track's kernel
 
 | Package | Version | Description |
 |---------|---------|-------------|
-| linux-image-sky1 | 6.18.8-2 | Meta: latest LTS kernel image |
-| linux-headers-sky1 | 6.18.8-2 | Meta: latest LTS kernel headers |
-| linux-image-6.18.8-sky1 | 2 | Linux 6.18.8 for Sky1 |
-| linux-headers-6.18.8-sky1 | 2 | Kernel headers for module building |
+| linux-image-sky1 | 6.18.9-1 | Meta: latest LTS kernel image |
+| linux-headers-sky1 | 6.18.9-1 | Meta: latest LTS kernel headers |
+| linux-image-6.18.9-sky1.r1 | 1 | Linux 6.18.9 for Sky1 (108 patches) |
+| linux-headers-6.18.9-sky1.r1 | 1 | Kernel headers for module building |
 
-### Kernel — rc
+### Kernel — latest
 
 | Package | Version | Description |
 |---------|---------|-------------|
-| linux-image-sky1-rc | 6.19.0-rc8-5 | Meta: latest RC kernel image |
-| linux-headers-sky1-rc | 6.19.0-rc8-5 | Meta: latest RC kernel headers |
-| linux-image-6.19.0-rc8-sky1-rc | 5 | Linux 6.19-rc8 for Sky1 |
-| linux-headers-6.19.0-rc8-sky1-rc | 5 | Kernel headers for module building |
+| linux-image-sky1-latest | 6.19.0-1 | Meta: latest stable kernel image |
+| linux-headers-sky1-latest | 6.19.0-1 | Meta: latest stable kernel headers |
+| linux-image-6.19.0-sky1-latest.r1 | 1 | Linux 6.19 for Sky1 (109 patches) |
+| linux-headers-6.19.0-sky1-latest.r1 | 1 | Kernel headers for module building |
+
+### Kernel — rc
+
+RC track is dormant until v7.0-rc1.
 
 ### Firmware (non-free-firmware)
 
