@@ -1173,10 +1173,10 @@ Homepage: https://invent.kde.org/plasma/plasma-setup
 Priority: optional
 Section: kde
 Filename: pool/main/p/plasma-setup/plasma-setup_6.5.4-1sky1_arm64.deb
-Size: 293096
-SHA256: 7a0f52b3c7403d82bab6c24dda904bfa6a9cb3af05cb03fd807a554a060cb5ad
-SHA1: 243a8c3111e412f442605bc24af1b9e325b216bf
-MD5sum: e03814702ee07af670f4ff73065ee6de
+Size: 293252
+SHA256: 39aefc4af8463d6f3e41f78032c86c47227401f7194f54fc913f6b37b697af4f
+SHA1: 9a4156a4ecefbe5be0fdd0ab37593fc29c76284e
+MD5sum: 717c4e6762ea1e35115dd9c2111526e6
 Description: KDE Plasma initial system setup wizard
  Plasma Setup provides an out-of-the-box experience for new systems,
  guiding users through initial configuration including:
