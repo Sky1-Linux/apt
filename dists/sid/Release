@@ -1,6 +1,11 @@
-Date: Sun, 15 Feb 2026 11:01:41 +0000
+Architectures: arm64
+Codename: sid
+Components: main latest rc next non-free-firmware
+Date: Sun, 15 Feb 2026 12:59:08 +0000
+Label: Sky1 Linux
+Origin: Sky1 Linux
 MD5Sum:
- a436fec0e62d44906e8c510352fd615d             3919 Release
+ 9671638d45021194144c670c7e7845f1             7356 Release
  38ebe8f6a6cc8b91a19775c6e521f941             8289 latest/binary-arm64/Packages
  274b5ddfdb1c4c16f9a6afcc9de8d1bf             1989 latest/binary-arm64/Packages.gz
  9ea70f344f6195604680cbc5bbf79c12              138 latest/binary-arm64/Release
@@ -17,7 +22,7 @@ MD5Sum:
  7029066c27ac6f5ef18d660d5741979a               20 rc/binary-arm64/Packages.gz
  2292db7fc561eae4ff57205e5ef86f48              134 rc/binary-arm64/Release
 SHA1:
- fc4307fb00f27d5580cc7ffb975d517cfdf3d8e9             3919 Release
+ 382b36a898b2c7cac86702f227efb603a0751f61             7356 Release
  28b80e8f394435e5b82405622701ee4662e3e9c9             8289 latest/binary-arm64/Packages
  ad790b72eb68068291f8333be5c0874448b0aca4             1989 latest/binary-arm64/Packages.gz
  1a56b2adc4498d0980506f45d7695da8c078edf6              138 latest/binary-arm64/Release
@@ -34,7 +39,7 @@ SHA1:
  46c6643f07aa7f6bfe7118de926b86defc5087c4               20 rc/binary-arm64/Packages.gz
  f594753d7a4b85631a032efbd19097e10b803b86              134 rc/binary-arm64/Release
 SHA256:
- 5282cb9d0114edf1f94b020e07102e91301c4dd6b6b2e969f106c6bae98d5d6a             3919 Release
+ d693f0272b23e563840bb3bc3b74d58fee8f860f592ff04bb892e74f3799dc68             7356 Release
  d4bdfd828bd1b0a825fd9eb625aa1abda8d3f8a11cc906adf22f0d8ae898c07d             8289 latest/binary-arm64/Packages
  83709657afd1ed790fb5e8a7cc145a69bd688c52b98e2f004c521fc75550eaf3             1989 latest/binary-arm64/Packages.gz
  1fc7ede1f3a6772584814eae3f62de77e5e277f3a67136d7d86d999f2e07d63e              138 latest/binary-arm64/Release
@@ -51,7 +56,7 @@ SHA256:
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2               20 rc/binary-arm64/Packages.gz
  34792d2307fc53d36fe8d2df762d8b86641e7db9d5e5b7da81197eaac3f5f5d0              134 rc/binary-arm64/Release
 SHA512:
- c74e010ea80a32a01e5fca5204781602f0c0c616933b50db4473802cd4db31d0051699630cffeb101a07a64271176be41b8e13a8d87ed873e5ee240a6f822520             3919 Release
+ 7f2738c84a6f915f08178475ba255ed92b0692d5680ae881c57a3307bd09bed0dc329ff94de32f9f79691942c31428e29d8e6f96d04f2e46e21b0471bbddf7e3             7356 Release
  576bcaff3742336906a6aad34cba5068a3f311edcb4610381d3f485dbc8e0b4240b2c559fe7fc2fdf27d92a28bfe6588c4aec9b1a5a0756a28ff8d5023d20ce0             8289 latest/binary-arm64/Packages
  3033aa729dc6b7794d2d68102d44a3d2a67fbfad5b124747e1261c0002e9a1a10235ee343fcfdb44853f65c3b888770e74427411951fbb91d8fa0cc1b613c44b             1989 latest/binary-arm64/Packages.gz
  532e8fd498ddba808a2e659de996db4f7a19395f1a3d43a9a63e0b8708f93f481ff47525f75692a37be8afb2d16ae26206d61cdbaee28a90a2f11a1d548e89a0              138 latest/binary-arm64/Release
