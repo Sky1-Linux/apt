@@ -1,0 +1,100 @@
+Package: linux-headers-6.19.0-sky1-next.r1
+Source: linux-sky1-next
+Version: 1
+Architecture: arm64
+Provides: linux-headers-6.19-sky1-next
+Maintainer: Entrpi <entrpi@proton.me>
+Installed-Size: 55999
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/next/l/linux-sky1-next/linux-headers-6.19.0-sky1-next.r1_1_arm64.deb
+Size: 9109436
+SHA256: cdf2cdfcb5a750630085c43f9efa172fc6528180b22c833d5dc45ccd4440a259
+SHA1: c16c7985390f9543b55a6fb1e674c39ff0a40b25
+MD5sum: c27678672eca4c538f94a1a382402dda
+Description: Linux kernel headers for 6.19.0-sky1-next.r1 on arm64
+ This package provides kernel header files for 6.19.0-sky1-next.r1 on arm64
+ .
+ This is useful for people who need to build external modules
+Depends: linux-image-6.19.0-sky1-next.r1 (= 1)
+
+Package: linux-headers-sky1-next
+Source: linux-sky1-next-meta
+Version: 6.19.0-1
+Architecture: arm64
+Maintainer: Entrpi <entrpi@proton.me>
+Installed-Size: 7
+Depends: linux-headers-6.19.0-sky1-next.r1 (= 1)
+Priority: optional
+Section: kernel
+Filename: pool/next/l/linux-sky1-next-meta/linux-headers-sky1-next_6.19.0-1_arm64.deb
+Size: 1192
+SHA256: cd32d88ced93028e97d0f379e48787103cb6139dc8ef4b8e045ea165fa174305
+SHA1: bd12fa265c23eb319cb22190ea82fbfa331ee603
+MD5sum: 4dc106c17b1c465925a7f435cbdeaf2c
+Description: Sky1 Linux kernel headers (next)
+ Meta package that depends on the latest Sky1 Linux kernel headers.
+ .
+ This package always depends on the newest kernel headers for this track,
+ matching the linux-image-sky1-next meta package.
+
+Package: linux-image-6.19.0-sky1-next.r1
+Source: linux-sky1-next
+Version: 1
+Architecture: arm64
+Provides: linux-image-6.19-sky1-next
+Maintainer: Entrpi <entrpi@proton.me>
+Installed-Size: 239163
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/next/l/linux-sky1-next/linux-image-6.19.0-sky1-next.r1_1_arm64.deb
+Size: 39827232
+SHA256: ba9bf6ef423744bc63b0df775d417d9d2b84574bc6513862d9f807687673fa62
+SHA1: 825961ab589ccc18304847fa7400d563962984b7
+MD5sum: dc8fbaaee9bfe5024a47f46d64a22f67
+Description: Linux kernel, version 6.19.0-sky1-next.r1
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.19.0-sky1-next.r1.
+
+Package: linux-image-sky1-next
+Source: linux-sky1-next-meta
+Version: 6.19.0-1
+Architecture: arm64
+Maintainer: Entrpi <entrpi@proton.me>
+Installed-Size: 7
+Depends: linux-image-6.19.0-sky1-next.r1 (= 1)
+Priority: optional
+Section: kernel
+Filename: pool/next/l/linux-sky1-next-meta/linux-image-sky1-next_6.19.0-1_arm64.deb
+Size: 1204
+SHA256: 782a575e7d8399df5115d2eebda6e8cd1c05b6747b99229d1443e1507c75c09c
+SHA1: 4e8a41a870d744b11e026478063be004ff4bbde6
+MD5sum: b50f9b5cb83bab9ae8f729a6e2858251
+Description: Sky1 Linux kernel (next)
+ Meta package that depends on the latest Sky1 Linux kernel image.
+ .
+ This package always depends on the newest kernel release for this track,
+ making it easy to stay up-to-date via apt upgrade.
+
+Package: linux-sky1-next
+Source: linux-sky1-next-meta
+Version: 6.19.0-1
+Architecture: arm64
+Maintainer: Entrpi <entrpi@proton.me>
+Installed-Size: 7
+Depends: linux-image-sky1-next (= 6.19.0-1), linux-headers-sky1-next (= 6.19.0-1)
+Priority: optional
+Section: kernel
+Filename: pool/next/l/linux-sky1-next-meta/linux-sky1-next_6.19.0-1_arm64.deb
+Size: 1208
+SHA256: b7e6b18679d49fd59884b6e90ce525e6612293f6ad954303dfddee5b1cf2d1b1
+SHA1: b86a83ac45dedcd2a83d6f984675b389610b8655
+MD5sum: 6239e85c93b1a705991bcb2d41e43c32
+Description: Sky1 Linux kernel (image + headers) (next)
+ Meta package that installs both the Sky1 Linux kernel image and headers.
+ .
+ This is a convenience package for development systems that need
+ both the kernel and headers for building modules.
+
