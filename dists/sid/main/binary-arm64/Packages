@@ -769,6 +769,200 @@ Description: FFmpeg library with functions for simplifying programming - runtime
  .
  This package contains the runtime files.
 
+Package: libegl-mesa0
+Source: mesa
+Version: 26.0.0-1sky1.2
+Architecture: arm64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 440
+Depends: libgbm1 (= 26.0.0-1sky1.2), mesa-libgallium (= 26.0.0-1sky1.2), libc6 (>= 2.38), libdrm2 (>= 2.4.125-1), libexpat1 (>= 2.0.1), libwayland-client0 (>= 1.24.0), libx11-6, libx11-xcb1, libxcb-dri3-0 (>= 1.13), libxcb-present0, libxcb-randr0 (>= 1.3), libxcb-shm0, libxcb-xfixes0, libxcb1 (>= 1.6)
+Provides: libegl-vendor
+Multi-Arch: same
+Homepage: https://mesa3d.org/
+Priority: optional
+Section: libs
+Filename: pool/main/m/mesa/libegl-mesa0_26.0.0-1sky1.2_arm64.deb
+Size: 121736
+SHA256: 16fb38347211bb78cbf46236104c626a71018250ce9ba04dddc325129d470b0c
+SHA1: c23aa3c783ead529ef83b4b3889f0f8122836035
+MD5sum: ecc1f08ca18ede8b078a3cc85cc86047
+Description: free implementation of the EGL API -- Mesa vendor library
+ This package contains the EGL native platform graphics interface library.
+ EGL provides a platform-agnostic mechanism for creating rendering surfaces
+ for use with other graphics libraries, such as OpenGL|ES.
+ .
+ This package contains the Mesa vendor library for EGL.
+
+Package: libegl1-mesa-dev
+Source: mesa
+Version: 26.0.0-1sky1.2
+Architecture: arm64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 66
+Depends: libegl-dev, libglvnd-dev
+Multi-Arch: same
+Homepage: https://mesa3d.org/
+Priority: optional
+Section: libdevel
+Filename: pool/main/m/mesa/libegl1-mesa-dev_26.0.0-1sky1.2_arm64.deb
+Size: 25476
+SHA256: 9f3913b941895a6d9bb0d155efdd6f04f900ae6d575517c4501cbf5d3c6a6112
+SHA1: 5116979c5ead7497b9a30c46b99dae1f65896a77
+MD5sum: b9d47533b4bb7fcb4a63005410ea832d
+Description: free implementation of the EGL API -- development files
+ This package contains the development environment required for compiling
+ programs against EGL native platform graphics interface library.
+ EGL provides a platform-agnostic mechanism for creating rendering surfaces
+ for use with other graphics libraries, such as OpenGL|ES.
+ .
+ This package provides the development environment for compiling programs
+ against the EGL library.
+
+Package: libgbm-dev
+Source: mesa
+Version: 26.0.0-1sky1.2
+Architecture: arm64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 78
+Depends: libgbm1 (= 26.0.0-1sky1.2)
+Multi-Arch: same
+Homepage: https://mesa3d.org/
+Priority: optional
+Section: libdevel
+Filename: pool/main/m/mesa/libgbm-dev_26.0.0-1sky1.2_arm64.deb
+Size: 27344
+SHA256: 444d1d4218429ac9f239c2da385f18db1a696615bb996c52960ba59898080c7d
+SHA1: 1a220e26db214ad74091d5844a814ab217a3352e
+MD5sum: 07ceaf5af501b352068d40af52818c68
+Description: generic buffer management API -- development files
+ This package contains the GBM buffer management library.  It provides a
+ mechanism for allocating buffers for graphics rendering tied to Mesa.
+ .
+ GBM is intended to be used as a native platform for EGL on drm or openwfd.
+ .
+ This package provides the development environment for compiling programs
+ against the GBM library.
+
+Package: libgbm1
+Source: mesa
+Version: 26.0.0-1sky1.2
+Architecture: arm64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 252
+Depends: mesa-libgallium (= 26.0.0-1sky1.2), libc6 (>= 2.38), libdrm2 (>= 2.4.125-1), libexpat1 (>= 2.0.1)
+Multi-Arch: same
+Homepage: https://mesa3d.org/
+Priority: optional
+Section: libs
+Filename: pool/main/m/mesa/libgbm1_26.0.0-1sky1.2_arm64.deb
+Size: 52396
+SHA256: 8da07b041f570153e0d7f93446ed8c0d2f8451e42dbfb641ed1a665caf0dc89e
+SHA1: 88f903b18af48731ba62490e709558f4c5db9c69
+MD5sum: 0cb95d9ee3b183ef77b45a4c30d73c2b
+Description: generic buffer management API -- runtime
+ This package contains the GBM buffer management library.  It provides a
+ mechanism for allocating buffers for graphics rendering tied to Mesa.
+ .
+ GBM is intended to be used as a native platform for EGL on drm or openwfd.
+
+Package: libgl1-mesa-dev
+Source: mesa
+Version: 26.0.0-1sky1.2
+Architecture: arm64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 41
+Depends: libgl-dev, libglvnd-dev
+Multi-Arch: same
+Homepage: https://mesa3d.org/
+Priority: optional
+Section: oldlibs
+Filename: pool/main/m/mesa/libgl1-mesa-dev_26.0.0-1sky1.2_arm64.deb
+Size: 21272
+SHA256: e7803cc3bc26835d2c06658621c07ac8afdd834c641986c093eb14874e3d0b98
+SHA1: 4b7d5f767799b346161ac7501abb7318f3933108
+MD5sum: 2bdac61f3356bfe13e1a71adb5f9ed8f
+Description: transitional dummy package
+ This is a transitional dummy package, it can be safely removed.
+
+Package: libgl1-mesa-dri
+Source: mesa
+Version: 26.0.0-1sky1.2
+Architecture: arm64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 311
+Depends: libgbm1 (= 26.0.0-1sky1.2), libvulkan1, libc6 (>= 2.34)
+Multi-Arch: same
+Homepage: https://mesa3d.org/
+Priority: optional
+Section: libs
+Filename: pool/main/m/mesa/libgl1-mesa-dri_26.0.0-1sky1.2_arm64.deb
+Size: 48728
+SHA256: b763941e01c455f39eebf087ddcf7b5bd78eb538c81de290f0cf76ff63491cee
+SHA1: f930f4738d9cef09b9444e92262f78e98e4ccef3
+MD5sum: 336d4620f66dbbcc499001223d36d86f
+Description: free implementation of the OpenGL API -- DRI modules
+ This version of Mesa provides GLX and DRI capabilities: it is capable of
+ both direct and indirect rendering.  For direct rendering, it can use DRI
+ modules from the libgl1-mesa-dri package to accelerate drawing.
+ .
+ This package does not include the OpenGL library itself, only the DRI
+ modules for accelerating direct rendering.
+ .
+ For a complete description of Mesa, please look at the
+ libglx-mesa0 package.
+
+Package: libgles2-mesa-dev
+Source: mesa
+Version: 26.0.0-1sky1.2
+Architecture: arm64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 41
+Depends: libgles-dev, libglvnd-dev
+Multi-Arch: same
+Homepage: https://mesa3d.org/
+Priority: optional
+Section: oldlibs
+Filename: pool/main/m/mesa/libgles2-mesa-dev_26.0.0-1sky1.2_arm64.deb
+Size: 21272
+SHA256: 04a7576531d8c08aa92a2ca14f1d63bcd22fabe26eaf6f8e02fc701ef4496967
+SHA1: 116eadb9939819de05ecd625845d54b0405827e2
+MD5sum: 5fb0216978e562191906329924b6d8c5
+Description: transitional dummy package
+ This is a transitional dummy package, it can be safely removed.
+
+Package: libglx-mesa0
+Source: mesa
+Version: 26.0.0-1sky1.2
+Architecture: arm64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 437
+Depends: libgl1-mesa-dri, mesa-libgallium (= 26.0.0-1sky1.2), libc6 (>= 2.38), libdrm2 (>= 2.4.125-1), libexpat1 (>= 2.0.1), libx11-6 (>= 2:1.4.99.1), libx11-xcb1, libxcb-dri3-0, libxcb-glx0 (>= 1.8), libxcb-present0, libxcb-shm0, libxcb-xfixes0, libxcb1, libxext6, libxxf86vm1 (>= 1:1.1.4)
+Breaks: glx-diversions (<< 0.8.4~), libopengl-perl (<< 0.6704+dfsg-2)
+Provides: libglx-vendor
+Multi-Arch: same
+Homepage: https://mesa3d.org/
+Priority: optional
+Section: libs
+Filename: pool/main/m/mesa/libglx-mesa0_26.0.0-1sky1.2_arm64.deb
+Size: 115556
+SHA256: 9b30f6a217b07356b7c02efb8cc1096d559c0276f64378ecb45c4d75a07e1eb8
+SHA1: faca9912ce69a902a1a718bf9d091369a5355256
+MD5sum: ab626d329ae322d5522c4a08cc9bf202
+Description: free implementation of the OpenGL API -- GLX vendor library
+ Mesa is a 3-D graphics library with an API which is very similar to
+ that of OpenGL.  To the extent that Mesa utilizes the OpenGL command
+ syntax or state machine, it is being used with authorization from
+ Silicon Graphics, Inc.  However, the authors make no claim that Mesa
+ is in any way a compatible replacement for OpenGL or associated with
+ Silicon Graphics, Inc.
+ .
+ This version of Mesa provides GLX and DRI capabilities: it is capable of
+ both direct and indirect rendering.  For direct rendering, it can use DRI
+ modules from the libgl1-mesa-dri package to accelerate drawing.
+ .
+ This package does not include the modules themselves: these can be found
+ in the libgl1-mesa-dri package.
+
 Package: libswresample-dev
 Source: ffmpeg
 Version: 7:8.0.1-2+av1v4l2.1
@@ -1029,6 +1223,139 @@ Description: Sky1 Linux kernel (image + headers)
  This is a convenience package for development systems that need
  both the kernel and headers for building modules.
 
+Package: mesa-common-dev
+Source: mesa
+Version: 26.0.0-1sky1.2
+Architecture: arm64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 3971
+Depends: libdrm-dev (>= 2.4.95), libgl-dev, libglx-dev, libx11-dev
+Breaks: libegl1-mesa-dev (<< 18.2.5-2)
+Replaces: libegl1-mesa-dev (<< 18.2.5-2)
+Multi-Arch: same
+Homepage: https://mesa3d.org/
+Priority: optional
+Section: libdevel
+Filename: pool/main/m/mesa/mesa-common-dev_26.0.0-1sky1.2_arm64.deb
+Size: 3349980
+SHA256: b584bcc55e52024ce585315a54f08026fd6523df59c36645943191e0c52dc960
+SHA1: ced2d4373bc752efb260f03f7bcea5c2129705f2
+MD5sum: 8ae8a8dd2d8a13b1625e34bc6b30652c
+Description: Developer documentation for Mesa
+ This package includes the specifications for the Mesa-specific OpenGL
+ extensions, the complete set of release notes and the development header
+ files common to all Mesa packages.
+
+Package: mesa-drm-shim
+Source: mesa
+Version: 26.0.0-1sky1.2
+Architecture: arm64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 1510
+Depends: libc6 (>= 2.38)
+Multi-Arch: same
+Homepage: https://mesa3d.org/
+Priority: optional
+Section: libs
+Filename: pool/main/m/mesa/mesa-drm-shim_26.0.0-1sky1.2_arm64.deb
+Size: 114160
+SHA256: 5c6b1a4953f63a43bab856e0b1953d3ea89eb53c7ba1346ad63eb9f74f85e5b9
+SHA1: 26fbcdf6595d9ec9f1a0384a0bfa3728dafba39b
+MD5sum: a95fda9baec673155fde59b93d58eb61
+Description: DRM shim libraries
+ This package provides drm-shim libraries which can be used for testing DRM
+ drivers when none exists on the host.
+
+Package: mesa-libgallium
+Source: mesa
+Version: 26.0.0-1sky1.2
+Architecture: arm64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 48018
+Depends: libc6 (>= 2.38), libdrm-amdgpu1 (>= 2.4.125-1), libdrm2 (>= 2.4.125-1), libelf1t64 (>= 0.142), libexpat1 (>= 2.0.1), libgcc-s1 (>= 3.0), libllvm21 (>= 1:21.1.0), libsensors5 (>= 1:3.5.0), libstdc++6 (>= 11), libx11-xcb1, libxcb-dri3-0 (>= 1.13), libxcb-present0, libxcb-randr0, libxcb-sync1, libxcb-xfixes0, libxcb1 (>= 1.9.2), libxshmfence1, libzstd1 (>= 1.5.5), zlib1g (>= 1:1.2.3.4)
+Enhances: libva2
+Breaks: mesa-va-drivers (<< 25.2.8-3), mesa-vdpau-drivers (<< 25.2.8-3)
+Replaces: mesa-va-drivers (<< 25.2.8-3), mesa-vdpau-drivers (<< 25.2.8-3)
+Provides: libglapi-mesa, mesa-va-drivers, va-driver
+Multi-Arch: same
+Homepage: https://mesa3d.org/
+Priority: optional
+Section: libs
+Filename: pool/main/m/mesa/mesa-libgallium_26.0.0-1sky1.2_arm64.deb
+Size: 10529980
+SHA256: 28ad2dd2b840a39be0451457bddbfdb1dc99f1089a0289eea8779362f7bfeda5
+SHA1: 1a82fe47179bb870be5d203dd5a908c411ee8d1e
+MD5sum: 3a9b828df3f2d2ec569dfdfb2e0c30b5
+Description: shared infrastructure for Mesa drivers
+ This package contains libgallium, a private library shared between
+ multiple Mesa drivers. This library is an implementation detail of Mesa
+ and should not be used directly by user code.
+
+Package: mesa-opencl-icd
+Source: mesa
+Version: 26.0.0-1sky1.2
+Architecture: arm64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 45363
+Depends: libclc-21, ocl-icd-libopencl1 | libopencl1, libc6 (>= 2.38), libclang-cpp21 (>= 1:21.1.8), libdrm-amdgpu1 (>= 2.4.125-1), libdrm2 (>= 2.4.125-1), libelf1t64 (>= 0.142), libexpat1 (>= 2.0.1), libgcc-s1 (>= 4.2), libllvm21 (>= 1:21.1.0), libllvmspirvlib21.1, libstdc++6 (>= 11), libzstd1 (>= 1.5.5), zlib1g (>= 1:1.2.3.4)
+Provides: opencl-icd
+Multi-Arch: same
+Homepage: https://mesa3d.org/
+Priority: optional
+Section: libs
+Filename: pool/main/m/mesa/mesa-opencl-icd_26.0.0-1sky1.2_arm64.deb
+Size: 9747252
+SHA256: 6fbc9c54bed819fe88a05f2a0387937c35829b459ad8c1bf7f414aa3bbbca473
+SHA1: 48e129c61e3b7155d5a928d0286b5c1bc62ee4c5
+MD5sum: f4b6633b96d65638c711d96860fb5f49
+Description: free implementation of the OpenCL API -- ICD runtime
+ This package contains the mesa implementation of the OpenCL (Open Compute
+ Language) library, which is intended for use with an ICD loader. OpenCL
+ provides a standardized interface for computational analysis on graphical
+ processing units.
+
+Package: mesa-teflon-delegate
+Source: mesa
+Version: 26.0.0-1sky1.2
+Architecture: arm64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 10317
+Depends: libc6 (>= 2.38), libdrm2 (>= 2.4.125-1), libexpat1 (>= 2.0.1), libzstd1 (>= 1.5.5), zlib1g (>= 1:1.1.4)
+Multi-Arch: same
+Homepage: https://mesa3d.org/
+Priority: optional
+Section: libs
+Filename: pool/main/m/mesa/mesa-teflon-delegate_26.0.0-1sky1.2_arm64.deb
+Size: 1067144
+SHA256: 9304db2a997e6e34cec1073560f1bcfef3ad8e255cbbd22e563f0ef32138a2d9
+SHA1: b7890e183f2a5542861437b47863a0a6a66b575f
+MD5sum: cdf9d01a85c13287d7d8aa80664cc3bf
+Description: Mesa TensorFlow Lite external delegate
+ TensorFlow Lite delegate which can make use of NPUs to accelerate ML
+ inference. It is implemented in the form of a external delegate, a shared
+ library which the TensorFlow Lite runtime can load at startup.
+
+Package: mesa-vulkan-drivers
+Source: mesa
+Version: 26.0.0-1sky1.2
+Architecture: arm64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 126943
+Depends: libvulkan1, libc6 (>= 2.39), libdisplay-info3 (>= 0.3.0), libdrm-amdgpu1 (>= 2.4.125-1), libdrm2 (>= 2.4.125-1), libelf1t64 (>= 0.142), libexpat1 (>= 2.0.1), libgcc-s1 (>= 4.2), libllvm21 (>= 1:21.1.0), libpng16-16t64 (>= 1.6.46), libstdc++6 (>= 13.1), libudev1 (>= 183), libwayland-client0 (>= 1.24.0), libx11-xcb1, libxcb-dri3-0 (>= 1.17.0), libxcb-keysyms1 (>= 0.4.1), libxcb-present0 (>= 1.17.0), libxcb-randr0 (>= 1.13), libxcb-shm0, libxcb-sync1, libxcb-xfixes0, libxcb1 (>= 1.9.2), libxshmfence1, libzstd1 (>= 1.5.5), zlib1g (>= 1:1.2.3.4)
+Provides: vulkan-icd
+Multi-Arch: same
+Homepage: https://mesa3d.org/
+Priority: optional
+Section: libs
+Filename: pool/main/m/mesa/mesa-vulkan-drivers_26.0.0-1sky1.2_arm64.deb
+Size: 17732712
+SHA256: 5c7a5a670664b6c61ac7d207b6a98c12062b4ff9d5a84cccde747b0adb75abcb
+SHA1: 5a5fd6f83d421b7bbf6bf3c06cbca0dba08ed4fb
+MD5sum: 3a562383acc4598f91f19616e0367a25
+Description: Mesa Vulkan graphics drivers
+ Vulkan is a low-overhead 3D graphics and compute API. This package
+ includes Vulkan drivers provided by the Mesa project.
+
 Package: plasma-setup
 Version: 6.5.4-1sky1
 Architecture: arm64
@@ -1076,21 +1403,22 @@ Description: APT repository configuration for Sky1 Linux
 
 Package: sky1-desktop
 Source: sky1-meta
-Version: 1.1.0
+Version: 1.2.0
 Architecture: all
 Maintainer: Entrpi <entrpi@proton.me>
 Installed-Size: 8
-Depends: sky1-minimal, firefox, ffmpeg (>= 7:8.0), gstreamer1.0-plugins-good (>= 1.26), chromium-sky1-config
+Depends: sky1-minimal, mesa-vulkan-drivers (>= 26.0.0-1sky1.2), firefox, ffmpeg (>= 7:8.0), gstreamer1.0-plugins-good (>= 1.26), chromium-sky1-config
 Priority: optional
 Section: metapackages
-Filename: pool/main/s/sky1-meta/sky1-desktop_1.1.0_all.deb
-Size: 1728
-SHA256: 51f2e385d2a699df548ab3185f5361fa9a48cb8d987b8c58bde7f667292079a8
-SHA1: a4a978793d42dd1aa3d7e3c1d9506dd59afd20d7
-MD5sum: 8ea47f76a2c72847d833123af8a72d47
+Filename: pool/main/s/sky1-meta/sky1-desktop_1.2.0_all.deb
+Size: 1872
+SHA256: fd5115108132370531ccacb77a334373871373bffcc3eb0c3527184cb8206a54
+SHA1: f2b86062550dfc0be8b0d6f6df301125e6d527e3
+MD5sum: 305f9433a1e1f7d1b3cf98d11209043c
 Description: Sky1 Linux desktop metapackage
- Extends sky1-minimal with hardware-accelerated video:
+ Extends sky1-minimal with hardware-accelerated video and GPU compute:
  .
+  - Mesa Vulkan drivers (PanVK) with WLS serialization fix for Mali-G720
   - Firefox and Chromium with V4L2 M2M hardware video
   - FFmpeg and GStreamer with V4L2 M2M support
 
@@ -1124,18 +1452,18 @@ Description: Firmware and hardware config for CIX Sky1 SoC
 
 Package: sky1-minimal
 Source: sky1-meta
-Version: 1.1.0
+Version: 1.2.0
 Architecture: all
 Maintainer: Entrpi <entrpi@proton.me>
 Installed-Size: 8
 Depends: sky1-apt-config, linux-image-sky1, linux-headers-sky1, sky1-firmware
 Priority: optional
 Section: metapackages
-Filename: pool/main/s/sky1-meta/sky1-minimal_1.1.0_all.deb
-Size: 1720
-SHA256: 0855040acb6a5651ac3f539167f64850ee8e4fd1e14bbd552571f7180f95bcd3
-SHA1: 7986041cea6bbd7ce004d4908c3839f09112667e
-MD5sum: 4066f94816a18fb0eda4693654c3c69d
+Filename: pool/main/s/sky1-meta/sky1-minimal_1.2.0_all.deb
+Size: 1776
+SHA256: d84fe14b0bf0290cea468cc437458ea94b3ead6dea09ecf794057c77b723f17c
+SHA1: 27cf2df7e7b01385912bb9dde4a724f5b66c2c2d
+MD5sum: 8b6a44009ca9eb424e855a77cfad88de
 Description: Sky1 Linux minimal metapackage
  Installs essential packages for Sky1 Linux on CIX CD8180/Sky1 boards:
  .
