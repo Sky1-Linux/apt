@@ -2,16 +2,16 @@ Origin: Sky1 Linux
 Label: Sky1 Linux
 Suite: sid
 Codename: sid
-Date: Mon, 16 Feb 2026 12:16:01 UTC
+Date: Mon, 16 Feb 2026 14:25:56 UTC
 Architectures: arm64
 Components: main latest rc next non-free-firmware
 Description: Sky1 Linux packages for CIX Sky1 SoC
 MD5Sum:
- 09cc75efd71f02ca5e55a6cbadd28c00 78910 main/binary-arm64/Packages
- 32888b53061f7694ae6fd0c2905687df 18692 main/binary-arm64/Packages.gz
+ 71c830b451568c67341dee20de8d7c84 80313 main/binary-arm64/Packages
+ 0d693d78f12225112975628ebf2109f0 18984 main/binary-arm64/Packages.gz
  812a9d3bd241329a424aa42e5396ed82 136 main/binary-arm64/Release
- 1486f1f7ae883e819789d03d074fc1e9 3780 latest/binary-arm64/Packages
- 9a72f63e5beb06d7e0d266705831a432 1229 latest/binary-arm64/Packages.gz
+ 4b065841ebfc3ba6ca0556d0faeb5a80 3780 latest/binary-arm64/Packages
+ aeea1e0d76a38dc6456a9e1add6bd2db 1229 latest/binary-arm64/Packages.gz
  9ea70f344f6195604680cbc5bbf79c12 138 latest/binary-arm64/Release
  d41d8cd98f00b204e9800998ecf8427e 0 rc/binary-arm64/Packages
  7029066c27ac6f5ef18d660d5741979a 20 rc/binary-arm64/Packages.gz
@@ -23,11 +23,11 @@ MD5Sum:
  641f5f3ca530d7f33ab0afdf32d0e4c8 670 non-free-firmware/binary-arm64/Packages.gz
  14843bdeb115f2c6eb19df435bf3134d 149 non-free-firmware/binary-arm64/Release
 SHA1:
- fe1082b470b7d385f44bd174f2778ddad17fda9e 78910 main/binary-arm64/Packages
- ec8b029358372eaaef3e0706e121c95e9563c603 18692 main/binary-arm64/Packages.gz
+ 901e1ec01ffe18f18a3491b927d4d15f2af49d78 80313 main/binary-arm64/Packages
+ 7fbb5f62e1c9400beeda4ef5b3f471374cf3b566 18984 main/binary-arm64/Packages.gz
  00cc245af92085be57770766514a091b1dcddeb2 136 main/binary-arm64/Release
- 65d37b589ee10fb35c9eaa0ff206e649e8b2f864 3780 latest/binary-arm64/Packages
- 83529a1e47e4a5b76514d0eacdce110176034260 1229 latest/binary-arm64/Packages.gz
+ 32b84f900776d06210ce40c8dfe83a0aa658cee2 3780 latest/binary-arm64/Packages
+ 28eec9c8fbcf9a9da6d0a8001c8cad12c8d2e81e 1229 latest/binary-arm64/Packages.gz
  1a56b2adc4498d0980506f45d7695da8c078edf6 138 latest/binary-arm64/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 rc/binary-arm64/Packages
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 rc/binary-arm64/Packages.gz
@@ -39,11 +39,11 @@ SHA1:
  abc256bbece8bdd984831bfe81b7feb0569a6b2e 670 non-free-firmware/binary-arm64/Packages.gz
  9bd516d920858729794a0664b66c076afd70e613 149 non-free-firmware/binary-arm64/Release
 SHA256:
- f1b4184bdd42e74c59eebf3c0ba8540071f6318ee648a997271c7a9859586ce2 78910 main/binary-arm64/Packages
- 06399d78cdf27658270f46f0440f781a052fcdce2e904ebc58d46c5e4c11ab9c 18692 main/binary-arm64/Packages.gz
+ 30587dc8df735a459a804b2aa7dbb5d508a45bdc2cc432889757b5e202907153 80313 main/binary-arm64/Packages
+ 1cdddb418b7cf3dddf787eadb16f0e65bebaec7936b1af2b654f6c38abffd87f 18984 main/binary-arm64/Packages.gz
  576acb7b210b684311b2b102c6228335f36abcde578c1c7de81a679f623a467e 136 main/binary-arm64/Release
- 19d0f7b49d9ab4f53d9e6e35e3eecea432980c9b9e24311fa0ec87afbd40596f 3780 latest/binary-arm64/Packages
- a5b84973cf2c7aa38ab92632e2752b227aa441d9c9a7f5ff6e6221e4e0f5789f 1229 latest/binary-arm64/Packages.gz
+ 36b9f41721f52f96eba134d68b7b7589160653f0169dc9e02eaf4c20d4b60f73 3780 latest/binary-arm64/Packages
+ 3db2f474ab075198c56f2b9cb7f6ec9c0fa2258b5927a688a8856f9b5ef646fe 1229 latest/binary-arm64/Packages.gz
  1fc7ede1f3a6772584814eae3f62de77e5e277f3a67136d7d86d999f2e07d63e 138 latest/binary-arm64/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 rc/binary-arm64/Packages
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 rc/binary-arm64/Packages.gz
