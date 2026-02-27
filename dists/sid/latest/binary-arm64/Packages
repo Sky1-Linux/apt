@@ -1,77 +1,77 @@
-Package: linux-headers-6.19.3-sky1-latest.r5
+Package: linux-headers-6.19.4-sky1-latest.r1
 Source: linux-sky1-latest
-Version: 5
+Version: 1
 Architecture: arm64
 Provides: linux-headers-6.19-sky1-latest
 Maintainer: Entrpi <entrpi@proton.me>
-Installed-Size: 55060
+Installed-Size: 55048
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: kernel
-Filename: pool/latest/l/linux-sky1-latest/linux-headers-6.19.3-sky1-latest.r5_5_arm64.deb
-Size: 9036136
-SHA256: 46a8a1a8cfb68546a878a6a36c8cd8eb7e0e9a42a798431f351df452d8efdc39
-SHA1: 5127ece1eda2067452f39ace104184d9cc92293f
-MD5sum: 5efa1fafc5ea9ebcafbce778e8fb0bf2
-Description: Linux kernel headers for 6.19.3-sky1-latest.r5 on arm64
- This package provides kernel header files for 6.19.3-sky1-latest.r5 on arm64
+Filename: pool/latest/l/linux-sky1-latest/linux-headers-6.19.4-sky1-latest.r1_1_arm64.deb
+Size: 9036024
+SHA256: ce5b47d9756815c97ab57e920fe3551af0f600b13ea3a66970f77bc53fc8bdb4
+SHA1: 9ee2ca0258573daab36de7cbdf08df1653663436
+MD5sum: c83cc5d8239dadaabcd68364b1b459a9
+Description: Linux kernel headers for 6.19.4-sky1-latest.r1 on arm64
+ This package provides kernel header files for 6.19.4-sky1-latest.r1 on arm64
  .
  This is useful for people who need to build external modules
-Depends: linux-image-6.19.3-sky1-latest.r5 (= 5)
+Depends: linux-image-6.19.4-sky1-latest.r1 (= 1)
 
 Package: linux-headers-sky1-latest
 Source: linux-sky1-latest-meta
-Version: 6.19.3-5
+Version: 6.19.4-1
 Architecture: arm64
 Maintainer: Entrpi <entrpi@proton.me>
 Installed-Size: 7
-Depends: linux-headers-6.19.3-sky1-latest.r5 (= 5)
+Depends: linux-headers-6.19.4-sky1-latest.r1 (= 1)
 Priority: optional
 Section: kernel
-Filename: pool/latest/l/linux-sky1-latest-meta/linux-headers-sky1-latest_6.19.3-5_arm64.deb
+Filename: pool/latest/l/linux-sky1-latest-meta/linux-headers-sky1-latest_6.19.4-1_arm64.deb
 Size: 1192
-SHA256: 6506da0030c31024e68baf0e59b201c60492b3b05da166d3dc5b08e267e05bb3
-SHA1: c692d777fe36e90b823b87b932ab9ced2f91f648
-MD5sum: d885ddaacc8531b151d1d3cb6c969bbb
+SHA256: 1cd2f261a67f03536eb94724ad06c722574cedcdeb2f11e11f2648e9c026a019
+SHA1: 3e2453e8b8f83fa9e563479e66071b3080f9b6ba
+MD5sum: 6d2e43186c515449b68ca58335a8080e
 Description: Sky1 Linux kernel headers (latest)
  Meta package that depends on the latest Sky1 Linux kernel headers.
  .
  This package always depends on the newest kernel headers for this track,
  matching the linux-image-sky1-latest meta package.
 
-Package: linux-image-6.19.3-sky1-latest.r5
+Package: linux-image-6.19.4-sky1-latest.r1
 Source: linux-sky1-latest
-Version: 5
+Version: 1
 Architecture: arm64
 Provides: linux-image-6.19-sky1-latest
 Maintainer: Entrpi <entrpi@proton.me>
-Installed-Size: 231408
+Installed-Size: 231187
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: kernel
-Filename: pool/latest/l/linux-sky1-latest/linux-image-6.19.3-sky1-latest.r5_5_arm64.deb
-Size: 39282772
-SHA256: aa3afebe4ede47bdf63632cbcdcdb68c6853abb4824a4f01b30e09488b58f580
-SHA1: 69200cf4061478d43648cb6a9cd5cc547cd3270d
-MD5sum: 3212ea410f7d699d8273125f936ce573
-Description: Linux kernel, version 6.19.3-sky1-latest.r5
+Filename: pool/latest/l/linux-sky1-latest/linux-image-6.19.4-sky1-latest.r1_1_arm64.deb
+Size: 39173536
+SHA256: fa516ef7773dffcd48c5cb4253db907fa24a4782c48503977f9727fc149c5591
+SHA1: dcc20f9cd049dc2972022e58fe9d6f8229c5dc9e
+MD5sum: fa91ce254ade5ca2a0449c1a85800f50
+Description: Linux kernel, version 6.19.4-sky1-latest.r1
  This package contains the Linux kernel, modules and corresponding other
- files, version: 6.19.3-sky1-latest.r5.
+ files, version: 6.19.4-sky1-latest.r1.
 
 Package: linux-image-sky1-latest
 Source: linux-sky1-latest-meta
-Version: 6.19.3-5
+Version: 6.19.4-1
 Architecture: arm64
 Maintainer: Entrpi <entrpi@proton.me>
 Installed-Size: 7
-Depends: linux-image-6.19.3-sky1-latest.r5 (= 5)
+Depends: linux-image-6.19.4-sky1-latest.r1 (= 1)
 Priority: optional
 Section: kernel
-Filename: pool/latest/l/linux-sky1-latest-meta/linux-image-sky1-latest_6.19.3-5_arm64.deb
-Size: 1212
-SHA256: 97c9953e4bbb761d8e172f336423a443643dc4f6adfd985527a953ef3d250709
-SHA1: 5fac52b3780d13978a2890d094576225e318b5af
-MD5sum: 151a41b2ecd9c26902369d47de22b1c5
+Filename: pool/latest/l/linux-sky1-latest-meta/linux-image-sky1-latest_6.19.4-1_arm64.deb
+Size: 1208
+SHA256: 3387ff76cbe805565f36d5dd74846344d2ff3226c03127f4218bcd4cb7666e6b
+SHA1: 4ab2dde7ff662e7b6e8a88efd8d548b426abb4bc
+MD5sum: 0e0bdc4024780571475caaf7970193e9
 Description: Sky1 Linux kernel (latest)
  Meta package that depends on the latest Sky1 Linux kernel image.
  .
@@ -80,18 +80,18 @@ Description: Sky1 Linux kernel (latest)
 
 Package: linux-sky1-latest
 Source: linux-sky1-latest-meta
-Version: 6.19.3-5
+Version: 6.19.4-1
 Architecture: arm64
 Maintainer: Entrpi <entrpi@proton.me>
 Installed-Size: 7
-Depends: linux-image-sky1-latest (= 6.19.3-5), linux-headers-sky1-latest (= 6.19.3-5)
+Depends: linux-image-sky1-latest (= 6.19.4-1), linux-headers-sky1-latest (= 6.19.4-1)
 Priority: optional
 Section: kernel
-Filename: pool/latest/l/linux-sky1-latest-meta/linux-sky1-latest_6.19.3-5_arm64.deb
+Filename: pool/latest/l/linux-sky1-latest-meta/linux-sky1-latest_6.19.4-1_arm64.deb
 Size: 1216
-SHA256: 50c37153d915ee0c930aea7913a3557e94a7479b438355de22bcaf1b15da20f6
-SHA1: 620a2941097e4d38b91ef6c59a7fe650b3129866
-MD5sum: a97aedb32bd42b266ecc500467191b0d
+SHA256: a5ffac812098fbf7aa13feeeed83f9aed6e442c97169101953749307a6add1fd
+SHA1: 419c1aa9365891e276024073e3a3a272f04017bc
+MD5sum: 1e64f0973990fcdee405a52812b74c15
 Description: Sky1 Linux kernel (image + headers) (latest)
  Meta package that installs both the Sky1 Linux kernel image and headers.
  .
