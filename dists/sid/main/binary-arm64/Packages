@@ -1261,27 +1261,6 @@ Description: FFmpeg library for image scaling and various conversions - runtime 
  .
  This package contains the runtime files.
 
-Package: linux-headers-6.18.10-sky1.r2
-Source: linux-sky1
-Version: 2
-Architecture: arm64
-Provides: linux-headers-6.18-sky1
-Maintainer: Entrpi <entrpi@proton.me>
-Installed-Size: 54570
-Homepage: https://www.kernel.org/
-Priority: optional
-Section: kernel
-Filename: pool/main/l/linux-sky1/linux-headers-6.18.10-sky1.r2_2_arm64.deb
-Size: 8973152
-SHA256: be89b24a34191e55873dde1788677c3c1580201be42bfb9c027798c92ca2a58f
-SHA1: d457ad7e64de06b7b9b0a940c1f917373c5fb25a
-MD5sum: 195a85c5b35e153a7c03203405d9f434
-Description: Linux kernel headers for 6.18.10-sky1.r2 on arm64
- This package provides kernel header files for 6.18.10-sky1.r2 on arm64
- .
- This is useful for people who need to build external modules
-Depends: linux-image-6.18.10-sky1.r2 (= 2)
-
 Package: linux-headers-6.18.11-sky1.r1
 Source: linux-sky1
 Version: 1
@@ -1322,25 +1301,6 @@ Description: Sky1 Linux kernel headers
  .
  This package always depends on the newest kernel headers for this track,
  matching the linux-image-sky1 meta package.
-
-Package: linux-image-6.18.10-sky1.r2
-Source: linux-sky1
-Version: 2
-Architecture: arm64
-Provides: linux-image-6.18-sky1
-Maintainer: Entrpi <entrpi@proton.me>
-Installed-Size: 215306
-Homepage: https://www.kernel.org/
-Priority: optional
-Section: kernel
-Filename: pool/main/l/linux-sky1/linux-image-6.18.10-sky1.r2_2_arm64.deb
-Size: 36808156
-SHA256: 6ffedf0e992f22921f18be8a7e66914c5031e1249caf1004533e04fb42a47a1e
-SHA1: c54a47fb0c831860a36b78fd1757740d4581db82
-MD5sum: 898730d73700d34eee5d92f86b72bd26
-Description: Linux kernel, version 6.18.10-sky1.r2
- This package contains the Linux kernel, modules and corresponding other
- files, version: 6.18.10-sky1.r2.
 
 Package: linux-image-6.18.11-sky1.r1
 Source: linux-sky1
