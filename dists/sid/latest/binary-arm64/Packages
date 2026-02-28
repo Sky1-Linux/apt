@@ -1,3 +1,24 @@
+Package: linux-headers-6.19.4-sky1-latest.r1
+Source: linux-sky1-latest
+Version: 1
+Architecture: arm64
+Provides: linux-headers-6.19-sky1-latest
+Maintainer: Entrpi <entrpi@proton.me>
+Installed-Size: 55050
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/latest/l/linux-sky1-latest/linux-headers-6.19.4-sky1-latest.r1_1_arm64.deb
+Size: 9035192
+SHA256: 2575fe43a6157e2c0894b4e8cdac9fd550afb343a4555ebbcfc19f81902b1664
+SHA1: 11746336b47b8dca50c01a0f4e003fae0bada8db
+MD5sum: 3ffa64b8f2a9587b2d37229544f792ba
+Description: Linux kernel headers for 6.19.4-sky1-latest.r1 on arm64
+ This package provides kernel header files for 6.19.4-sky1-latest.r1 on arm64
+ .
+ This is useful for people who need to build external modules
+Depends: linux-image-6.19.4-sky1-latest.r1 (= 1)
+
 Package: linux-headers-6.19.4-sky1-latest.r2
 Source: linux-sky1-latest
 Version: 2
@@ -39,6 +60,43 @@ Description: Sky1 Linux kernel headers (latest)
  This package always depends on the newest kernel headers for this track,
  matching the linux-image-sky1-latest meta package.
 
+Package: linux-image-6.19.4-sky1-latest.r1
+Source: linux-sky1-latest
+Version: 1
+Architecture: arm64
+Provides: linux-image-6.19-sky1-latest
+Maintainer: Entrpi <entrpi@proton.me>
+Installed-Size: 231201
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/latest/l/linux-sky1-latest/linux-image-6.19.4-sky1-latest.r1_1_arm64.deb
+Size: 39163380
+SHA256: 653625edb0d1f8c615376ba988153296bff200e98016bf1f6325713e63cc135e
+SHA1: 35d871c185e60acb2189e30af9138ecfb893cbd3
+MD5sum: 17f368458a833695d77648d47d01e701
+Description: Linux kernel, version 6.19.4-sky1-latest.r1
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.19.4-sky1-latest.r1.
+
+Package: linux-image-6.19.4-sky1-latest.r1-dbg
+Source: linux-sky1-latest
+Version: 1
+Architecture: arm64
+Maintainer: Entrpi <entrpi@proton.me>
+Installed-Size: 554707
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: debug
+Filename: pool/latest/l/linux-sky1-latest/linux-image-6.19.4-sky1-latest.r1-dbg_1_arm64.deb
+Size: 108834892
+SHA256: 91f9320593e7c3279a6d6f249686ce21f1b0e7f7cf606553ba0b522c6ff4f426
+SHA1: 27b3e278fa48b088165faa8eb5f6906c908b9567
+MD5sum: 1a442237a6cb8e4d90a45b3054258fe0
+Description: Linux kernel debugging symbols for 6.19.4-sky1-latest.r1
+ This package will come in handy if you need to debug the kernel. It provides
+ all the necessary debug symbols for the kernel and its modules.
+
 Package: linux-image-6.19.4-sky1-latest.r2
 Source: linux-sky1-latest
 Version: 2
@@ -57,6 +115,24 @@ MD5sum: 658a9d103c6a6a46637007b3c801cd9c
 Description: Linux kernel, version 6.19.4-sky1-latest.r2
  This package contains the Linux kernel, modules and corresponding other
  files, version: 6.19.4-sky1-latest.r2.
+
+Package: linux-image-6.19.4-sky1-latest.r2-dbg
+Source: linux-sky1-latest
+Version: 2
+Architecture: arm64
+Maintainer: Entrpi <entrpi@proton.me>
+Installed-Size: 554707
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: debug
+Filename: pool/latest/l/linux-sky1-latest/linux-image-6.19.4-sky1-latest.r2-dbg_2_arm64.deb
+Size: 108837656
+SHA256: 2ed97fb8d41ae1160875bc79c2eaa72f3d0c11b5b7a6e9aa8f4de239b9c869f9
+SHA1: 4a1015eff74b08243f57c4c04da81033a20086c7
+MD5sum: 3594d0f61de6419c121c76d5d45f3783
+Description: Linux kernel debugging symbols for 6.19.4-sky1-latest.r2
+ This package will come in handy if you need to debug the kernel. It provides
+ all the necessary debug symbols for the kernel and its modules.
 
 Package: linux-image-sky1-latest
 Source: linux-sky1-latest-meta
